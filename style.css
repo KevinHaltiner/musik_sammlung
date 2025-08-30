@@ -1,0 +1,31 @@
+body { font-family: Arial, sans-serif; background-color: #f5f5f5; margin: 20px; }
+h1 { text-align: center; margin-bottom: 10px; }
+#search-container { text-align: center; margin-bottom: 10px; position: relative; }
+#searchInput { width: 300px; padding: 8px 30px 8px 10px; font-size: 14px; border-radius: 4px; border: 1px solid #ccc; }
+#clearSearch { position: absolute; right: calc(50% - 150px + 5px); top: 50%; transform: translateY(-50%); cursor: pointer; font-weight: bold; color: #888; }
+#tabs-container { margin-bottom: 20px; }
+#tabs { display: flex; justify-content: flex-start; }
+.tab { padding: 8px 20px; margin-right: 5px; background-color: #ccc; border-radius: 5px 5px 0 0; cursor: pointer; user-select: none; transition: background-color 0.2s; }
+.tab:hover { background-color: #aaa; }
+.tab.active { background-color: #888; color: #fff; }
+hr.tab-line { border: none; border-bottom: 2px solid #888; margin-top: 5px; }
+.sort-container { margin-bottom: 10px; display: flex; gap: 10px; align-items: center; }
+.sort-container select { padding: 5px; font-size: 14px; }
+.album-block { margin-bottom: 20px; }
+.block-title { font-weight: bold; font-size: 16px; margin-bottom: 10px; }
+.album-card { background-color: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); margin-bottom: 10px; cursor: pointer; overflow: hidden; transition: all 0.3s ease; }
+.album-header { display: flex; flex-direction: row; padding: 10px; }
+.album-header img { width: 150px; height: 150px; object-fit: cover; margin-right: 15px; }
+.album-info { flex: 1; }
+.album-info p { margin: 3px 0; }
+.album-info .title { font-weight: bold; font-size: 18px; line-height: 1.2; }
+.album-info .artist { font-weight: bold; font-size: 14px; margin-top: 5px; }
+.album-info .size-year { font-size: 13px; color: #555; }
+.details { display: flex; flex-direction: row; justify-content: space-between; background-color: #f9f9f9; padding: 10px 15px; font-size: 13px; color: #555; overflow: hidden; max-height: 0; transition: max-height 0.4s ease; }
+.details.open { max-height: 500px; }
+.detail-left, .tracklist { flex: 1; padding-right: 10px; }
+.tracklist { background-color: #eef; border-radius: 4px; padding: 10px; }
+.tracklist p { margin: 3px 0; }
+.autocomplete-list { position: absolute; background: white; border: 1px solid #ccc; max-height: 150px; overflow-y: auto; width: 300px; left: 50%; transform: translateX(-50%); z-index: 10; }
+.autocomplete-item { padding: 5px; cursor: pointer; }
+.autocomplete-item:hover { background-color: #eee; }
