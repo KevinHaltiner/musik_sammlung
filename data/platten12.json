@@ -1,0 +1,448 @@
+[
+{
+    "Typ": "Platte",
+    "Plattenname": "The Wall",
+    "Künstler": "Pink Floyd",
+    "Erscheinungsjahr": 1979,
+    "Groesse": "12\"",
+    "CoverBild": "img/thewall.jpg",
+    "Country": "UK",
+    "Genre": "Progressive Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "In the Flesh?",
+        "The Thin Ice",
+        "Another Brick in the Wall, Part 1",
+        "The Happiest Days of Our Lives",
+        "Another Brick in the Wall, Part 2",
+        "Mother"
+      ],
+      "Side 2": [
+        "Goodbye Blue Sky",
+        "Empty Spaces",
+        "Young Lust",
+        "One of My Turns",
+        "Don't Leave Me Now",
+        "Another Brick in the Wall, Part 3",
+        "Goodbye Cruel World"
+      ],
+      "Side 3": [
+        "Hey You",
+        "Is There Anybody Out There",
+        "Nobody Home",
+        "Vera",
+        "Bring the Boys Back Home",
+        "Comfortably Numb"
+      ],
+      "Side 4": [
+        "The Show Must Go On",
+        "In the Flesh",
+        "Run Like Hell",
+        "Waiting for the Worms",
+        "Stop",
+        "The Trial",
+        "Outside the Wall"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Metal Rendez-Vous",
+    "Künstler": "Krokus",
+    "Erscheinungsjahr": 1980,
+    "Groesse": "12\"",
+    "CoverBild": "img/metalrendez-vous.jpg",
+    "Country": "Switzerland",
+    "Genre": "Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Heatstrokes",
+        "Bedside Radio",
+        "Come On",
+        "Streamer",
+        "Shy Kid"
+      ],
+      "Side 2": [
+        "Tokyo Nights",
+        "Lady Double Dealer",
+        "Fire",
+        "No Way",
+        "Back-Seat Rock ’n’ Roll"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Led Zeppelin IV",
+    "Künstler": "Led Zeppelin",
+    "Erscheinungsjahr": 1971,
+    "Groesse": "12\"",
+    "CoverBild": "img/ledzeppeliniv.jpg",
+    "Country": "UK",
+    "Genre": "Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Black Dog",
+        "Rock and Roll",
+        "The Battle of Evermore",
+        "Stairway to Heaven"
+      ],
+      "Side 2": [
+        "Misty Mountain Hop",
+        "Four Sticks",
+        "Going to California",
+        "When the Levee Breaks"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Piledriver",
+    "Künstler": "Status Quo",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "12\"",
+    "CoverBild": "img/piledriver.jpg",
+    "Country": "UK",
+    "Genre": "Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Don't Waste My Time",
+        "Oh Baby",
+        "A Year",
+        "Unspoken Words"
+      ],
+      "Side 2": [
+        "Big Fat Mama",
+        "Paper Plane",
+        "All the Reasons",
+        "Roadhouse Blues"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Strung Up",
+    "Künstler": "Sweet",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "12\"",
+    "CoverBild": "img/strungup.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Done Me Wrong Alright",
+        "You’re Not Wrong For Lovin’ Mw",
+        "Teh Man With Teh Golden Arm"
+      ],
+      "Side 2": [
+        "Hellraiser",
+        "Bruning/Someone Else Will",
+        "Rock ’n’ Roll Disgrace",
+        "Need A Lot Of Lovin’"
+      ],
+      "Side 3": [
+        "Action",
+        "Fox On The Run",
+        "Set Me Free",
+        "Miss Demeanour",
+        "Ballroom Blitz"
+      ],
+      "Side 4": [
+        "Burn On The Flame",
+        "Solid Gold Brass",
+        "The Six Teens",
+        "I Wanna Be Committed",
+        "Blockbuster"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Live in Japan",
+    "Künstler": "The Runaways",
+    "Erscheinungsjahr": 1977,
+    "Groesse": "12\"",
+    "CoverBild": "img/liveinjapan.jpg",
+    "Country": "USA",
+    "Genre": "Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Queens of Noise",
+        "California Paradise",
+        "All Right You Guys",
+        "Wild Thing",
+        "Gettin' Hot",
+        "Rock-n-Roll"
+      ],
+      "Side 2": [
+        "You Drive Me Wild",
+        "Neon Angels on the Road to Ruin",
+        "I Wanna Be Where the Boys Are",
+        "Cherry Bomb",
+        "American Nights",
+        "C'mon"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Comeblack",
+    "Künstler": "Scorpions",
+    "Erscheinungsjahr": 2011,
+    "Groesse": "12\"",
+    "CoverBild": "img/comeblack.jpg",
+    "Country": "Germany",
+    "Genre": "Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Rhythm of Love",
+        "No One Like You",
+        "The Zoo"
+      ],
+      "Side 2": [
+        "Rock You Like a Hurricane",
+        "Blackout",
+        "Wind of Change"
+      ],
+      "Side 3": [
+        "Still Loving You",
+        "Tainted Love",
+        "Children of the Revolution"       
+      ],
+      "Side 4": [
+        "Across the Universe",
+        "Tin Soldier",
+        "All Day and All of the Night",
+        "Ruby Tuesday"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Blue for You",
+    "Künstler": "Status Quo",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "12\"",
+    "CoverBild": "img/blueforyou.jpg",
+    "Country": "UK",
+    "Genre": "Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Is There a Better Way",
+        "Mad About the Boy",
+        "Ring of a Change",
+        "Blue for You",
+        "Rain"
+      ],
+      "Side 2": [
+        "Rolling Home",
+        "That's a Fact",
+        "Ease Your Mind",
+        "Mystery Song"
+      ]
+    }
+  },
+  {
+    "Typ":"Platte",
+    "Plattenname":"Machine Head",
+    "Künstler":"Deep Purple",
+    "Erscheinungsjahr":1972,
+    "Groesse":"12\"",
+    "CoverBild":"img/machinehead.jpg",
+    "Country":"UK",
+    "Genre":"Rock",
+    "Speed":"33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Highway Star", 
+        "Maybe I'm a Leo",
+        "Pictures of Home",
+        "Never Before"
+      ],
+      "Side 2": [
+        "Smoke on the Water",
+        "Lazy",
+        "SPace Truckin’"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Deep Purple in Rock",
+    "Künstler": "Deep Purple",
+    "Erscheinungsjahr": 1970,
+    "Groesse": "12\"",
+    "CoverBild": "img/deeppurpleinrock.jpg",
+    "Country": "UK",
+    "Genre": "Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Speed King",
+        "Bloodsucker",
+        "Child in Time"
+      ],
+      "Side 2": [
+        "Flight of the Rat",
+        "Into the Fire",
+        "Living Wreck",
+        "Hard Lovin’ Man"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "The Very best of Deep Purple",
+    "Künstler": "Deep Purple",
+    "Erscheinungsjahr": 1980,
+    "Groesse": "12\"",
+    "CoverBild": "img/theverybestofdeeppurple.jpg",
+    "Country": "UK",
+    "Genre": "Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Black Night",
+        "Speed King",
+        "Fireball",
+        "Strange Kind of Woman",
+        "Child in Time",
+        "Woman from Tokyo"
+      ],
+      "Side 2": [
+        "Highway Star",
+        "Space Truckin",
+        "Brun",
+        "Strombringer",
+        "Demon's Eye",
+        "Smoke on the Water"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Hey Tonight",
+    "Künstler": "Creedence Clearwater Revival",
+    "Erscheinungsjahr": 1983,
+    "Groesse": "12\"",
+    "CoverBild": "img/heytonight.jpg",
+    "Country": "USA",
+    "Genre": "Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Hey Tonight",
+        "Bad Moon Rising",
+        "Travelin’ Band",
+        "Up Around The Bend",
+        "Susie Q",
+        "Fortunate Son",
+        "Run Through The Jungle",
+        "Some Day Never Comes"
+      ],
+      "Side 2": [
+        "Proud Mary",
+        "Down On The Corner",
+        "Green River",
+        "Have You Ever Seen The Rain",
+        "Sweet Hitch-Hiker",
+        "Lookin’ Out My Back Door",
+        "I Heard It Through The Grapevine",
+        "I Put A Spell On You"
+      ]
+    }
+  },
+    {
+    "Typ": "Platte",
+    "Plattenname": "Elvis - Seine 40 Grössten Hits",
+    "Künstler": "Elvis Presley",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "12\"",
+    "CoverBild": "img/seine40grösstenhits.jpeg",
+    "Country": "UK",
+    "Genre": "Rock, Pop",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "My Baby Left Me",
+        "Heartbreak Hotel",
+        "Blue Suede Shoes",
+        "Hound Dog",
+        "Love Me Tender",
+        "Got A Lot O' Livin' To Do",
+        "(Let Me Be Your) Teddy Bear",
+        "Party",
+        "All Shook Up",
+        "Old Shep"
+      ],
+      "Side 2": [
+        "Don't",
+        "Hard Headed Woman",
+        "Kring Creole",
+        "Jailhouse Rock",
+        "A Big Hunk O' Love",
+        "I Got Stung",
+        "One Night",
+        "(Now And Then There's) A Fool Such As I",
+        "I Need Your Love Tonight",
+        "Stuck On You"
+      ],
+      "Side 3": [
+        "Fever",
+        "It's Now Or Never",
+        "Are You Lonesome Tonight?",
+        "Wooden Heart",
+        "Surrender",
+        "(Marie's The Name) His Latest Flame",
+        "Wild In The Country",
+        "There's Always Me",
+        "Rock-A-Hula Baby",
+        "Can't Help Falling In Love With You"
+      ],
+      "Side 4": [
+        "Good Luck Charm",
+        "She's Not You",
+        "Return To Sender",
+        "You're The Devil In Disguise",
+        "Crying In The Chapel",
+        "Guitar Man",
+        "In The Ghetto",
+        "Suspicious Minds",
+        "There Goes My Everything",
+        "Don't Cry Daddy"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Chic",
+    "Künstler": "Chic",
+    "Erscheinungsjahr": 1977,
+    "Groesse": "12\"",
+    "CoverBild": "img/chic.jpg",
+    "Country": "USA",
+    "Genre": "Disco",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah)",
+        "São Paulo",
+        "You Can Get By"
+      ],
+      "Side 2": [
+        "Everybody Dance",
+        "Est-ce que c'est Chic?",
+        "Falling in Love with You",
+        "Strike Up the Band"
+      ]
+    }
+  }
+]
