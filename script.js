@@ -23,6 +23,8 @@ async function ladeDaten() {
 
 ladeDaten();
 
+let anzahlPlatten = 0;
+let anzahlCDs = 0;
 
 let currentlyOpen = null;
 let currentType = "alle";
@@ -32,6 +34,18 @@ const searchInput = document.getElementById('searchInput');
 const autocompleteDiv = document.getElementById('autocomplete');
 const clearSearch = document.getElementById('clearSearch');
 const sortSelect = document.getElementById('sortSelect');
+
+
+function updateCounter(list) {
+  const alle = list.length;
+  const platten = list.filter(a => a.Typ === 'Platte').length;
+  const cds = list.filter(a => a.Typ === 'CD').length;
+
+  document.getElementById('count-alle').textContent = alle;
+  document.getElementById('count-platten').textContent = platten;
+  document.getElementById('count-cds').textContent = cds;
+}
+
 
 // Anzeige Funktion mit Blöcken
 function displayAlbums(list){
@@ -138,6 +152,8 @@ function applyFilter(){
     );
     if(currentType!=='alle') filtered=filtered.filter(a=>a.Typ===currentType);
     displayAlbums(filtered);
+    updateCounter(filtered); // ⬅️ zählt sichtbare Einträge
+
 }
 
 // Tabs

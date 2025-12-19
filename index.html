@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-<meta charset="UTF-8">
-<title>Musik-Sammlung</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Musik-Sammlung</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
 
-<h1>Meine Sammlung</h1>
+        <h1>Meine Sammlung</h1>
 
-<div id="search-container">
-    <input type="text" id="searchInput" placeholder="Suche nach Name, Künstler oder Genre...">
-    <span id="clearSearch">✖</span>
-    <div id="autocomplete" class="autocomplete-list"></div>
-</div>
+        <p id="anzahl">
+            Gesamt: <strong><span id="count-alle">0</span></strong> |
+            Platten: <strong><span id="count-platten">0</span></strong> |
+            CDs: <strong><span id="count-cds">0</span></strong>
+        </p>
 
-<div id="tabs-container">
-    <div id="tabs">
-        <div class="tab active" data-type="alle">Alle</div>
-        <div class="tab" data-type="Platte">Platten</div>
-        <div class="tab" data-type="CD">CDs</div>
-    </div>
-    <hr class="tab-line">
-</div>
+        <div id="search-container">
+            <input type="text" id="searchInput" placeholder="Suche nach Name, Künstler oder Genre...">
+            <span id="clearSearch">✖</span>
+            <div id="autocomplete" class="autocomplete-list"></div>
+        </div>
 
-<div class="sort-container">
-    <label for="sortSelect">Sortieren nach:</label>
-    <select id="sortSelect">
-        <option value="Plattenname">Name</option>
-        <option value="Künstler">Künstler</option>
-        <option value="Erscheinungsjahr">Jahr</option>
-    </select>
-</div>
+        <div id="tabs-container">
+            <div id="tabs">
+                <div class="tab active" data-type="alle">Alle</div>
+                <div class="tab" data-type="Platte">Platten</div>
+                <div class="tab" data-type="CD">CDs</div>
+            </div>
+            <hr class="tab-line">
+        </div>
 
-<div id="collection"></div>
+        <div class="sort-container">
+            <label for="sortSelect">Sortieren nach:</label>
+            <select id="sortSelect">
+                <option value="Plattenname">Name</option>
+                <option value="Künstler">Künstler</option>
+                <option value="Erscheinungsjahr">Jahr</option>
+            </select>
+        </div>
 
-<script src="script.js"></script>
+        <div id="collection"></div>
 
-</body>
+        <script src="script.js"></script>
+
+    </body>
 </html>
