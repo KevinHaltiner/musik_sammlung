@@ -477,7 +477,7 @@
   {
     "Typ": "CD",
     "Plattenname": "The best of Rolling Stones",
-    "Künstler": "rolling Stones",
+    "Künstler": "Rolling Stones",
     "Erscheinungsjahr": 1993,
     "Groesse": "CD",
     "CoverBild": "img/thebestofrollingstones.jpg",
@@ -536,7 +536,7 @@
   {
     "Typ": "CD",
     "Plattenname": "Chronicle: The 20 Greatest Hits",
-    "Künstler": "Creedence Clearwater Rivival",
+    "Künstler": "Creedence Clearwater Revival",
     "Erscheinungsjahr": 1976,
     "Groesse": "CD",
     "CoverBild": "img/ccrthe20greatesthits.jpg",
@@ -1107,7 +1107,7 @@
   {
     "Typ": "CD",
     "Plattenname": "Fire and Gasoline",
-    "Künstler": "krokus",
+    "Künstler": "Krokus",
     "Erscheinungsjahr": 2004,
     "Groesse": "CD",
     "CoverBild": "img/fireandgasolinelive.jpg",

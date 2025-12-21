@@ -444,5 +444,273 @@
         "Strike Up the Band"
       ]
     }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Just Supposin'",
+    "Künstler": "Status Quo",
+    "Erscheinungsjahr": 1980,
+    "Groesse": "12\"",
+    "CoverBild": "img/justsupposin.jpg",
+    "Country": "UK",
+    "Genre": "Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "What You're Proposing",
+        "Run to Mummy",
+        "Don't Drive My Car",
+        "Lies",
+        "Over the Edge"
+      ],
+      "Side 2": [
+        "The Wild Ones",
+        "Name of the Game",
+        "Coming and Going",
+        "Rock 'n' Roll"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Quo",
+    "Künstler": "Status Quo",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "12\"",
+    "CoverBild": "img/quo.jpg",
+    "Country": "UK",
+    "Genre": "Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Backwater",
+        "Just Take Me",
+        "Break the Rules",
+        "Drifting Away"
+      ],
+      "Side 2": [
+        "Don't Think it Matters",
+        "Fine Fine Fine",
+        "Lonely Man",
+        "Slow Train"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "On the Level",
+    "Künstler": "Status Quo",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "12\"",
+    "CoverBild": "img/onthelevel.jpg",
+    "Country": "UK",
+    "Genre": "Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Little Lady",
+        "Most of the Time",
+        "I Saw the Light",
+        "Over and Done",
+        "Nightride"
+      ],
+      "Side 2": [
+        "Down Down",
+        "Broken Man",
+        "What to Do",
+        "Where I Am",
+        "Bye Bye Johnny"
+      ]
+    }
+  },{
+    "Typ": "Platte",
+    "Plattenname": "20 Rock'N Roll Hits",
+    "Künstler": "-",
+    "Erscheinungsjahr": 1969,
+    "Groesse": "12\"",
+    "CoverBild": "img/20rocknrollhits.jpg",
+    "Country": "Germany",
+    "Genre": "Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Roll Over Beethoven - Chuck Berry",
+        "Rock Around The Clock - Bill Haley",
+        "Whole Lotta Shakin' Goin' On - Jerry Lee Lewis",
+        "Red River Rock - Johnny & The Hurricanes",
+        "Good Golly Miss Molly - Little Richard",
+        "Bo Diddley - Bo Diddley",
+        "Whole Lot Of Loving - Fats Domino*",
+        "Wheels - The Stringalongs",
+        "Ya Ya Twist - Joey Dee & The Starlighters",
+        "Matchbox - Carl Perkins"
+      ],
+      "Side 2": [
+        "Let's Spend The Night Together - Muddy Waters",
+        "See You Later Alligator - Bill Haley",
+        "Blue Suede Shoes - Carl Perkins",
+        "Ooby Dooby - Roy Orbison",
+        "Who Do You Love - Bo Diddley",
+        "Rock And Roll Music - Chuck Berry",
+        "Great Balls Of Fire - Jerry Lee Lewis",
+        "Let The Four Winds Blow - Fats Domino*",
+        "Groovy Little Suzy - Little Richard",
+        "Party Doll - Buddy Knox"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Jesus Christ Superstar",
+    "Künstler": "Orginal Soundtrack",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "12\"",
+    "CoverBild": "img/jesuschristsuperstar.jpg",
+    "Country": "USA",
+    "Genre": "Sound Track",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Overture",
+        "Heaven on Their Minds",
+        "What's the Buzz",
+        "Strange Thing Mystifying",
+        "Then We are Decided",
+        "Everything's Alright",
+        "This Jesus Must Die"
+      ],
+      "Side 2": [
+        "Hosanna",
+        "Simon Zealotes",
+        "Poor Jerusalem",
+        "Pilate's Dream",
+        "The Temple",
+        "I Don't Know How to Love Him",
+        "Damned for All Time/Blood Money"
+      ],
+      "Side 3": [
+        "The Last Supper",
+        "Gethsemane (I Only Want to Say)",
+        "The Arrest",
+        "Peter's Denial",
+        "Pilate and Christ",
+        "King Herod's Song"
+      ],
+      "Side 4": [
+        "Could We.Start Again, Please?",
+        "Judas' Death",
+        "Trial Before Pilate (Including the 39 Lashes)",
+        "Superstar",
+        "The Crucifixion",
+        "John Nineteen Forty-One"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Donna Summer - Greatest Hits",
+    "Künstler": "Donna Summer",
+    "Erscheinungsjahr": 1979,
+    "Groesse": "12\"",
+    "CoverBild": "img/donnasummergreatesthits.jpg",
+    "Country": "USA",
+    "Genre": "Alternative Indie",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "On The Radio",
+        "Love To Love You Baby",
+        "Try Me, I Know We Can Make It",
+        "I Feel Love",
+        "Our Love"
+      ],
+      "Side 2": [
+        "I Remember Yesterday",
+        "I Love You",
+        "Heaven Knows",
+        "Last Dance"
+      ],
+      "Side 3": [
+        "Mac Arthur Park",
+        "Hot Stuff",
+        "Bad Girls",
+        "Dim All The Lights",
+        "Sunset People"
+      ],
+      "Side 4": [
+        "No More Tears (Enough ls Enough)",
+        "On The Radio (Long Version)"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Grease",
+    "Künstler": "Orginal Soundtrack",
+    "Erscheinungsjahr": 1978,
+    "Groesse": "12\"",
+    "CoverBild": "img/grease.jpg",
+    "Country": "USA",
+    "Genre": "Sound Track",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Grease",
+        "Summer Nights",
+        "Hopelessly Devoted to You",
+        "You're the One That I Want",
+        "Sandy"
+      ],
+      "Side 2": [
+        "Beauty School Dropout",
+        "Look at Me, I'm Sandra Dee",
+        "Greased Lightnin'",
+        "It's Raining on Prom Night",
+        "Alone at a Drive-In Movie",
+        "Blue Moon"
+      ],
+      "Side 3": [
+        	"Rock n' Roll Is Here to Stay",
+          "Those Magic Changes",
+          "Hound Dog",
+          "Born to Hand Jive",
+          "Tears on My Pillow",
+          "Mooning"
+      ],
+      "Side 4": [
+        "Freddy, My Love",
+        "Rock n' Roll Party Queen",
+        "There Are Worse Things I Could Do",
+        "Look at Me, I'm Sandra Dee (reprise)",
+        "We Go Together",
+        "Love Is a Many Splendored Thing (Instrumental)",
+        "Grease (reprise)"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Diana",
+    "Künstler": "Diana Ross",
+    "Erscheinungsjahr": 1980,
+    "Groesse": "12\"",
+    "CoverBild": "img/diana.jpg",
+    "Country": "USA",
+    "Genre": "Disco",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Upside Down",
+        "Tenderness",
+        "Friend To Friend",
+        "I'm Coming Out"
+      ],
+      "Side 2": [
+        "Have Fun (Again)",
+        "My Old Piano",
+        "Now That You're Gone",
+        "Give Up"
+      ]
+    }
   }
 ]
