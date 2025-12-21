@@ -1,3 +1,17 @@
+let albums = [];
+let currentlyOpen = null;
+let currentType = "alle";
+
+// DOM
+const collectionDiv = document.getElementById("collection");
+const searchInput = document.getElementById("searchInput");
+const autocompleteDiv = document.getElementById("autocomplete");
+const clearSearch = document.getElementById("clearSearch");
+const sortSelect = document.getElementById("sortSelect");
+
+// ===============================
+// DATEN LADEN
+// ===============================
 async function ladeDaten() {
   try {
     const [plattenRes, cdsRes] = await Promise.all([
@@ -13,183 +27,255 @@ async function ladeDaten() {
     const cds = await cdsRes.json();
 
     albums = [...platten, ...cds];
-
-    applyFilter(); // 🔴 WICHTIG: erst JETZT anzeigen
+    applyFilter();
   } catch (err) {
     console.error("Fehler beim Laden:", err);
   }
 }
 
-
 ladeDaten();
 
-let anzahlPlatten = 0;
-let anzahlCDs = 0;
-
-let currentlyOpen = null;
-let currentType = "alle";
-
-const collectionDiv = document.getElementById('collection');
-const searchInput = document.getElementById('searchInput');
-const autocompleteDiv = document.getElementById('autocomplete');
-const clearSearch = document.getElementById('clearSearch');
-const sortSelect = document.getElementById('sortSelect');
-
-
+// ===============================
+// COUNTER
+// ===============================
 function updateCounter(list) {
-  const alle = list.length;
-  const platten = list.filter(a => a.Typ === 'Platte').length;
-  const cds = list.filter(a => a.Typ === 'CD').length;
-
-  document.getElementById('count-alle').textContent = alle;
-  document.getElementById('count-platten').textContent = platten;
-  document.getElementById('count-cds').textContent = cds;
+  document.getElementById("count-alle").textContent = list.length;
+  document.getElementById("count-platten").textContent =
+    list.filter(a => a.Typ === "Platte").length;
+  document.getElementById("count-cds").textContent =
+    list.filter(a => a.Typ === "CD").length;
 }
 
+// ===============================
+// TRACKLISTE RENDERER
+// ===============================
+function renderTracklist(album) {
+  const trackDiv = document.createElement("div");
+  trackDiv.className = "tracklist";
 
-// Anzeige Funktion mit Blöcken
-function displayAlbums(list){
-    collectionDiv.innerHTML = '';
-    const sortField = sortSelect.value;
-    let grouped = {};
+  // =====================
+  // PLATTE mit SIDES
+  // =====================
+  if (album.Typ === "Platte" && album.Sides) {
+    const container = document.createElement("div");
+    container.style.display = "flex";
+    container.style.gap = "20px";
 
-    // Sortierung und Gruppierung
-    if(sortField === 'Plattenname'){
-        list.sort((a,b)=>a.Plattenname.localeCompare(b.Plattenname));
-        list.forEach(a=>{
-            const key = a.Plattenname[0].toUpperCase();
-            if(!grouped[key]) grouped[key]=[];
-            grouped[key].push(a);
-        });
-    } else if(sortField==='Künstler'){
-        list.sort((a,b)=>{
-            if(a.Künstler!==b.Künstler) return a.Künstler.localeCompare(b.Künstler);
-            return a.Erscheinungsjahr-b.Erscheinungsjahr;
-        });
-        list.forEach(a=>{
-            if(!grouped[a.Künstler]) grouped[a.Künstler]=[];
-            grouped[a.Künstler].push(a);
-        });
-    } else if(sortField==='Erscheinungsjahr'){
-        list.sort((a,b)=>{
-            if(a.Erscheinungsjahr!==b.Erscheinungsjahr) return a.Erscheinungsjahr-b.Erscheinungsjahr;
-            return a.Plattenname.localeCompare(b.Plattenname);
-        });
-        list.forEach(a=>{
-            const key = a.Erscheinungsjahr;
-            if(!grouped[key]) grouped[key]=[];
-            grouped[key].push(a);
-        });
+    for (const [side, tracks] of Object.entries(album.Sides)) {
+      const col = document.createElement("div");
+      col.innerHTML = `<strong>${side}</strong><br>${tracks.join("<br>")}`;
+      container.appendChild(col);
     }
 
-    // Anzeige der Blöcke
-    for(let block in grouped){
-        const blockDiv = document.createElement('div');
-        blockDiv.className='album-block';
-        const blockTitle = document.createElement('div');
-        blockTitle.className='block-title';
-        blockTitle.textContent=block;
-        blockDiv.appendChild(blockTitle);
+    trackDiv.appendChild(container);
+    return trackDiv;
+  }
 
-        grouped[block].forEach(album=>{
-            const card = document.createElement('div'); card.className='album-card';
-            const header = document.createElement('div'); header.className='album-header';
-            const cover = document.createElement('img'); cover.src=album.CoverBild; cover.alt=album.Plattenname;
-            const infoDiv=document.createElement('div'); infoDiv.className='album-info';
-            infoDiv.innerHTML=`<p class="title">${album.Plattenname}</p>
-                               <p class="size-year">${album.Groesse}, ${album.Erscheinungsjahr}</p>
-                               <p class="artist">${album.Künstler}</p>`;
-            header.appendChild(cover); header.appendChild(infoDiv); card.appendChild(header);
+  // =====================
+  // CD – EINE DISC
+  // =====================
+  if (Array.isArray(album.Trackliste)) {
+    trackDiv.innerHTML =
+      `<strong>Trackliste:</strong><br>` +
+      album.Trackliste.join("<br>");
+    return trackDiv;
+  }
 
-            // Details
-            const details=document.createElement('div'); details.className='details';
-            const detailLeft=document.createElement('div'); detailLeft.className='detail-left';
-            detailLeft.innerHTML=`<p><strong>Country:</strong> ${album.Country}</p>
-                                  <p><strong>Genre:</strong> ${album.Genre}</p>
-                                  <p><strong>Speed:</strong> ${album.Speed}</p>`;
+  // =====================
+  // CD – MEHRERE DISCS (NEBENEINANDER ✅)
+  // =====================
+  if (album.Trackliste && typeof album.Trackliste === "object") {
+    const container = document.createElement("div");
+    container.style.display = "flex";
+    container.style.gap = "20px";
 
-            const trackDiv=document.createElement('div'); trackDiv.className='tracklist';
-
-            if(album.Typ === 'Platte' && album.Sides){
-                const sideContainer = document.createElement('div');
-                sideContainer.style.display = 'flex';
-                sideContainer.style.gap = '20px';
-
-                for(const [sideName, tracks] of Object.entries(album.Sides)){
-                    const sideDiv = document.createElement('div');
-                    sideDiv.innerHTML = `<strong>${sideName}</strong><br>${tracks.join('<br>')}`;
-                    sideContainer.appendChild(sideDiv);
-                }
-
-                trackDiv.appendChild(sideContainer);
-            } else {
-                // CD oder Platte ohne Sides
-                const tracks = album.Trackliste || [];
-                trackDiv.innerHTML = `<strong>Trackliste:</strong><br>${tracks.join('<br>')}`;
-            }
-
-            details.appendChild(detailLeft); details.appendChild(trackDiv); card.appendChild(details);
-
-            // Toggle Details
-            header.addEventListener('click', ()=>{
-                if(currentlyOpen && currentlyOpen!==details) currentlyOpen.classList.remove('open');
-                details.classList.toggle('open');
-                currentlyOpen=details.classList.contains('open')?details:null;
-            });
-
-            blockDiv.appendChild(card);
-        });
-        collectionDiv.appendChild(blockDiv);
+    for (const [disk, tracks] of Object.entries(album.Trackliste)) {
+      const col = document.createElement("div");
+      col.innerHTML = `<strong>${disk}</strong><br>${tracks.join("<br>")}`;
+      container.appendChild(col);
     }
+
+    trackDiv.appendChild(container);
+    return trackDiv;
+  }
+
+  return trackDiv;
 }
 
-// Filter & Anzeige
-function applyFilter(){
-    let filtered=albums.filter(a=> 
-        (a.Plattenname.toLowerCase().includes(searchInput.value.toLowerCase()) ||
-         a.Künstler.toLowerCase().includes(searchInput.value.toLowerCase()) ||
-         (a.Genre && a.Genre.toLowerCase().includes(searchInput.value.toLowerCase())))
-    );
-    if(currentType!=='alle') filtered=filtered.filter(a=>a.Typ===currentType);
-    displayAlbums(filtered);
-    updateCounter(filtered); // ⬅️ zählt sichtbare Einträge
 
+// ===============================
+// ALBEN ANZEIGEN
+// ===============================
+function displayAlbums(list) {
+  collectionDiv.innerHTML = "";
+
+  const sortField = sortSelect.value;
+  let grouped = {};
+
+  // SORTIEREN + GRUPPIEREN
+  if (sortField === "Plattenname") {
+    list.sort((a, b) => a.Plattenname.localeCompare(b.Plattenname));
+    list.forEach(a => {
+      const key = a.Plattenname[0].toUpperCase();
+      grouped[key] = grouped[key] || [];
+      grouped[key].push(a);
+    });
+  }
+
+  if (sortField === "Künstler") {
+    list.sort((a, b) => {
+      if (a.Künstler !== b.Künstler) {
+        return a.Künstler.localeCompare(b.Künstler);
+      }
+      return a.Erscheinungsjahr - b.Erscheinungsjahr;
+    });
+    list.forEach(a => {
+      grouped[a.Künstler] = grouped[a.Künstler] || [];
+      grouped[a.Künstler].push(a);
+    });
+  }
+
+  if (sortField === "Erscheinungsjahr") {
+    list.sort((a, b) => a.Erscheinungsjahr - b.Erscheinungsjahr);
+    list.forEach(a => {
+      grouped[a.Erscheinungsjahr] = grouped[a.Erscheinungsjahr] || [];
+      grouped[a.Erscheinungsjahr].push(a);
+    });
+  }
+
+  // RENDER
+  for (const block in grouped) {
+    const blockDiv = document.createElement("div");
+    blockDiv.className = "album-block";
+
+    const blockTitle = document.createElement("div");
+    blockTitle.className = "block-title";
+    blockTitle.textContent = block;
+    blockDiv.appendChild(blockTitle);
+
+    grouped[block].forEach(album => {
+      const card = document.createElement("div");
+      card.className = "album-card";
+
+      // HEADER
+      const header = document.createElement("div");
+      header.className = "album-header";
+
+      const cover = document.createElement("img");
+      cover.src = album.CoverBild;
+      cover.alt = album.Plattenname;
+
+      const info = document.createElement("div");
+      info.className = "album-info";
+      info.innerHTML = `
+        <p class="title">${album.Plattenname}</p>
+        <p class="size-year">${album.Groesse}, ${album.Erscheinungsjahr}</p>
+        <p class="artist">${album.Künstler}</p>
+      `;
+
+      header.appendChild(cover);
+      header.appendChild(info);
+      card.appendChild(header);
+
+      // DETAILS
+      const details = document.createElement("div");
+      details.className = "details";
+
+      const left = document.createElement("div");
+      left.className = "detail-left";
+      left.innerHTML = `
+        <p><strong>Country:</strong> ${album.Country}</p>
+        <p><strong>Genre:</strong> ${album.Genre}</p>
+        <p><strong>Speed:</strong> ${album.Speed}</p>
+      `;
+
+      details.appendChild(left);
+      details.appendChild(renderTracklist(album));
+      card.appendChild(details);
+
+      // TOGGLE
+      header.addEventListener("click", () => {
+        if (currentlyOpen && currentlyOpen !== details) {
+          currentlyOpen.classList.remove("open");
+        }
+        details.classList.toggle("open");
+        currentlyOpen = details.classList.contains("open") ? details : null;
+      });
+
+      blockDiv.appendChild(card);
+    });
+
+    collectionDiv.appendChild(blockDiv);
+  }
 }
 
-// Tabs
-const tabs=document.querySelectorAll('.tab');
-tabs.forEach(tab=>{ tab.addEventListener('click', ()=>{
-    tabs.forEach(t=>t.classList.remove('active'));
-    tab.classList.add('active');
-    currentType=tab.dataset.type;
+// ===============================
+// FILTER + SUCHE
+// ===============================
+function applyFilter() {
+  const query = searchInput.value.toLowerCase();
+
+  let filtered = albums.filter(a =>
+    a.Plattenname.toLowerCase().includes(query) ||
+    a.Künstler.toLowerCase().includes(query) ||
+    (a.Genre && a.Genre.toLowerCase().includes(query))
+  );
+
+  if (currentType !== "alle") {
+    filtered = filtered.filter(a => a.Typ === currentType);
+  }
+
+  displayAlbums(filtered);
+  updateCounter(filtered);
+}
+
+// ===============================
+// TABS
+// ===============================
+document.querySelectorAll(".tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+    tab.classList.add("active");
+    currentType = tab.dataset.type;
     applyFilter();
-})});
-
-// Suche + Autocomplete
-searchInput.addEventListener('input', ()=>{
-    applyFilter();
-    autocompleteDiv.innerHTML='';
-    const query=searchInput.value.toLowerCase();
-    if(query){
-        let suggestions=albums.filter(a=> 
-            a.Plattenname.toLowerCase().includes(query) || 
-            a.Künstler.toLowerCase().includes(query) || 
-            (a.Genre && a.Genre.toLowerCase().includes(query))
-        ).slice(0,5);
-        suggestions.forEach(s=>{
-            const item=document.createElement('div'); item.className='autocomplete-item';
-            item.textContent=s.Plattenname+" - "+s.Künstler+" ("+(s.Genre||'')+")";
-            item.addEventListener('click', ()=>{ searchInput.value=s.Plattenname; autocompleteDiv.innerHTML=''; applyFilter(); });
-            autocompleteDiv.appendChild(item);
-        });
-    }
+  });
 });
 
-// X Button
-clearSearch.addEventListener('click', ()=>{ searchInput.value=''; applyFilter(); autocompleteDiv.innerHTML=''; });
+// ===============================
+// AUTOCOMPLETE
+// ===============================
+searchInput.addEventListener("input", () => {
+  applyFilter();
+  autocompleteDiv.innerHTML = "";
 
-// Sortierung
-sortSelect.addEventListener('change', applyFilter);
+  const query = searchInput.value.toLowerCase();
+  if (!query) return;
 
-// initial
-applyFilter();
+  albums
+    .filter(a =>
+      a.Plattenname.toLowerCase().includes(query) ||
+      a.Künstler.toLowerCase().includes(query)
+    )
+    .slice(0, 5)
+    .forEach(a => {
+      const item = document.createElement("div");
+      item.className = "autocomplete-item";
+      item.textContent = `${a.Plattenname} – ${a.Künstler}`;
+      item.onclick = () => {
+        searchInput.value = a.Plattenname;
+        autocompleteDiv.innerHTML = "";
+        applyFilter();
+      };
+      autocompleteDiv.appendChild(item);
+    });
+});
+
+// CLEAR
+clearSearch.addEventListener("click", () => {
+  searchInput.value = "";
+  autocompleteDiv.innerHTML = "";
+  applyFilter();
+});
+
+// SORT
+sortSelect.addEventListener("change", applyFilter);
