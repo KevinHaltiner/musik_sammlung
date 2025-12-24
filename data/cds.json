@@ -1501,6 +1501,80 @@
         "Stille Nacht - Bo Katzman Chor"
       ]
     }
+  },
+  {
+    "Typ": "CD",
+    "Plattenname": "Krokus - Live at the Montreux Jazz Festival 2003",
+    "Künstler": "Krokus",
+    "Erscheinungsjahr": 2003,
+    "Groesse": "DVD",
+    "CoverBild": "img/krokusdvd.jpg",
+    "Country": "Switzerland",
+    "Genre": "Hard Rock",
+    "Speed": "n/a",
+    "Trackliste": [
+      "Pre-Show",
+      "Long Stick Goes Boom",
+      "Mad World",
+      "American Woman",
+      "I Want It All",
+      "Fire",
+      "Down The Drain",
+      "Screaming In The Night",
+      "Stayed Awake All Night",
+      "Rock City",
+      "Rock´n´ Roll Tonight",
+      "Easy Rider",
+      "Heatstrokes",
+      "Bedside Radio",
+      "After Show"
+    ]
+  },
+  {
+    "Typ": "CD",
+    "Plattenname": "Metal Marathon",
+    "Künstler": "The Heavy's",
+    "Erscheinungsjahr": 1989,
+    "Groesse": "CD",
+    "CoverBild": "img/metalmarathon.jpg",
+    "Country": "USA",
+    "Genre": "Hard Rock",
+    "Speed": "n/a",
+    "Trackliste": [
+      "Go On Fast Mix",
+      "Hardwear Mix",
+      "Slow Down Mix",
+      "Swatch Out Mix"
+    ]
+  },
+  {
+    "Typ": "CD",
+    "Plattenname": "Eterno agosto",
+    "Künstler": "Alvaro Soler",
+    "Erscheinungsjahr": 2015,
+    "Groesse": "CD",
+    "CoverBild": "img/eternoagosto.jpg",
+    "Country": "Spanish",
+    "Genre": "Pop",
+    "Speed": "n/a",
+    "Trackliste": [
+      "Sofia",
+      "Animal",
+      "Libre",
+      "El Mismo Sol",
+      "Tengo Un Sentimiento",
+      "Agosto",
+      "Mi Corazón",
+      "Esta Noche",
+      "Lucía",
+      "La Vida Seguirá",
+      "Si No Te Tengo A Ti",
+      "Que Pasa",
+      "Cuando Volveras",
+      "El Camino",
+      "El Mismo Sol",
+      "El Mismo Sol (Under The Sam Sun)"
+    ]
   }
 ]
 
