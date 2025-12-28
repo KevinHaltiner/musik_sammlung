@@ -712,5 +712,621 @@
         "Give Up"
       ]
     }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Angel Face",
+    "Künstler": "Stephen Sanchez",
+    "Erscheinungsjahr": 2023,
+    "Groesse": "12\"",
+    "CoverBild": "img/angelface.png",
+    "Country": "USA",
+    "Genre": "Pop",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Something About Her",
+        "Evangeline",
+        "I Need You Most of All",
+        "Only Girl",
+        "Be More",
+        "Until I Found You"
+      ],
+      "Side 2": [
+        "Shake",
+        "High",
+        "Doesn't Do Me Any Good",
+        "No One Knows",
+        "Caught in a Blue",
+        "Death of the Troubadour",
+        "Send My Heart with a Kiss"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Not Fragile",
+    "Künstler": "Bachman-Turner",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "12\"",
+    "CoverBild": "img/notfragile.jpg",
+    "Country": "USA",
+    "Genre": "Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Not Fragile",
+        "Rock Is My Life, and This Is My Song",
+        "Roll on Down the Highway",
+        "You Ain't Seen Nothing Yet",
+        "Free Wheelin'"
+      ],
+      "Side 2": [
+        "Sledgehammer",
+        "Blue Moanin'",
+        "Second Hand",
+        "Givin' It All Away"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Collage",
+    "Künstler": "Collage",
+    "Erscheinungsjahr": 1978,
+    "Groesse": "12\"",
+    "CoverBild": "img/collage.jpg",
+    "Country": "Italien",
+    "Genre": "Pop",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Piano Piano... (M'Innamorai Di Te",
+        "L'Istino",
+        "Tu Dolcemente Mia",
+        "Oh Dio Mio No!",
+        "Nel Sole, Nel Cielo, Nell'Amore",
+        "Dicci Come Ti Chiami"        
+      ],
+      "Side 2": [
+        "Sole Rosso",
+        "L'Amore",
+        "Io",
+        "Troppo Bella",
+        "Proprio Per Te Maria",
+        "Dormi Amore"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Joan Baez - 28 Greatest Hits",
+    "Künstler": "Joan Baez",
+    "Erscheinungsjahr": 1978,
+    "Groesse": "12\"",
+    "CoverBild": "img/joanbaez28greatesthits.jpg",
+    "Country": "Switzerland",
+    "Genre": "Folk, World, & Country",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Love Is Just A Four-Letter Word",
+        "Farewell Angelina",
+        "Let It Be",
+        "Sagt Mir Wo Die Blumen Sind",
+        "Carry It On",
+        "Gabriel And Me",
+        "Oh, Happy Day"
+      ],
+      "Side 2": [
+        "Ghetto",
+        "There But For Fortune",
+        "If I Were A Carpenter",
+        "Pauvre Routeboef",
+        "Will The Circle Be Unbroken",
+        "Satisfied Mind",
+        "Put You Hand In The Hand"
+      ],
+      "Side 3": [
+        "Blessed Are ...",
+        "Mary Hamilton",
+        "Green, Green Grass Of Home",
+        "Te Ador",
+        "Angeline",
+        "House Of The Raising Sun",
+        "Heaven Help Us All"	
+      ],
+      "Side 4": [
+        "The Night They Drove Old Dixie Down",
+        "Colours",
+        "You Aint't Goin' Nowhere",
+        "Manha De Carnaval",
+        "Barbara Allen",
+        "Help Me Make It Through The Night",
+        "It's All Over Now, Baby Blue"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Cornerstone",
+    "Künstler": "Styx",
+    "Erscheinungsjahr": 1979,
+    "Groesse": "12\"",
+    "CoverBild": "img/cornerstone.jpg",
+    "Country": "USA",
+    "Genre": "Pop Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Lights",
+        "Why Me",
+        "Babe",
+        "Never Say Never",
+        "Boat on the River" 
+      ],
+      "Side 2": [
+       	"Borrowed Time",
+        "First Time",
+        "Eddie",
+        "Love in the Midnight" 
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Santana - 25 Hits",
+    "Künstler": "Santana",
+    "Erscheinungsjahr": 1978,
+    "Groesse": "12\"",
+    "CoverBild": "img/santana25hits.jpg",
+    "Country": "Dutch",
+    "Genre": "Rock, Latin",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Samba Pa Ti",
+        "Love, Devotion & Surrender",
+        "Se A Cabo",
+        "Song Of The Wind",
+        "Para Los Rumberos",
+        "Evil Ways"
+      ],
+      "Side 2": [
+        "Jingo",
+        "Europa (Earth's Cry Heaven's Smile)",
+        "No One To Depend On",
+        "One With The Sun",
+        "Waiting",
+        "Dance Sister Dance"
+      ],
+      "Side 3": [
+        "Oye Como Va",
+        "Let It Shine",
+        "Soul Sacrifice - Part 1",
+        "Soul Sacrifice - Par t2",
+        "Flor De Canela",
+        "Revelations"
+      ],
+      "Side 4": [
+        "Black Magic Woman",
+        "Gypsy Queen",
+        "Let The Children Play",
+        "Samba De Sausalito",
+        "Everybody's Everything",
+        "Persuasion",
+        "Carnaval"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Santana - Greatest Hits",
+    "Künstler": "Santana",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "12\"",
+    "CoverBild": "img/santanasgreatesthits.jpg",
+    "Country": "Dutch",
+    "Genre": "Blues rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Evil Ways",
+        "Jin-go-lo-ba",
+        "Hope You're Feeling Better",
+        "Samba Pa Ti",
+        "Persuasion"
+      ],
+      "Side 2": [
+        "Black Magic Woman",
+        "Oye Como Va",
+        "Everything's Coming Our Way",
+        "Se a Cabó",
+        "Everybody's Everything" 
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Xanadu",
+    "Künstler": "Olivia Newton-John and Electric Light Orchestra",
+    "Erscheinungsjahr": 1980,
+    "Groesse": "12\"",
+    "CoverBild": "img/xanadu.jpg",
+    "Country": "UK",
+    "Genre": "Sound Track",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Magic",
+        "Suddenly",
+        "Dancin'",
+        "Suspended in Time",
+        "Whenever You're Away from Me"
+      ],
+      "Side 2": [
+        "I'm Alive",
+        "The Fall",
+        "Don't Walk Away",
+        "All Over the World",
+        "Xanadu"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Discovery",
+    "Künstler": "Electric Light Orchestra",
+    "Erscheinungsjahr": 1979,
+    "Groesse": "12\"",
+    "CoverBild": "img/discovery.jpg",
+    "Country": "UK",
+    "Genre": "Pop Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Shine a Little Love",
+        "Confusion",
+        "Need Her Love",
+        "The Diary of Horace Wimp"
+      ],
+      "Side 2": [
+        "Last Train to London",
+        "Midnight Blue",
+        "On the Run",
+        "Wishing",
+        "Don't Bring Me Down"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Snoopy",
+    "Künstler": "Snoopy",
+    "Erscheinungsjahr": 1979,
+    "Groesse": "12\"",
+    "CoverBild": "img/snoopy.jpg",
+    "Country": "Germany",
+    "Genre": "Electronic, Reggae, Pop",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "It's All In The Bible",
+        "Down The Bayou",
+        "Snow And Ice",
+        "Honolulu",
+        "Dr. Jones",
+        "My Sister Does The Cha Cha"
+      ],
+      "Side 2": [
+        "No Time For A Tango",
+        "I'm Sorry",
+        "Shame And Scandal In The Family",
+        "Stoned In Love",
+        "Mammy Said Yes, Daddy Said No",
+        "Snoopy Reggae"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Burn",
+    "Künstler": "Deep Purple",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "12\"",
+    "CoverBild": "img/burn.jpeg",
+    "Country": "UK",
+    "Genre": "Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Burn",
+        "Might Just Take Your Life",
+        "Lay Down, Stay Down",
+        "Sail Away"
+      ],
+      "Side 2": [
+        	"You Fool No One",
+        	"What's Goin' On Here",
+        	"Mistreated",
+        	"'A' 200"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Reality Fills Fantasy",
+    "Künstler": "Earth And Fire",
+    "Erscheinungsjahr": 1979,
+    "Groesse": "12\"",
+    "CoverBild": "img/realityfillsfantasy.jpg",
+    "Country": "Netherlands",
+    "Genre": "Pop Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "People Come, People Go",
+        "First Of Love",
+        "Weekend"       
+      ],
+      "Side 2": [
+        "Can't Live Without It Anymore",
+        "Where Were You",
+        "Season Of The Falling Leaves",
+        "Answer Me",
+        "Reprise"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Bandido",
+    "Künstler": "La Bionda",
+    "Erscheinungsjahr": 1979,
+    "Groesse": "12\"",
+    "CoverBild": "img/bandido.jpg",
+    "Country": "Spain",
+    "Genre": "Synth-pop, Disco",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Desert On Mars",
+        "Welcome Home",
+        "Moonlight Palais",
+        "Baby Make Love"
+      ],
+      "Side 2": [
+        "Bandido",
+        "Black And White",
+        "Never Gonna Let You Go",
+        "Will She Or Won't She"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Radio 24 - 24 Stunden Nonstop",
+    "Künstler": "Radio 24",
+    "Erscheinungsjahr": 1980,
+    "Groesse": "12\"",
+    "CoverBild": "img/radio24.jpg",
+    "Country": "Switzerland",
+    "Genre": "Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Radio 24",
+        "Video Killed The Radio Star",
+        "When You're In Love With A Beautiful Woman",
+        "Kingston, Kingston",
+        "Soli",
+        "Jealousy",
+        "Save Me (Ballad)",
+        "Weekend"
+      ],
+      "Side 2": [
+        "Tokyo Nights",
+        "You Can Get It If You Really Want",
+        "Indian Reservation",
+        "S.O.S",
+        "Gimme Rock N' Roll",
+        "Sweet September",
+        "Bad Reputation",
+        "Doctor, Doctor (Help Me Please)"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Overdrive II",
+    "Künstler": "Bachman-Turner",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "12\"",
+    "CoverBild": "img/overdriveii.jpg",
+    "Country": "USA",
+    "Genre": "Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Blown", 
+        "Welcome Home",
+        "Stonegate", 
+        "Let It Ride"
+      ],
+      "Side 2": [
+        "Give It Time",
+        "Tramp",
+        "I Don't Have to Hide",
+        "Takin' Care of Business"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "The Platters",
+    "Künstler": "The Platters",
+    "Erscheinungsjahr": 1980,
+    "Groesse": "12\"",
+    "CoverBild": "img/theplatters.jpg",
+    "Country": "Germany",
+    "Genre": "Funk / Soul, Pop",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "I Love You 1000 Times",
+        "(You've Got) The Magic Touch",
+        "Washed Ashore (On A Lonely Island In The Sea)",
+        "I'm Sorry",
+        "My Prayer",
+        "Smoke Gets In Your Eyes"
+      ],
+      "Side 2": [
+        "The Great Pretender",
+        "With This Ring",
+        "Only You (And You Alone)",
+        "Harbour Lights",
+        "Twilight Time",
+        "Heaven On Earth"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "High Speed Pop Night",
+    "Künstler": "Various",
+    "Erscheinungsjahr": 1980,
+    "Groesse": "12\"",
+    "CoverBild": "img/highspeedpopnight.jpg",
+    "Country": "Germany",
+    "Genre": "Rock, Funk / Soul, Pop",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Funkytown",
+        "Mariana", 
+        "You're All I Need", 
+        "You And Me", 
+        "Misunferstanding", 
+        "Little Jeannie", 
+        "An Englishman In New York", 
+        "Gunfire", 
+        "David's Song", 
+        "You're O.K"
+      ],
+      "Side 2": [
+        "Sexy Eyes",
+        "One More Little Kissy",
+        "Over You",
+        "I Have A Dream",
+        "We Are The Popkings",
+        "Buona Domenica",
+        "Mam Chita",
+        "Games Without Frontiers",
+        "Shandi",
+        "Do That to Me One More Time"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Super 20 International",
+    "Künstler": "Pop Non Stop",
+    "Erscheinungsjahr": 1980,
+    "Groesse": "12\"",
+    "CoverBild": "img/super20international.jpg",
+    "Country": "USA",
+    "Genre": "Pop",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Toccata",
+        "Fire On The Water",
+        "Over You",
+        "Pilot Of The Airwaves",
+        "Ginger Red",
+        "Do Wah Diddy Diddy",
+        "Go Johnnie Go (Keep On Walking, John B.)",
+        "My Guy / My Girl",
+        "You And I",
+        "I See A Boat (On The River)"
+      ],
+      "Side 2": [
+        "More Than I Can Say",
+        "Broken English",
+        "Him",
+        "Why Don't You Spend The Night",
+        "Midnite Dynamo's",
+        "Looks Like A Heartache",
+        "England",
+        "Give Me More",
+        "La clairière de I'enfance",
+        "Feeling So High"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Desire",
+    "Künstler": "Grace Kennedy",
+    "Erscheinungsjahr": 1979,
+    "Groesse": "12\"",
+    "CoverBild": "img/desire.jpg",
+    "Country": "UK",
+    "Genre": "Funk / Soul",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "By Way Of Love's Express",
+        "Fandango Dancin",
+        "Cupid's Defence",
+        "Woman Is Free",
+        "My Heart Keeps Breaking Over You"
+      ],
+      "Side 2": [
+        "Desire",	
+        "Reachin' Out For Your Love",
+        "Don't You Ever Get Lonely",
+        "We Did It",
+        "With One More Look At You"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Disco Explosion",
+    "Künstler": "Various",
+    "Erscheinungsjahr": 1979,
+    "Groesse": "12\"",
+    "CoverBild": "img/discoexplosion.jpg",
+    "Country": "Switzerland",
+    "Genre": "Disco",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Racey - Boy Oh Boy",
+        "Written-By  - G. Macari",
+        "Dr. Hook - When You're In Love With A Beautiful Woman",
+        "Blondie - Sunday Girl",
+        "Cheap Trick - I Want You To Want Me",
+        "The Alan Parsons Project - Lucifer",
+        "The Teens - We'll Have A Party Tonite",
+        "Supermax - It Ain't Easy",
+        "Dr. Feelgood - Milk And Alcohol",
+        "Kandidate - Girl, Girls, Girls",
+        "Anita Ward - Ring My Bell"
+      ],
+      "Side 2": [
+       "Chic - Good Times",
+       "Sister Sledge - We Are Family",
+       "Smokie - Do To Me",
+       "Dion (3) - The Wanderer",
+       "Promises - Let's Get Back Together",
+       "Marc Seaberg - California Gold (Part1)",
+       "Dee D. Jackson - Fireball",
+       "Spitfire (8) - Code Braker",
+       "Tubeway Army - Are Friends Electric",
+       "Jack Goldbird - Can I Reach You"
+      ]
+    }
   }
 ]

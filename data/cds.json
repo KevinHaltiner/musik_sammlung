@@ -1575,6 +1575,46 @@
       "El Mismo Sol",
       "El Mismo Sol (Under The Sam Sun)"
     ]
+  },
+  {
+    "Typ": "CD",
+    "Plattenname": "An Acoustic Evening With Bon Jovi",
+    "Künstler": "Bon Jovi",
+    "Erscheinungsjahr": 2025,
+    "Groesse": "CD",
+    "CoverBild": "img/anacousticeveningwhitebonjovi.jpg",
+    "Country": "USA",
+    "Genre": "Rock",
+    "Speed": "n/a",
+    "Trackliste": [
+      "Livin on a Prayer",
+      "Who Says You Can't Go Home",
+      "Lost Highway",
+      "You Give Love a Bad Name",
+      "It's My Life (With All American Rejects)",
+      "Hallelujah","Til We're Not Strangers Anymore",
+      "(You Want To) Make a Memory",
+      "Bed of Roses",
+      "Whole Lot of Leavin",
+      "Any Other Day", "Last Night"
+    ]
+  },
+  {
+    "Typ": "CD",
+    "Plattenname": "Danger",
+    "Künstler": "Danger",
+    "Erscheinungsjahr": 1989,
+    "Groesse": "CD",
+    "CoverBild": "img/danger.jpg",
+    "Country": "Switzerland",
+    "Genre": "Rock",
+    "Speed": "n/a",
+    "Trackliste": [
+      "When My Heart Cries",
+      "Down On My Knees",
+      "I'd Die For Our Love",
+      "Gimme All Your Heart"
+    ]
   }
 ]
 
