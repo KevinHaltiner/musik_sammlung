@@ -1,0 +1,22 @@
+[
+    {
+    "Typ": "Platte",
+    "Plattenname": "Livin' On a Prayer",
+    "Künstler": "Bon Jovi",
+    "Erscheinungsjahr": 1986,
+    "Groesse": "12\"",
+    "CoverBild": "img/livinonaprayer.jpg",
+    "Country": "USA",
+    "Genre": "Glam Metal, Hard Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Livin On a Prayer"
+      ],
+      "Side 2": [
+       	"Wild In The Streets",
+        "Edge Of a Broken Heart"
+      ]
+    }
+  }
+]

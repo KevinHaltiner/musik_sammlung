@@ -14,9 +14,10 @@ const sortSelect = document.getElementById("sortSelect");
 // ===============================
 async function ladeDaten() {
   try {
-    const [plattenRes, cdsRes] = await Promise.all([
+    const [plattenRes, single12Res, cdsRes] = await Promise.all([
       fetch("data/platten12.json"),
-      fetch("data/cds.json")
+      fetch("data/single12.json"),
+      fetch("data/cds.json")      
     ]);
 
     if (!plattenRes.ok || !cdsRes.ok) {
@@ -24,9 +25,11 @@ async function ladeDaten() {
     }
 
     const platten = await plattenRes.json();
+    const single12 =await single12Res.json();
     const cds = await cdsRes.json();
+  
 
-    albums = [...platten, ...cds];
+    albums = [...platten, ...single12, ...cds];
     applyFilter();
   } catch (err) {
     console.error("Fehler beim Laden:", err);

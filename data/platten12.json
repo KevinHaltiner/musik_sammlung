@@ -1316,16 +1316,72 @@
         "Anita Ward - Ring My Bell"
       ],
       "Side 2": [
-       "Chic - Good Times",
-       "Sister Sledge - We Are Family",
-       "Smokie - Do To Me",
-       "Dion (3) - The Wanderer",
-       "Promises - Let's Get Back Together",
-       "Marc Seaberg - California Gold (Part1)",
-       "Dee D. Jackson - Fireball",
-       "Spitfire (8) - Code Braker",
-       "Tubeway Army - Are Friends Electric",
-       "Jack Goldbird - Can I Reach You"
+        "Chic - Good Times",
+        "Sister Sledge - We Are Family",
+        "Smokie - Do To Me",
+        "Dion (3) - The Wanderer",
+        "Promises - Let's Get Back Together",
+        "Marc Seaberg - California Gold (Part1)",
+        "Dee D. Jackson - Fireball",
+        "Spitfire (8) - Code Braker",
+        "Tubeway Army - Are Friends Electric",
+        "Jack Goldbird - Can I Reach You"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Slippery When Wet",
+    "Künstler": "Bon Jovi",
+    "Erscheinungsjahr": 1986,
+    "Groesse": "12\"",
+    "CoverBild": "img/slipperywhenwet.jpg",
+    "Country": "USA",
+    "Genre": "Glam Metal, Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Let It Rock",
+        "You Give Love a Bad Name",
+        "Livin' on a Prayer",
+        "Social Disease",
+        "Wanted Dead or Alive"
+      ],
+      "Side 2": [
+       	"Raise Your Hands",
+        "Without Love",
+        "I'd Die for You",
+        "Never Say Goodbye",
+        "Wild in the Streets"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "New Jersey",
+    "Künstler": "Bon Jovi",
+    "Erscheinungsjahr": 1988,
+    "Groesse": "12\"",
+    "CoverBild": "img/newjersey.jpg",
+    "Country": "USA",
+    "Genre": "Glam Metal, Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Lay Your Hands on Me",
+        "Bad Medicine",
+        "Born to Be My Baby",
+        "Living in Sin",
+        "Blood on Blood"
+      ],
+      "Side 2": [
+       	"Homebound Train",
+        "Wild Is the Wind",
+        "Ride Cowboy Ride",
+        "Stick to Your Guns",
+        "I'll Be There for You",
+        "99 in the Shade"	,
+        "Love for Sale"
       ]
     }
   }
