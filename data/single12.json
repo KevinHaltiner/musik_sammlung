@@ -18,5 +18,26 @@
         "Edge Of a Broken Heart"
       ]
     }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Never Say Goodbye",
+    "Künstler": "Bon Jovi",
+    "Erscheinungsjahr": 1986,
+    "Groesse": "12\"",
+    "CoverBild": "img/neversaygoodbye.jpg",
+    "Country": "USA",
+    "Genre": "Glam Metal, Hard Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Never Say Goodbye",
+        "Silent Night"
+      ],
+      "Side 2": [
+       	"Raise Your Hands",
+        "In And Out Of Love"
+      ]
+    }
   }
 ]

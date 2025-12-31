@@ -1384,5 +1384,31 @@
         "Love for Sale"
       ]
     }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Bon Jovi",
+    "Künstler": "Bon Jovi",
+    "Erscheinungsjahr": 1984,
+    "Groesse": "12\"",
+    "CoverBild": "img/bonjovi.jpg",
+    "Country": "USA",
+    "Genre": "Glam Metal, Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Runaway",
+        "Roulette",
+        "She Don't Know Me",
+        "Shot Through the Heart",
+        "Love Lies"
+      ],
+      "Side 2": [
+       	"Breakout",
+        "Burning for Love",
+        "Come Back",
+        "Get Ready"
+      ]
+    }
   }
 ]
