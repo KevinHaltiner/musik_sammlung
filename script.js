@@ -14,22 +14,24 @@ const sortSelect = document.getElementById("sortSelect");
 // ===============================
 async function ladeDaten() {
   try {
-    const [plattenRes, single12Res, cdsRes] = await Promise.all([
+    const [plattenRes, single12Res, single7Res, cdsRes] = await Promise.all([
       fetch("data/platten12.json"),
       fetch("data/single12.json"),
+      fetch("data/single7.json"),
       fetch("data/cds.json")      
     ]);
 
-    if (!plattenRes.ok || !cdsRes.ok) {
+    if (!plattenRes.ok || !single12Res.ok || !single7Res.ok || !cdsRes.ok) {
       throw new Error("JSON konnte nicht geladen werden");
     }
 
     const platten = await plattenRes.json();
     const single12 =await single12Res.json();
+    const single7 =await single7Res.json();
     const cds = await cdsRes.json();
   
 
-    albums = [...platten, ...single12, ...cds];
+    albums = [...platten, ...single12, ...single7, ...cds];
     applyFilter();
   } catch (err) {
     console.error("Fehler beim Laden:", err);

@@ -1,0 +1,306 @@
+[
+    {
+    "Typ": "Platte",
+    "Plattenname": "Ich hab' die Liebe geseh'n",
+    "Künstler": "Vicky Leandros",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "img/ichhabdieliebegesehn.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Ich hab' die Liebe geseh'n"
+      ],
+      "Side 2": [
+       	"Augen wie Feuer"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Bitte glaub' es nicht",
+    "Künstler": "Monica Morell",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "img/bitteglaubesnicht.jpg",
+    "Country": "Switzerland",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Bitte glaub' es nicht"
+      ],
+      "Side 2": [
+       	"Irgendwo auf dieser Welt"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "The Six Teens",
+    "Künstler": "Sweet",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "img/thesixteens.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "The Six Teens"
+      ],
+      "Side 2": [
+       	"Burn On The Flame"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Block Buster",
+    "Künstler": "Sweet",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "img/blockbuster.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Block Buster"
+      ],
+      "Side 2": [
+       	"Need a Lot of Lovin'"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Action",
+    "Künstler": "Sweet",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "img/action.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Action"
+      ],
+      "Side 2": [
+       	"Sweet F.A."
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Fox On The Run",
+    "Künstler": "Sweet",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "img/foxontherun.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Fox On The Run"
+      ],
+      "Side 2": [
+       	"Miss Demeanor"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Teenage Rampage",
+    "Künstler": "Sweet",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "img/teenagerampage.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Teenage Rampage"
+      ],
+      "Side 2": [
+       	"Own Up, Take A Look At"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Turn It Down",
+    "Künstler": "Sweet",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "img/turnitdown.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Turn It Down"
+      ],
+      "Side 2": [
+       	"...Someone Else Will"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Wig-Wam Bam",
+    "Künstler": "Sweet",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "img/wigwambam.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Wig-Wam Bam"
+      ],
+      "Side 2": [
+       	"New York Connection"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "The Ballroom Blitz",
+    "Künstler": "Sweet",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "img/theballroomblitz.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "The Ballroom Blitz"
+      ],
+      "Side 2": [
+       	"Rock & Roll Disgrace"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Little Willy",
+    "Künstler": "Sweet",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "img/littlewilly.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Little Willy"
+      ],
+      "Side 2": [
+       	"Man From Mecca"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "We Are Goin' Down Jordan",
+    "Künstler": "Les Humphries Singers",
+    "Erscheinungsjahr": 1971,
+    "Groesse": "7\"",
+    "CoverBild": "img/wearegoindownjordan.jpg",
+    "Country": "Germany",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "We Are Goin' Down Jordan"
+      ],
+      "Side 2": [
+       	"Jesus, Joseph and Peter"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Girls Just Want To Have Fun",
+    "Künstler": "Cyndi Lauper",
+    "Erscheinungsjahr": 1983,
+    "Groesse": "7\"",
+    "CoverBild": "img/girlsjustwanttohavefun.jpg",
+    "Country": "USA",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Girls Just Want To Have Fun"
+      ],
+      "Side 2": [
+       	"Right Track Wrong Train"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Reelin' And Rockin'",
+    "Künstler": "Chuck Berry",
+    "Erscheinungsjahr": 1958,
+    "Groesse": "7\"",
+    "CoverBild": "img/reelinandrockin.jpg",
+    "Country": "AUS",
+    "Genre": "Rock' N Roll",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Reelin' And Rockin'"
+      ],
+      "Side 2": [
+       	"Let's Do Our Thing Together"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Billie Jean",
+    "Künstler": "Michael Jackson",
+    "Erscheinungsjahr": 1982,
+    "Groesse": "7\"",
+    "CoverBild": "img/billiejean.jpg",
+    "Country": "USA",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Billie Jean"
+      ],
+      "Side 2": [
+       	"It's The Falling In Love"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "When My Heart Cries",
+    "Künstler": "Danger",
+    "Erscheinungsjahr": 1989,
+    "Groesse": "7\"",
+    "CoverBild": "img/danger.jpg",
+    "Country": "Switzerland",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "When My Heart Cries"
+      ],
+      "Side 2": [
+       	"Down On My Knees"
+      ]
+    }
+  }
+]
