@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Musik-Sammlung</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32.png?v=2">
         <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16.png?v=2">
         <link rel="icon" href="img/icon/favicon.ico?v=2" type="image/x-icon">
@@ -13,10 +14,21 @@
 
         <h1>Meine Sammlung</h1>
 
+        <select id="mobile-nav">
+            <option value="alle">Alle</option>
+            <option value="Platte">Platten</option>
+            <option value="CD">CDs</option>
+            <option value="Single">Singles</option>
+            <option value="kuenstler.html">Künstler</option>
+            <option value="genre.html">Genre</option>
+        </select>
+
+
         <p id="anzahl">
             Gesamt: <strong><span id="count-alle">0</span></strong> |
             Platten: <strong><span id="count-platten">0</span></strong> |
-            CDs: <strong><span id="count-cds">0</span></strong>
+            CDs: <strong><span id="count-cds">0</span></strong> |
+            Singles: <strong><span id="count-singles">0</span></strong>
         </p>
 
         <div id="search-container">
@@ -26,13 +38,22 @@
         </div>
 
         <div id="tabs-container">
-            <div id="tabs">
-                <div class="tab active" data-type="alle">Alle</div>
-                <div class="tab" data-type="Platte">Platten</div>
-                <div class="tab" data-type="CD">CDs</div>
+            <div id="tabs-row">
+                <div id="tabs">
+                    <div class="tab active" data-type="alle">Alle</div>
+                    <div class="tab" data-type="Platte">Platten</div>
+                    <div class="tab" data-type="CD">CDs</div>
+                    <div class="tab" data-type="Single">Singles</div>
+                </div>
+
+                <div id="nav-buttons">
+                    <a href="kuenstler.html">Künstler</a>
+                    <a href="genre.html">Genre</a>
+                </div>
             </div>
             <hr class="tab-line">
         </div>
+
 
         <div class="sort-container">
             <label for="sortSelect">Sortieren nach:</label>

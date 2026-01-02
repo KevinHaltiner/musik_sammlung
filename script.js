@@ -18,18 +18,32 @@ async function ladeDaten() {
       fetch("data/platten12.json"),
       fetch("data/single12.json"),
       fetch("data/single7.json"),
-      fetch("data/cds.json")      
+      fetch("data/cds.json")
     ]);
 
     if (!plattenRes.ok || !single12Res.ok || !single7Res.ok || !cdsRes.ok) {
       throw new Error("JSON konnte nicht geladen werden");
     }
 
-    const platten = await plattenRes.json();
-    const single12 =await single12Res.json();
-    const single7 =await single7Res.json();
-    const cds = await cdsRes.json();
-  
+    const platten = (await plattenRes.json()).map(a => ({
+      ...a,
+      Kategorie: "Platte"
+    }));
+
+    const single12 = (await single12Res.json()).map(a => ({
+      ...a,
+      Kategorie: "Single"
+    }));
+
+    const single7 = (await single7Res.json()).map(a => ({
+      ...a,
+      Kategorie: "Single"
+    }));
+
+    const cds = (await cdsRes.json()).map(a => ({
+      ...a,
+      Kategorie: "CD"
+    }));
 
     albums = [...platten, ...single12, ...single7, ...cds];
     applyFilter();
@@ -45,22 +59,25 @@ ladeDaten();
 // ===============================
 function updateCounter(list) {
   document.getElementById("count-alle").textContent = list.length;
+
   document.getElementById("count-platten").textContent =
-    list.filter(a => a.Typ === "Platte").length;
+    list.filter(a => a.Kategorie === "Platte").length;
+
   document.getElementById("count-cds").textContent =
-    list.filter(a => a.Typ === "CD").length;
+    list.filter(a => a.Kategorie === "CD").length;
+
+  document.getElementById("count-singles").textContent =
+    list.filter(a => a.Kategorie === "Single").length;
 }
 
 // ===============================
-// TRACKLISTE RENDERER
+// TRACKLISTE
 // ===============================
 function renderTracklist(album) {
   const trackDiv = document.createElement("div");
   trackDiv.className = "tracklist";
 
-  // =====================
-  // PLATTE mit SIDES
-  // =====================
+  // Platte mit Sides
   if (album.Typ === "Platte" && album.Sides) {
     const container = document.createElement("div");
     container.style.display = "flex";
@@ -76,9 +93,7 @@ function renderTracklist(album) {
     return trackDiv;
   }
 
-  // =====================
-  // CD – EINE DISC
-  // =====================
+  // CD – eine Disc
   if (Array.isArray(album.Trackliste)) {
     trackDiv.innerHTML =
       `<strong>Trackliste:</strong><br>` +
@@ -86,9 +101,7 @@ function renderTracklist(album) {
     return trackDiv;
   }
 
-  // =====================
-  // CD – MEHRERE DISCS (NEBENEINANDER ✅)
-  // =====================
+  // CD – mehrere Discs
   if (album.Trackliste && typeof album.Trackliste === "object") {
     const container = document.createElement("div");
     container.style.display = "flex";
@@ -101,12 +114,10 @@ function renderTracklist(album) {
     }
 
     trackDiv.appendChild(container);
-    return trackDiv;
   }
 
   return trackDiv;
 }
-
 
 // ===============================
 // ALBEN ANZEIGEN
@@ -117,7 +128,6 @@ function displayAlbums(list) {
   const sortField = sortSelect.value;
   let grouped = {};
 
-  // SORTIEREN + GRUPPIEREN
   if (sortField === "Plattenname") {
     list.sort((a, b) => a.Plattenname.localeCompare(b.Plattenname));
     list.forEach(a => {
@@ -128,12 +138,10 @@ function displayAlbums(list) {
   }
 
   if (sortField === "Künstler") {
-    list.sort((a, b) => {
-      if (a.Künstler !== b.Künstler) {
-        return a.Künstler.localeCompare(b.Künstler);
-      }
-      return a.Erscheinungsjahr - b.Erscheinungsjahr;
-    });
+    list.sort((a, b) =>
+      a.Künstler.localeCompare(b.Künstler) ||
+      a.Erscheinungsjahr - b.Erscheinungsjahr
+    );
     list.forEach(a => {
       grouped[a.Künstler] = grouped[a.Künstler] || [];
       grouped[a.Künstler].push(a);
@@ -148,7 +156,6 @@ function displayAlbums(list) {
     });
   }
 
-  // RENDER
   for (const block in grouped) {
     const blockDiv = document.createElement("div");
     blockDiv.className = "album-block";
@@ -162,7 +169,6 @@ function displayAlbums(list) {
       const card = document.createElement("div");
       card.className = "album-card";
 
-      // HEADER
       const header = document.createElement("div");
       header.className = "album-header";
 
@@ -182,7 +188,6 @@ function displayAlbums(list) {
       header.appendChild(info);
       card.appendChild(header);
 
-      // DETAILS
       const details = document.createElement("div");
       details.className = "details";
 
@@ -198,7 +203,6 @@ function displayAlbums(list) {
       details.appendChild(renderTracklist(album));
       card.appendChild(details);
 
-      // TOGGLE
       header.addEventListener("click", () => {
         if (currentlyOpen && currentlyOpen !== details) {
           currentlyOpen.classList.remove("open");
@@ -227,7 +231,7 @@ function applyFilter() {
   );
 
   if (currentType !== "alle") {
-    filtered = filtered.filter(a => a.Typ === currentType);
+    filtered = filtered.filter(a => a.Kategorie === currentType);
   }
 
   displayAlbums(filtered);
@@ -284,3 +288,49 @@ clearSearch.addEventListener("click", () => {
 
 // SORT
 sortSelect.addEventListener("change", applyFilter);
+
+// ===============================
+// URL-PARAMETER (Künstler / Genre)
+// ===============================
+const params = new URLSearchParams(window.location.search);
+
+if (params.has("artist")) {
+  searchInput.value = params.get("artist");
+  applyFilter();
+}
+
+if (params.has("genre")) {
+  searchInput.value = params.get("genre");
+  applyFilter();
+}
+
+// ===============================
+// MOBILE NAV DROPDOWN
+// ===============================
+const mobileNav = document.getElementById("mobile-nav");
+
+if (mobileNav) {
+
+  // Initialzustand
+  mobileNav.value = "alle";
+
+  mobileNav.addEventListener("change", e => {
+    const value = e.target.value;
+
+    // Seitenwechsel
+    if (value.endsWith(".html")) {
+      window.location.href = value;
+      return;
+    }
+
+    // Filter setzen
+    currentType = value;
+
+    // Tabs synchronisieren
+    document.querySelectorAll(".tab").forEach(tab => {
+      tab.classList.toggle("active", tab.dataset.type === value);
+    });
+
+    applyFilter();
+  });
+}

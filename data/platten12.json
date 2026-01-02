@@ -567,7 +567,7 @@
     "Groesse": "12\"",
     "CoverBild": "img/jesuschristsuperstar.jpg",
     "Country": "USA",
-    "Genre": "Sound Track",
+    "Genre": "Soundtrack",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
@@ -651,7 +651,7 @@
     "Groesse": "12\"",
     "CoverBild": "img/grease.jpg",
     "Country": "USA",
-    "Genre": "Sound Track",
+    "Genre": "Soundtrack",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
@@ -806,7 +806,7 @@
     "Groesse": "12\"",
     "CoverBild": "img/joanbaez28greatesthits.jpg",
     "Country": "Switzerland",
-    "Genre": "Folk, World, & Country",
+    "Genre": "Folk, Country",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
@@ -927,7 +927,7 @@
     "Groesse": "12\"",
     "CoverBild": "img/santanasgreatesthits.jpg",
     "Country": "Dutch",
-    "Genre": "Blues rock",
+    "Genre": "Blues Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
@@ -954,7 +954,7 @@
     "Groesse": "12\"",
     "CoverBild": "img/xanadu.jpg",
     "Country": "UK",
-    "Genre": "Sound Track",
+    "Genre": "Soundtrack",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
@@ -1086,7 +1086,7 @@
     "Groesse": "12\"",
     "CoverBild": "img/bandido.jpg",
     "Country": "Spain",
-    "Genre": "Synth-pop, Disco",
+    "Genre": "Synth Pop, Disco",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
@@ -1193,7 +1193,7 @@
   {
     "Typ": "Platte",
     "Plattenname": "High Speed Pop Night",
-    "Künstler": "Various",
+    "Künstler": "-",
     "Erscheinungsjahr": 1980,
     "Groesse": "12\"",
     "CoverBild": "img/highspeedpopnight.jpg",
@@ -1294,7 +1294,7 @@
   {
     "Typ": "Platte",
     "Plattenname": "Disco Explosion",
-    "Künstler": "Various",
+    "Künstler": "-",
     "Erscheinungsjahr": 1979,
     "Groesse": "12\"",
     "CoverBild": "img/discoexplosion.jpg",

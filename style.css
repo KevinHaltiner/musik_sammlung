@@ -1,31 +1,352 @@
-body { font-family: Arial, sans-serif; background-color: #f5f5f5; margin: 20px; }
-h1 { text-align: center; margin-bottom: 10px; }
-#search-container { text-align: center; margin-bottom: 10px; position: relative; }
-#searchInput { width: 300px; padding: 8px 30px 8px 10px; font-size: 14px; border-radius: 4px; border: 1px solid #ccc; }
-#clearSearch { position: absolute; right: calc(50% - 150px + 5px); top: 50%; transform: translateY(-50%); cursor: pointer; font-weight: bold; color: #888; }
-#tabs-container { margin-bottom: 20px; }
-#tabs { display: flex; justify-content: flex-start; }
-.tab { padding: 8px 20px; margin-right: 5px; background-color: #ccc; border-radius: 5px 5px 0 0; cursor: pointer; user-select: none; transition: background-color 0.2s; }
-.tab:hover { background-color: #aaa; }
-.tab.active { background-color: #888; color: #fff; }
-hr.tab-line { border: none; border-bottom: 2px solid #888; margin-top: 5px; }
-.sort-container { margin-bottom: 10px; display: flex; gap: 10px; align-items: center; }
-.sort-container select { padding: 5px; font-size: 14px; }
-.album-block { margin-bottom: 20px; }
-.block-title { font-weight: bold; font-size: 16px; margin-bottom: 10px; }
-.album-card { background-color: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); margin-bottom: 10px; cursor: pointer; overflow: hidden; transition: all 0.3s ease; }
-.album-header { display: flex; flex-direction: row; padding: 10px; }
-.album-header img { width: 150px; height: 150px; object-fit: cover; margin-right: 15px; }
-.album-info { flex: 1; }
-.album-info p { margin: 3px 0; }
-.album-info .title { font-weight: bold; font-size: 18px; line-height: 1.2; }
-.album-info .artist { font-weight: bold; font-size: 14px; margin-top: 5px; }
-.album-info .size-year { font-size: 13px; color: #555; }
-.details { display: flex; flex-direction: row; justify-content: space-between; background-color: #f9f9f9; padding: 10px 15px; font-size: 13px; color: #555; overflow: hidden; max-height: 0; transition: max-height 0.4s ease; }
-.details.open { max-height: 500px; }
-.detail-left, .tracklist { flex: 1; padding-right: 10px; }
-.tracklist { background-color: #eef; border-radius: 4px; padding: 10px; }
-.tracklist p { margin: 3px 0; }
-.autocomplete-list { position: absolute; background: white; border: 1px solid #ccc; max-height: 150px; overflow-y: auto; width: 300px; left: 50%; transform: translateX(-50%); z-index: 10; }
-.autocomplete-item { padding: 5px; cursor: pointer; }
-.autocomplete-item:hover { background-color: #eee; }
+/* =========================
+   GLOBAL
+========================= */
+html, body {
+    height: auto;
+    min-height: 100%;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#anzahl {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+
+/* =========================
+   SEARCH
+========================= */
+#search-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#searchInput {
+    width: 100%;
+    max-width: 350px;
+    padding: 8px 35px 8px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#clearSearch {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-weight: bold;
+    color: #888;
+}
+
+.autocomplete-list {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    max-width: 350px;
+    background: white;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.autocomplete-item {
+    padding: 6px;
+    cursor: pointer;
+}
+
+.autocomplete-item:hover {
+    background-color: #eee;
+}
+
+
+/* =========================
+   TABS + NAV
+========================= */
+#tabs-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#tabs {
+    display: flex;
+    gap: 5px;
+    flex: 1;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#tabs::-webkit-scrollbar {
+    display: none;
+}
+
+.tab,
+#nav-buttons a {
+    padding: 8px 16px;
+    background-color: #ccc;
+    border-radius: 5px 5px 0 0;
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.2s;
+    white-space: nowrap;
+}
+
+.tab:hover,
+#nav-buttons a:hover {
+    background-color: #aaa;
+}
+
+.tab.active,
+#nav-buttons a.active {
+    background-color: #888;
+    color: #fff;
+}
+
+#nav-buttons {
+    display: flex;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+hr.tab-line {
+    border: none;
+    border-bottom: 2px solid #888;
+    margin-top: 5px;
+}
+
+
+/* =========================
+   SORT
+========================= */
+.sort-container {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sort-container label {
+    font-size: 14px;
+}
+
+.sort-container select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+/* =========================
+   COLLECTION / ALBUMS
+========================= */
+.album-block {
+    margin-bottom: 20px;
+}
+
+.block-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.album-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.album-header {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.album-header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.album-info p {
+    margin: 3px 0;
+}
+
+.album-info .title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.album-info .artist {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.album-info .size-year {
+    font-size: 13px;
+    color: #555;
+}
+
+
+/* =========================
+   DETAILS / TRACKLIST
+========================= */
+.details {
+    display: flex;
+    gap: 15px;
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    font-size: 13px;
+    color: #555;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.details.open {
+    max-height: 600px;
+}
+
+.detail-left,
+.tracklist {
+    flex: 1;
+}
+
+.tracklist {
+    background-color: #eef;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+/* =========================
+   COLUMN LIST (KÜNSTLER / GENRE)
+========================= */
+.column-list {
+    display: block;
+}
+
+/* NUR ab Tablet Columns benutzen */
+@media (min-width: 768px) {
+    .column-list {
+        column-count: 2;
+        column-gap: 40px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .column-list {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 1500px) {
+    .column-list {
+        column-count: 4;
+    }
+}
+
+
+.letter-title {
+    font-weight: bold;
+    margin: 12px 0 6px;
+    break-inside: avoid;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    break-inside: avoid;
+}
+
+
+.list-item:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+    .album-header {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .album-header img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .details {
+        flex-direction: column;
+    }
+
+    .sort-container {
+        justify-content: center;
+    }
+}
+
+/* =========================
+   MOBILE DROPDOWN NAV
+========================= */
+
+#mobile-nav {
+    display: none;
+    width: 100%;
+    max-width: 360px;
+    margin: 10px auto 15px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+/* Nur auf Handy aktiv */
+@media (max-width: 700px) {
+
+    /* Tabs + Künstler/Genre ausblenden */
+    #tabs-container {
+        display: none;
+    }
+
+    /* Dropdown anzeigen */
+    #mobile-nav {
+        display: block;
+    }
+}
