@@ -1615,6 +1615,33 @@
       "I'd Die For Our Love",
       "Gimme All Your Heart"
     ]
+  },
+  {
+    "Typ": "CD",
+    "Plattenname": "Use Your Illusion II",
+    "Künstler": "Guns N' Roses",
+    "Erscheinungsjahr": 1991,
+    "Groesse": "CD",
+    "CoverBild": "img/UseYourIllusionII.jpg",
+    "Country": "USA",
+    "Genre": "Rock",
+    "Speed": "n/a",
+    "Trackliste": [
+      "Civil War",
+      "14 Years",
+      "Yesterdays",
+      "Knockin' on Heaven's Door",
+      "Get in the Ring",
+      "Shotgun Blues",
+      "Breakdown",
+      "Pretty Tied Up",
+      "Locomotive (Complicity)",
+      "So Fine",
+      "Estranged",
+      "You Could Be Mine",
+      "Don't Cry",
+      "My World"
+    ]
   }
 ]
 

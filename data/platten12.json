@@ -1410,5 +1410,41 @@
         "Get Ready"
       ]
     }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Guns N' Roses - Greatest Hits",
+    "Künstler": "Guns N' Roses",
+    "Erscheinungsjahr": 2004,
+    "Groesse": "12\"",
+    "CoverBild": "img/gunsnrosesgreatesthits.jpg",
+    "Country": "USA",
+    "Genre": "Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Welcome to the Jungle",
+        "Sweet Child o' Mine",
+        "Shadow of Your Love",
+        "Patience"
+      ],
+      "Side 2": [
+       	"Paradise City",
+        "Knockin' On Heaven's Door",
+        "Civil War"
+      ],
+      "Side 3": [
+        "You Cloud Be Mine",
+        "Don't Cry",
+        "November Rain",
+        "Live And Let Die"
+      ],
+      "Side 4": [
+        "Yesterdays",
+        "Ain't It Fun",
+        "Since I Don't Have You",
+        "Sympathy for the Devil"
+      ]
+    }
   }
 ]
