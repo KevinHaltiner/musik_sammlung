@@ -2,31 +2,34 @@
 <html lang="de">
     <head>
         <meta charset="UTF-8">
-        <title>Musik-Sammlung</title>
+        <title>Music Collection</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32.png?v=2">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16.png?v=2">
-        <link rel="icon" href="img/icon/favicon.ico?v=2" type="image/x-icon">
+        <link rel="icon" type="image/png" sizes="32x32" href="/data/img/icon/favicon-32.png?v=2">
+        <link rel="icon" type="image/png" sizes="16x16" href="/data/img/icon/favicon-16.png?v=2">
+        <link rel="icon" href="/data/img/icon/favicon.ico?v=2" type="image/x-icon">
         <meta name="theme-color" content="#111111">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/data/css/style.css">
     </head>
     <body>
 
-        <h1>Meine Sammlung</h1>
+        <header class="header">
+            <h1>🎵 Kevin's Music Collection 🎵</h1>
+            <p class="subtitle">Vinyl • CDs • Singles</p>
+        </header>
 
         <select id="mobile-nav">
-            <option value="alle">Alle</option>
-            <option value="Platte">Platten</option>
+            <option value="alle">All</option>
+            <option value="Platte">Vinyl</option>
             <option value="CD">CDs</option>
             <option value="Single">Singles</option>
-            <option value="kuenstler.html">Künstler</option>
-            <option value="genre.html">Genre</option>
+            <option value="/sites/kuenstler.html">Artist</option>
+            <option value="/sites/genre.html">Genre</option>
         </select>
 
 
         <p id="anzahl">
-            Gesamt: <strong><span id="count-alle">0</span></strong> |
-            Platten: <strong><span id="count-platten">0</span></strong> |
+            Total: <strong><span id="count-alle">0</span></strong> |
+            Vinyle: <strong><span id="count-platten">0</span></strong> |
             CDs: <strong><span id="count-cds">0</span></strong> |
             Singles: <strong><span id="count-singles">0</span></strong>
         </p>
@@ -40,15 +43,15 @@
         <div id="tabs-container">
             <div id="tabs-row">
                 <div id="tabs">
-                    <div class="tab active" data-type="alle">Alle</div>
-                    <div class="tab" data-type="Platte">Platten</div>
+                    <div class="tab active" data-type="alle">All</div>
+                    <div class="tab" data-type="Platte">Vinyl</div>
                     <div class="tab" data-type="CD">CDs</div>
                     <div class="tab" data-type="Single">Singles</div>
                 </div>
 
                 <div id="nav-buttons">
-                    <a href="kuenstler.html">Künstler</a>
-                    <a href="genre.html">Genre</a>
+                    <a href="/sites/kuenstler.html">Artist</a>
+                    <a href="/sites/genre.html">Genre</a>
                 </div>
             </div>
             <hr class="tab-line">
@@ -56,17 +59,20 @@
 
 
         <div class="sort-container">
-            <label for="sortSelect">Sortieren nach:</label>
+            <label for="sortSelect">Sort by:</label>
             <select id="sortSelect">
                 <option value="Plattenname">Name</option>
-                <option value="Künstler">Künstler</option>
-                <option value="Erscheinungsjahr">Jahr</option>
+                <option value="Künstler">Artist</option>
+                <option value="Erscheinungsjahr">Year</option>
             </select>
         </div>
 
         <div id="collection"></div>
 
-        <script src="script.js"></script>
+        <footer class="footer">
+            <p>🎧 Music Collection • 2026</p>
+        </footer>
+        <script src="/data/js/script.js"></script>
 
     </body>
 </html>

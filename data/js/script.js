@@ -15,10 +15,10 @@ const sortSelect = document.getElementById("sortSelect");
 async function ladeDaten() {
   try {
     const [plattenRes, single12Res, single7Res, cdsRes] = await Promise.all([
-      fetch("data/platten12.json"),
-      fetch("data/single12.json"),
-      fetch("data/single7.json"),
-      fetch("data/cds.json")
+      fetch("/data/json/platten12.json"),
+      fetch("/data/json/single12.json"),
+      fetch("/data/json/single7.json"),
+      fetch("/data/json/cds.json")
     ]);
 
     if (!plattenRes.ok || !single12Res.ok || !single7Res.ok || !cdsRes.ok) {
