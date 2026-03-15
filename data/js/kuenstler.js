@@ -2,10 +2,10 @@ const container = document.getElementById("artistList");
 
 async function ladeKuenstler() {
   const files = [
-    "./data/json/platten12.json",
-    "./data/json/single12.json",
-    "./data/json/single7.json",
-    "./data/json/cds.json"
+    "../data/json/platten12.json",
+    "../data/json/single12.json",
+    "../data/json/single7.json",
+    "../data/json/cds.json"
   ];
 
   const responses = await Promise.all(files.map(f => fetch(f)));
@@ -43,7 +43,7 @@ function renderAlphabetisch(list) {
       item.className = "list-item";
       item.textContent = name;
       item.onclick = () => {
-        window.location.href = `index.html?artist=${encodeURIComponent(name)}`;
+        window.location.href = `../index.html?artist=${encodeURIComponent(name)}`;
       };
       container.appendChild(item);
     });
