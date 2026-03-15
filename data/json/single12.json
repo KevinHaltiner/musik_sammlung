@@ -5,17 +5,17 @@
     "Künstler": "Bon Jovi",
     "Erscheinungsjahr": 1986,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/livinonaprayer.jpg",
+    "CoverBild": "./data/img//livinonaprayer.jpg",
     "Country": "USA",
     "Genre": "Glam Metal, Hard Rock",
     "Speed": "45 RPM",
     "Sides": {
       "Side 1": [
-        "Livin On a Prayer"
+        "• Livin On a Prayer"
       ],
       "Side 2": [
-       	"Wild In The Streets",
-        "Edge Of a Broken Heart"
+       	"• Wild In The Streets",
+        "• Edge Of a Broken Heart"
       ]
     }
   },
@@ -25,18 +25,18 @@
     "Künstler": "Bon Jovi",
     "Erscheinungsjahr": 1986,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/neversaygoodbye.jpg",
+    "CoverBild": "./data/img//neversaygoodbye.jpg",
     "Country": "USA",
     "Genre": "Glam Metal, Hard Rock",
     "Speed": "45 RPM",
     "Sides": {
       "Side 1": [
-        "Never Say Goodbye",
-        "Silent Night"
+        "• Never Say Goodbye",
+        "• Silent Night"
       ],
       "Side 2": [
-       	"Raise Your Hands",
-        "In And Out Of Love"
+       	"• Raise Your Hands",
+        "• In And Out Of Love"
       ]
     }
   },
@@ -46,16 +46,17 @@
     "Künstler": "Bon Jovi",
     "Erscheinungsjahr": 1986,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/yougiveloveabadname.jpg",
+    "CoverBild": "./data/img//yougiveloveabadname.png",
     "Country": "USA",
     "Genre":"Glam Metal, Hard Rock",
     "Speed": "45 RPM",
     "Sides": {
       "Side 1": [
-        "You Give Love a Bad Name"
+        "• You Give Love a Bad Name"
       ],
       "Side 2": [
-
+        "• Raise your hands",
+        "• Borderline"
       ]
     }
   }

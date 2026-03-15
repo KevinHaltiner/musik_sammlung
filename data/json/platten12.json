@@ -5,44 +5,44 @@
     "Künstler": "Pink Floyd",
     "Erscheinungsjahr": 1979,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/thewall.jpg",
+    "CoverBild": "./data/img//thewall.jpg",
     "Country": "UK",
     "Genre": "Progressive Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "In the Flesh?",
-        "The Thin Ice",
-        "Another Brick in the Wall, Part 1",
-        "The Happiest Days of Our Lives",
-        "Another Brick in the Wall, Part 2",
-        "Mother"
+        "• In the Flesh?",
+        "• The Thin Ice",
+        "• Another Brick in the Wall, Part 1",
+        "• The Happiest Days of Our Lives",
+        "• Another Brick in the Wall, Part 2",
+        "• Mother"
       ],
       "Side 2": [
-        "Goodbye Blue Sky",
-        "Empty Spaces",
-        "Young Lust",
-        "One of My Turns",
-        "Don't Leave Me Now",
-        "Another Brick in the Wall, Part 3",
-        "Goodbye Cruel World"
+        "• Goodbye Blue Sky",
+        "• Empty Spaces",
+        "• Young Lust",
+        "• One of My Turns",
+        "• Don't Leave Me Now",
+        "• Another Brick in the Wall, Part 3",
+        "• Goodbye Cruel World"
       ],
       "Side 3": [
-        "Hey You",
-        "Is There Anybody Out There",
-        "Nobody Home",
-        "Vera",
-        "Bring the Boys Back Home",
-        "Comfortably Numb"
+        "• Hey You",
+        "• Is There Anybody Out There",
+        "• Nobody Home",
+        "• Vera",
+        "• Bring the Boys Back Home",
+        "• Comfortably Numb"
       ],
       "Side 4": [
-        "The Show Must Go On",
-        "In the Flesh",
-        "Run Like Hell",
-        "Waiting for the Worms",
-        "Stop",
-        "The Trial",
-        "Outside the Wall"
+        "• The Show Must Go On",
+        "• In the Flesh",
+        "• Run Like Hell",
+        "• Waiting for the Worms",
+        "• Stop",
+        "• The Trial",
+        "• Outside the Wall"
       ]
     }
   },
@@ -52,24 +52,24 @@
     "Künstler": "Krokus",
     "Erscheinungsjahr": 1980,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/metalrendez-vous.jpg",
+    "CoverBild": "./data/img//metalrendez-vous.jpg",
     "Country": "Switzerland",
     "Genre": "Hard Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Heatstrokes",
-        "Bedside Radio",
-        "Come On",
-        "Streamer",
-        "Shy Kid"
+        "• Heatstrokes",
+        "• Bedside Radio",
+        "• Come On",
+        "• Streamer",
+        "• Shy Kid"
       ],
       "Side 2": [
-        "Tokyo Nights",
-        "Lady Double Dealer",
-        "Fire",
-        "No Way",
-        "Back-Seat Rock ’n’ Roll"
+        "• Tokyo Nights",
+        "• Lady Double Dealer",
+        "• Fire",
+        "• No Way",
+        "• Back-Seat Rock ’n’ Roll"
       ]
     }
   },
@@ -79,22 +79,22 @@
     "Künstler": "Led Zeppelin",
     "Erscheinungsjahr": 1971,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/ledzeppeliniv.jpg",
+    "CoverBild": "./data/img//ledzeppeliniv.jpg",
     "Country": "UK",
     "Genre": "Hard Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Black Dog",
-        "Rock and Roll",
-        "The Battle of Evermore",
-        "Stairway to Heaven"
+        "• Black Dog",
+        "• Rock and Roll",
+        "• The Battle of Evermore",
+        "• Stairway to Heaven"
       ],
       "Side 2": [
-        "Misty Mountain Hop",
-        "Four Sticks",
-        "Going to California",
-        "When the Levee Breaks"
+        "• Misty Mountain Hop",
+        "• Four Sticks",
+        "• Going to California",
+        "• When the Levee Breaks"
       ]
     }
   },
@@ -104,22 +104,22 @@
     "Künstler": "Status Quo",
     "Erscheinungsjahr": 1972,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/piledriver.jpg",
+    "CoverBild": "./data/img//piledriver.jpg",
     "Country": "UK",
     "Genre": "Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Don't Waste My Time",
-        "Oh Baby",
-        "A Year",
-        "Unspoken Words"
+        "• Don't Waste My Time",
+        "• Oh Baby",
+        "• A Year",
+        "• Unspoken Words"
       ],
       "Side 2": [
-        "Big Fat Mama",
-        "Paper Plane",
-        "All the Reasons",
-        "Roadhouse Blues"
+        "• Big Fat Mama",
+        "• Paper Plane",
+        "• All the Reasons",
+        "• Roadhouse Blues"
       ]
     }
   },
@@ -129,35 +129,35 @@
     "Künstler": "Sweet",
     "Erscheinungsjahr": 1975,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/strungup.jpg",
+    "CoverBild": "./data/img//strungup.jpg",
     "Country": "UK",
     "Genre": "Glam Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Done Me Wrong Alright",
-        "You’re Not Wrong For Lovin’ Mw",
-        "Teh Man With Teh Golden Arm"
+        "• Done Me Wrong Alright",
+        "• You’re Not Wrong For Lovin’ Mw",
+        "• The Man With The Golden Arm"
       ],
       "Side 2": [
-        "Hellraiser",
-        "Bruning/Someone Else Will",
-        "Rock ’n’ Roll Disgrace",
-        "Need A Lot Of Lovin’"
+        "• Hellraiser",
+        "• Bruning/Someone Else Will",
+        "• Rock ’n’ Roll Disgrace",
+        "• Need A Lot Of Lovin’"
       ],
       "Side 3": [
-        "Action",
-        "Fox On The Run",
-        "Set Me Free",
-        "Miss Demeanour",
-        "Ballroom Blitz"
+        "• Action",
+        "• Fox On The Run",
+        "• Set Me Free",
+        "• Miss Demeanour",
+        "• Ballroom Blitz"
       ],
       "Side 4": [
-        "Burn On The Flame",
-        "Solid Gold Brass",
-        "The Six Teens",
-        "I Wanna Be Committed",
-        "Blockbuster"
+        "• Burn On The Flame",
+        "• Solid Gold Brass",
+        "• The Six Teens",
+        "• I Wanna Be Committed",
+        "• Blockbuster"
       ]
     }
   },
@@ -167,26 +167,26 @@
     "Künstler": "The Runaways",
     "Erscheinungsjahr": 1977,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/liveinjapan.jpg",
+    "CoverBild": "./data/img//liveinjapan.jpg",
     "Country": "USA",
     "Genre": "Hard Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Queens of Noise",
-        "California Paradise",
-        "All Right You Guys",
-        "Wild Thing",
-        "Gettin' Hot",
-        "Rock-n-Roll"
+        "• Queens of Noise",
+        "• California Paradise",
+        "• All Right You Guys",
+        "• Wild Thing",
+        "• Gettin' Hot",
+        "• Rock-n-Roll"
       ],
       "Side 2": [
-        "You Drive Me Wild",
-        "Neon Angels on the Road to Ruin",
-        "I Wanna Be Where the Boys Are",
-        "Cherry Bomb",
-        "American Nights",
-        "C'mon"
+        "• You Drive Me Wild",
+        "• Neon Angels on the Road to Ruin",
+        "• I Wanna Be Where the Boys Are",
+        "• Cherry Bomb",
+        "• American Nights",
+        "• C'mon"
       ]
     }
   },
@@ -196,31 +196,31 @@
     "Künstler": "Scorpions",
     "Erscheinungsjahr": 2011,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/comeblack.jpg",
+    "CoverBild": "./data/img//comeblack.jpg",
     "Country": "Germany",
     "Genre": "Hard Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Rhythm of Love",
-        "No One Like You",
-        "The Zoo"
+        "• Rhythm of Love",
+        "• No One Like You",
+        "• The Zoo"
       ],
       "Side 2": [
-        "Rock You Like a Hurricane",
-        "Blackout",
-        "Wind of Change"
+        "• Rock You Like a Hurricane",
+        "• Blackout",
+        "• Wind of Change"
       ],
       "Side 3": [
-        "Still Loving You",
-        "Tainted Love",
-        "Children of the Revolution"       
+        "• Still Loving You",
+        "• Tainted Love",
+        "• Children of the Revolution"       
       ],
       "Side 4": [
-        "Across the Universe",
-        "Tin Soldier",
-        "All Day and All of the Night",
-        "Ruby Tuesday"
+        "• Across the Universe",
+        "• Tin Soldier",
+        "• All Day and All of the Night",
+        "• Ruby Tuesday"
       ]
     }
   },
@@ -230,23 +230,23 @@
     "Künstler": "Status Quo",
     "Erscheinungsjahr": 1976,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/blueforyou.jpg",
+    "CoverBild": "./data/img//blueforyou.jpg",
     "Country": "UK",
     "Genre": "Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Is There a Better Way",
-        "Mad About the Boy",
-        "Ring of a Change",
-        "Blue for You",
-        "Rain"
+        "• Is There a Better Way",
+        "• Mad About the Boy",
+        "• Ring of a Change",
+        "• Blue for You",
+        "• Rain"
       ],
       "Side 2": [
-        "Rolling Home",
-        "That's a Fact",
-        "Ease Your Mind",
-        "Mystery Song"
+        "• Rolling Home",
+        "• That's a Fact",
+        "• Ease Your Mind",
+        "• Mystery Song"
       ]
     }
   },
@@ -256,21 +256,21 @@
     "Künstler":"Deep Purple",
     "Erscheinungsjahr":1972,
     "Groesse":"12\"",
-    "CoverBild":"/data/img/machinehead.jpg",
+    "CoverBild":"./data/img//machinehead.jpg",
     "Country":"UK",
     "Genre":"Rock",
     "Speed":"33 RPM",
     "Sides": {
       "Side 1": [
-        "Highway Star", 
-        "Maybe I'm a Leo",
-        "Pictures of Home",
-        "Never Before"
+        "• Highway Star", 
+        "• Maybe I'm a Leo",
+        "• Pictures of Home",
+        "• Never Before"
       ],
       "Side 2": [
-        "Smoke on the Water",
-        "Lazy",
-        "Space Truckin’"
+        "• Smoke on the Water",
+        "• Lazy",
+        "• Space Truckin’"
       ]
     }
   },
@@ -280,21 +280,21 @@
     "Künstler": "Deep Purple",
     "Erscheinungsjahr": 1970,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/deeppurpleinrock.jpg",
+    "CoverBild": "./data/img//deeppurpleinrock.jpg",
     "Country": "UK",
     "Genre": "Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Speed King",
-        "Bloodsucker",
-        "Child in Time"
+        "• Speed King",
+        "• Bloodsucker",
+        "• Child in Time"
       ],
       "Side 2": [
-        "Flight of the Rat",
-        "Into the Fire",
-        "Living Wreck",
-        "Hard Lovin’ Man"
+        "• Flight of the Rat",
+        "• Into the Fire",
+        "• Living Wreck",
+        "• Hard Lovin’ Man"
       ]
     }
   },
@@ -304,26 +304,26 @@
     "Künstler": "Deep Purple",
     "Erscheinungsjahr": 1980,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/theverybestofdeeppurple.jpg",
+    "CoverBild": "./data/img//theverybestofdeeppurple.jpg",
     "Country": "UK",
     "Genre": "Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Black Night",
-        "Speed King",
-        "Fireball",
-        "Strange Kind of Woman",
-        "Child in Time",
-        "Woman from Tokyo"
+        "• Black Night",
+        "• Speed King",
+        "• Fireball",
+        "• Strange Kind of Woman",
+        "• Child in Time",
+        "• Woman from Tokyo"
       ],
       "Side 2": [
-        "Highway Star",
-        "Space Truckin",
-        "Brun",
-        "Strombringer",
-        "Demon's Eye",
-        "Smoke on the Water"
+        "• Highway Star",
+        "• Space Truckin",
+        "• Brun",
+        "• Strombringer",
+        "• Demon's Eye",
+        "• Smoke on the Water"
       ]
     }
   },
@@ -333,30 +333,30 @@
     "Künstler": "Creedence Clearwater Revival",
     "Erscheinungsjahr": 1983,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/heytonight.jpg",
+    "CoverBild": "./data/img//heytonight.jpg",
     "Country": "USA",
     "Genre": "Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Hey Tonight",
-        "Bad Moon Rising",
-        "Travelin’ Band",
-        "Up Around The Bend",
-        "Susie Q",
-        "Fortunate Son",
-        "Run Through The Jungle",
-        "Some Day Never Comes"
+        "• Hey Tonight",
+        "• Bad Moon Rising",
+        "• Travelin’ Band",
+        "• Up Around The Bend",
+        "• Susie Q",
+        "• Fortunate Son",
+        "• Run Through The Jungle",
+        "• Some Day Never Comes"
       ],
       "Side 2": [
-        "Proud Mary",
-        "Down On The Corner",
-        "Green River",
-        "Have You Ever Seen The Rain",
-        "Sweet Hitch-Hiker",
-        "Lookin’ Out My Back Door",
-        "I Heard It Through The Grapevine",
-        "I Put A Spell On You"
+        "• Proud Mary",
+        "• Down On The Corner",
+        "• Green River",
+        "• Have You Ever Seen The Rain",
+        "• Sweet Hitch-Hiker",
+        "• Lookin’ Out My Back Door",
+        "• I Heard It Through The Grapevine",
+        "• I Put A Spell On You"
       ]
     }
   },
@@ -366,58 +366,58 @@
     "Künstler": "Elvis Presley",
     "Erscheinungsjahr": 1974,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/seine40grösstenhits.jpeg",
+    "CoverBild": "./data/img//seine40grösstenhits.jpeg",
     "Country": "UK",
     "Genre": "Rock, Pop",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "My Baby Left Me",
-        "Heartbreak Hotel",
-        "Blue Suede Shoes",
-        "Hound Dog",
-        "Love Me Tender",
-        "Got A Lot O' Livin' To Do",
-        "(Let Me Be Your) Teddy Bear",
-        "Party",
-        "All Shook Up",
-        "Old Shep"
+        "• My Baby Left Me",
+        "• Heartbreak Hotel",
+        "• Blue Suede Shoes",
+        "• Hound Dog",
+        "• Love Me Tender",
+        "• Got A Lot O' Livin' To Do",
+        "• (Let Me Be Your) Teddy Bear",
+        "• Party",
+        "• All Shook Up",
+        "• Old Shep"
       ],
       "Side 2": [
-        "Don't",
-        "Hard Headed Woman",
-        "Kring Creole",
-        "Jailhouse Rock",
-        "A Big Hunk O' Love",
-        "I Got Stung",
-        "One Night",
-        "(Now And Then There's) A Fool Such As I",
-        "I Need Your Love Tonight",
-        "Stuck On You"
+        "• Don't",
+        "• Hard Headed Woman",
+        "• Kring Creole",
+        "• Jailhouse Rock",
+        "• A Big Hunk O' Love",
+        "• I Got Stung",
+        "• One Night",
+        "• (Now And Then There's) A Fool Such As I",
+        "• I Need Your Love Tonight",
+        "• Stuck On You"
       ],
       "Side 3": [
-        "Fever",
-        "It's Now Or Never",
-        "Are You Lonesome Tonight?",
-        "Wooden Heart",
-        "Surrender",
-        "(Marie's The Name) His Latest Flame",
-        "Wild In The Country",
-        "There's Always Me",
-        "Rock-A-Hula Baby",
-        "Can't Help Falling In Love With You"
+        "• Fever",
+        "• It's Now Or Never",
+        "• Are You Lonesome Tonight?",
+        "• Wooden Heart",
+        "• Surrender",
+        "• (Marie's The Name) His Latest Flame",
+        "• Wild In The Country",
+        "• There's Always Me",
+        "• Rock-A-Hula Baby",
+        "• Can't Help Falling In Love With You"
       ],
       "Side 4": [
-        "Good Luck Charm",
-        "She's Not You",
-        "Return To Sender",
-        "You're The Devil In Disguise",
-        "Crying In The Chapel",
-        "Guitar Man",
-        "In The Ghetto",
-        "Suspicious Minds",
-        "There Goes My Everything",
-        "Don't Cry Daddy"
+        "• Good Luck Charm",
+        "• She's Not You",
+        "• Return To Sender",
+        "• You're The Devil In Disguise",
+        "• Crying In The Chapel",
+        "• Guitar Man",
+        "• In The Ghetto",
+        "• Suspicious Minds",
+        "• There Goes My Everything",
+        "• Don't Cry Daddy"
       ]
     }
   },
@@ -427,21 +427,21 @@
     "Künstler": "Chic",
     "Erscheinungsjahr": 1977,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/chic.jpg",
+    "CoverBild": "./data/img//chic.jpg",
     "Country": "USA",
     "Genre": "Disco",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Dance, Dance, Dance (Yowsah, Yowsah, Yowsah)",
-        "São Paulo",
-        "You Can Get By"
+        "• Dance, Dance, Dance (Yowsah, Yowsah, Yowsah)",
+        "• São Paulo",
+        "• You Can Get By"
       ],
       "Side 2": [
-        "Everybody Dance",
-        "Est-ce que c'est Chic?",
-        "Falling in Love with You",
-        "Strike Up the Band"
+        "• Everybody Dance",
+        "• Est-ce que c'est Chic?",
+        "• Falling in Love with You",
+        "• Strike Up the Band"
       ]
     }
   },
@@ -451,23 +451,23 @@
     "Künstler": "Status Quo",
     "Erscheinungsjahr": 1980,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/justsupposin.jpg",
+    "CoverBild": "./data/img//justsupposin.jpg",
     "Country": "UK",
     "Genre": "Hard Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "What You're Proposing",
-        "Run to Mummy",
-        "Don't Drive My Car",
-        "Lies",
-        "Over the Edge"
+        "• What You're Proposing",
+        "• Run to Mummy",
+        "• Don't Drive My Car",
+        "• Lies",
+        "• Over the Edge"
       ],
       "Side 2": [
-        "The Wild Ones",
-        "Name of the Game",
-        "Coming and Going",
-        "Rock 'n' Roll"
+        "• The Wild Ones",
+        "• Name of the Game",
+        "• Coming and Going",
+        "• Rock 'n' Roll"
       ]
     }
   },
@@ -477,22 +477,22 @@
     "Künstler": "Status Quo",
     "Erscheinungsjahr": 1974,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/quo.jpg",
+    "CoverBild": "./data/img//quo.jpg",
     "Country": "UK",
     "Genre": "Hard Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Backwater",
-        "Just Take Me",
-        "Break the Rules",
-        "Drifting Away"
+        "• Backwater",
+        "• Just Take Me",
+        "• Break the Rules",
+        "• Drifting Away"
       ],
       "Side 2": [
-        "Don't Think it Matters",
-        "Fine Fine Fine",
-        "Lonely Man",
-        "Slow Train"
+        "• Don't Think it Matters",
+        "• Fine Fine Fine",
+        "• Lonely Man",
+        "• Slow Train"
       ]
     }
   },
@@ -502,24 +502,24 @@
     "Künstler": "Status Quo",
     "Erscheinungsjahr": 1975,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/onthelevel.jpg",
+    "CoverBild": "./data/img//onthelevel.jpg",
     "Country": "UK",
     "Genre": "Hard Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Little Lady",
-        "Most of the Time",
-        "I Saw the Light",
-        "Over and Done",
-        "Nightride"
+        "• Little Lady",
+        "• Most of the Time",
+        "• I Saw the Light",
+        "• Over and Done",
+        "• Nightride"
       ],
       "Side 2": [
-        "Down Down",
-        "Broken Man",
-        "What to Do",
-        "Where I Am",
-        "Bye Bye Johnny"
+        "• Down Down",
+        "• Broken Man",
+        "• What to Do",
+        "• Where I Am",
+        "• Bye Bye Johnny"
       ]
     }
   },{
@@ -528,34 +528,34 @@
     "Künstler": "-",
     "Erscheinungsjahr": 1969,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/20rocknrollhits.jpg",
+    "CoverBild": "./data/img//20rocknrollhits.jpg",
     "Country": "Germany",
     "Genre": "Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Roll Over Beethoven - Chuck Berry",
-        "Rock Around The Clock - Bill Haley",
-        "Whole Lotta Shakin' Goin' On - Jerry Lee Lewis",
-        "Red River Rock - Johnny & The Hurricanes",
-        "Good Golly Miss Molly - Little Richard",
-        "Bo Diddley - Bo Diddley",
-        "Whole Lot Of Loving - Fats Domino*",
-        "Wheels - The Stringalongs",
-        "Ya Ya Twist - Joey Dee & The Starlighters",
-        "Matchbox - Carl Perkins"
+        "• Roll Over Beethoven - Chuck Berry",
+        "• Rock Around The Clock - Bill Haley",
+        "• Whole Lotta Shakin' Goin' On - Jerry Lee Lewis",
+        "• Red River Rock - Johnny & The Hurricanes",
+        "• Good Golly Miss Molly - Little Richard",
+        "• Bo Diddley - Bo Diddley",
+        "• Whole Lot Of Loving - Fats Domino*",
+        "• Wheels - The Stringalongs",
+        "• Ya Ya Twist - Joey Dee & The Starlighters",
+        "• Matchbox - Carl Perkins"
       ],
       "Side 2": [
-        "Let's Spend The Night Together - Muddy Waters",
-        "See You Later Alligator - Bill Haley",
-        "Blue Suede Shoes - Carl Perkins",
-        "Ooby Dooby - Roy Orbison",
-        "Who Do You Love - Bo Diddley",
-        "Rock And Roll Music - Chuck Berry",
-        "Great Balls Of Fire - Jerry Lee Lewis",
-        "Let The Four Winds Blow - Fats Domino*",
-        "Groovy Little Suzy - Little Richard",
-        "Party Doll - Buddy Knox"
+        "• Let's Spend The Night Together - Muddy Waters",
+        "• See You Later Alligator - Bill Haley",
+        "• Blue Suede Shoes - Carl Perkins",
+        "• Ooby Dooby - Roy Orbison",
+        "• Who Do You Love - Bo Diddley",
+        "• Rock And Roll Music - Chuck Berry",
+        "• Great Balls Of Fire - Jerry Lee Lewis",
+        "• Let The Four Winds Blow - Fats Domino*",
+        "• Groovy Little Suzy - Little Richard",
+        "• Party Doll - Buddy Knox"
       ]
     }
   },
@@ -565,44 +565,44 @@
     "Künstler": "Orginal Soundtrack",
     "Erscheinungsjahr": 1973,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/jesuschristsuperstar.jpg",
+    "CoverBild": "./data/img//jesuschristsuperstar.jpg",
     "Country": "USA",
     "Genre": "Soundtrack",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Overture",
-        "Heaven on Their Minds",
-        "What's the Buzz",
-        "Strange Thing Mystifying",
-        "Then We are Decided",
-        "Everything's Alright",
-        "This Jesus Must Die"
+        "• Overture",
+        "• Heaven on Their Minds",
+        "• What's the Buzz",
+        "• Strange Thing Mystifying",
+        "• Then We are Decided",
+        "• Everything's Alright",
+        "• This Jesus Must Die"
       ],
       "Side 2": [
-        "Hosanna",
-        "Simon Zealotes",
-        "Poor Jerusalem",
-        "Pilate's Dream",
-        "The Temple",
-        "I Don't Know How to Love Him",
-        "Damned for All Time/Blood Money"
+        "• Hosanna",
+        "• Simon Zealotes",
+        "• Poor Jerusalem",
+        "• Pilate's Dream",
+        "• The Temple",
+        "• I Don't Know How to Love Him",
+        "• Damned for All Time/Blood Money"
       ],
       "Side 3": [
-        "The Last Supper",
-        "Gethsemane (I Only Want to Say)",
-        "The Arrest",
-        "Peter's Denial",
-        "Pilate and Christ",
-        "King Herod's Song"
+        "• The Last Supper",
+        "• Gethsemane (I Only Want to Say)",
+        "• The Arrest",
+        "• Peter's Denial",
+        "• Pilate and Christ",
+        "• King Herod's Song"
       ],
       "Side 4": [
-        "Could We.Start Again, Please?",
-        "Judas' Death",
-        "Trial Before Pilate (Including the 39 Lashes)",
-        "Superstar",
-        "The Crucifixion",
-        "John Nineteen Forty-One"
+        "• Could We.Start Again, Please?",
+        "• Judas' Death",
+        "• Trial Before Pilate (Including the 39 Lashes)",
+        "• Superstar",
+        "• The Crucifixion",
+        "• John Nineteen Forty-One"
       ]
     }
   },
@@ -612,34 +612,34 @@
     "Künstler": "Donna Summer",
     "Erscheinungsjahr": 1979,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/donnasummergreatesthits.jpg",
+    "CoverBild": "./data/img//donnasummergreatesthits.jpg",
     "Country": "USA",
     "Genre": "Alternative Indie",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "On The Radio",
-        "Love To Love You Baby",
-        "Try Me, I Know We Can Make It",
-        "I Feel Love",
-        "Our Love"
+        "• On The Radio",
+        "• Love To Love You Baby",
+        "• Try Me, I Know We Can Make It",
+        "• I Feel Love",
+        "• Our Love"
       ],
       "Side 2": [
-        "I Remember Yesterday",
-        "I Love You",
-        "Heaven Knows",
-        "Last Dance"
+        "• I Remember Yesterday",
+        "• I Love You",
+        "• Heaven Knows",
+        "• Last Dance"
       ],
       "Side 3": [
-        "Mac Arthur Park",
-        "Hot Stuff",
-        "Bad Girls",
-        "Dim All The Lights",
-        "Sunset People"
+        "• Mac Arthur Park",
+        "• Hot Stuff",
+        "• Bad Girls",
+        "• Dim All The Lights",
+        "• Sunset People"
       ],
       "Side 4": [
-        "No More Tears (Enough ls Enough)",
-        "On The Radio (Long Version)"
+        "• No More Tears (Enough ls Enough)",
+        "• On The Radio (Long Version)"
       ]
     }
   },
@@ -649,42 +649,42 @@
     "Künstler": "Orginal Soundtrack",
     "Erscheinungsjahr": 1978,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/grease.jpg",
+    "CoverBild": "./data/img//grease.jpg",
     "Country": "USA",
     "Genre": "Soundtrack",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Grease",
-        "Summer Nights",
-        "Hopelessly Devoted to You",
-        "You're the One That I Want",
-        "Sandy"
+        "• Grease",
+        "• Summer Nights",
+        "• Hopelessly Devoted to You",
+        "• You're the One That I Want",
+        "• Sandy"
       ],
       "Side 2": [
-        "Beauty School Dropout",
-        "Look at Me, I'm Sandra Dee",
-        "Greased Lightnin'",
-        "It's Raining on Prom Night",
-        "Alone at a Drive-In Movie",
-        "Blue Moon"
+        "• Beauty School Dropout",
+        "• Look at Me, I'm Sandra Dee",
+        "• Greased Lightnin'",
+        "• It's Raining on Prom Night",
+        "• Alone at a Drive-In Movie",
+        "• Blue Moon"
       ],
       "Side 3": [
-        	"Rock n' Roll Is Here to Stay",
-          "Those Magic Changes",
-          "Hound Dog",
-          "Born to Hand Jive",
-          "Tears on My Pillow",
-          "Mooning"
+        	"• Rock n' Roll Is Here to Stay",
+          "• Those Magic Changes",
+          "• Hound Dog",
+          "• Born to Hand Jive",
+          "• Tears on My Pillow",
+          "• Mooning"
       ],
       "Side 4": [
-        "Freddy, My Love",
-        "Rock n' Roll Party Queen",
-        "There Are Worse Things I Could Do",
-        "Look at Me, I'm Sandra Dee (reprise)",
-        "We Go Together",
-        "Love Is a Many Splendored Thing (Instrumental)",
-        "Grease (reprise)"
+        "• Freddy, My Love",
+        "• Rock n' Roll Party Queen",
+        "• There Are Worse Things I Could Do",
+        "• Look at Me, I'm Sandra Dee (reprise)",
+        "• We Go Together",
+        "• Love Is a Many Splendored Thing (Instrumental)",
+        "• Grease (reprise)"
       ]
     }
   },
@@ -694,22 +694,22 @@
     "Künstler": "Diana Ross",
     "Erscheinungsjahr": 1980,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/diana.jpg",
+    "CoverBild": "./data/img//diana.jpg",
     "Country": "USA",
     "Genre": "Disco",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Upside Down",
-        "Tenderness",
-        "Friend To Friend",
-        "I'm Coming Out"
+        "• Upside Down",
+        "• Tenderness",
+        "• Friend To Friend",
+        "• I'm Coming Out"
       ],
       "Side 2": [
-        "Have Fun (Again)",
-        "My Old Piano",
-        "Now That You're Gone",
-        "Give Up"
+        "• Have Fun (Again)",
+        "• My Old Piano",
+        "• Now That You're Gone",
+        "• Give Up"
       ]
     }
   },
@@ -719,27 +719,27 @@
     "Künstler": "Stephen Sanchez",
     "Erscheinungsjahr": 2023,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/angelface.png",
+    "CoverBild": "./data/img//angelface.png",
     "Country": "USA",
     "Genre": "Pop",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Something About Her",
-        "Evangeline",
-        "I Need You Most of All",
-        "Only Girl",
-        "Be More",
-        "Until I Found You"
+        "• Something About Her",
+        "• Evangeline",
+        "• I Need You Most of All",
+        "• Only Girl",
+        "• Be More",
+        "• Until I Found You"
       ],
       "Side 2": [
-        "Shake",
-        "High",
-        "Doesn't Do Me Any Good",
-        "No One Knows",
-        "Caught in a Blue",
-        "Death of the Troubadour",
-        "Send My Heart with a Kiss"
+        "• Shake",
+        "• High",
+        "• Doesn't Do Me Any Good",
+        "• No One Knows",
+        "• Caught in a Blue",
+        "• Death of the Troubadour",
+        "• Send My Heart with a Kiss"
       ]
     }
   },
@@ -749,23 +749,23 @@
     "Künstler": "Bachman-Turner",
     "Erscheinungsjahr": 1974,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/notfragile.jpg",
+    "CoverBild": "./data/img//notfragile.jpg",
     "Country": "USA",
     "Genre": "Hard Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Not Fragile",
-        "Rock Is My Life, and This Is My Song",
-        "Roll on Down the Highway",
-        "You Ain't Seen Nothing Yet",
-        "Free Wheelin'"
+        "• Not Fragile",
+        "• Rock Is My Life, and This Is My Song",
+        "• Roll on Down the Highway",
+        "• You Ain't Seen Nothing Yet",
+        "• Free Wheelin'"
       ],
       "Side 2": [
-        "Sledgehammer",
-        "Blue Moanin'",
-        "Second Hand",
-        "Givin' It All Away"
+        "• Sledgehammer",
+        "• Blue Moanin'",
+        "• Second Hand",
+        "• Givin' It All Away"
       ]
     }
   },
@@ -775,26 +775,26 @@
     "Künstler": "Collage",
     "Erscheinungsjahr": 1978,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/collage.jpg",
+    "CoverBild": "./data/img//collage.jpg",
     "Country": "Italien",
     "Genre": "Pop",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Piano Piano... (M'Innamorai Di Te",
-        "L'Istino",
-        "Tu Dolcemente Mia",
-        "Oh Dio Mio No!",
-        "Nel Sole, Nel Cielo, Nell'Amore",
-        "Dicci Come Ti Chiami"        
+        "• Piano Piano... (M'Innamorai Di Te",
+        "• L'Istino",
+        "• Tu Dolcemente Mia",
+        "• Oh Dio Mio No!",
+        "• Nel Sole, Nel Cielo, Nell'Amore",
+        "• Dicci Come Ti Chiami"        
       ],
       "Side 2": [
-        "Sole Rosso",
-        "L'Amore",
-        "Io",
-        "Troppo Bella",
-        "Proprio Per Te Maria",
-        "Dormi Amore"
+        "• Sole Rosso",
+        "• L'Amore",
+        "• Io",
+        "• Troppo Bella",
+        "• Proprio Per Te Maria",
+        "• Dormi Amore"
       ]
     }
   },
@@ -804,46 +804,46 @@
     "Künstler": "Joan Baez",
     "Erscheinungsjahr": 1978,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/joanbaez28greatesthits.jpg",
+    "CoverBild": "./data/img//joanbaez28greatesthits.jpg",
     "Country": "Switzerland",
     "Genre": "Folk, Country",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Love Is Just A Four-Letter Word",
-        "Farewell Angelina",
-        "Let It Be",
-        "Sagt Mir Wo Die Blumen Sind",
-        "Carry It On",
-        "Gabriel And Me",
-        "Oh, Happy Day"
+        "• Love Is Just A Four-Letter Word",
+        "• Farewell Angelina",
+        "• Let It Be",
+        "• Sagt Mir Wo Die Blumen Sind",
+        "• Carry It On",
+        "• Gabriel And Me",
+        "• Oh, Happy Day"
       ],
       "Side 2": [
-        "Ghetto",
-        "There But For Fortune",
-        "If I Were A Carpenter",
-        "Pauvre Routeboef",
-        "Will The Circle Be Unbroken",
-        "Satisfied Mind",
-        "Put You Hand In The Hand"
+        "• Ghetto",
+        "• There But For Fortune",
+        "• If I Were A Carpenter",
+        "• Pauvre Routeboef",
+        "• Will The Circle Be Unbroken",
+        "• Satisfied Mind",
+        "• Put You Hand In The Hand"
       ],
       "Side 3": [
-        "Blessed Are ...",
-        "Mary Hamilton",
-        "Green, Green Grass Of Home",
-        "Te Ador",
-        "Angeline",
-        "House Of The Raising Sun",
-        "Heaven Help Us All"	
+        "• Blessed Are ...",
+        "• Mary Hamilton",
+        "• Green, Green Grass Of Home",
+        "• Te Ador",
+        "• Angeline",
+        "• House Of The Raising Sun",
+        "• Heaven Help Us All"	
       ],
       "Side 4": [
-        "The Night They Drove Old Dixie Down",
-        "Colours",
-        "You Aint't Goin' Nowhere",
-        "Manha De Carnaval",
-        "Barbara Allen",
-        "Help Me Make It Through The Night",
-        "It's All Over Now, Baby Blue"
+        "• The Night They Drove Old Dixie Down",
+        "• Colours",
+        "• You Aint't Goin' Nowhere",
+        "• Manha De Carnaval",
+        "• Barbara Allen",
+        "• Help Me Make It Through The Night",
+        "• It's All Over Now, Baby Blue"
       ]
     }
   },
@@ -853,23 +853,23 @@
     "Künstler": "Styx",
     "Erscheinungsjahr": 1979,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/cornerstone.jpg",
+    "CoverBild": "./data/img//cornerstone.jpg",
     "Country": "USA",
     "Genre": "Pop Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Lights",
-        "Why Me",
-        "Babe",
-        "Never Say Never",
-        "Boat on the River" 
+        "• Lights",
+        "• Why Me",
+        "• Babe",
+        "• Never Say Never",
+        "• Boat on the River" 
       ],
       "Side 2": [
-       	"Borrowed Time",
-        "First Time",
-        "Eddie",
-        "Love in the Midnight" 
+       	"• Borrowed Time",
+        "• First Time",
+        "• Eddie",
+        "• Love in the Midnight" 
       ]
     }
   },
@@ -879,43 +879,43 @@
     "Künstler": "Santana",
     "Erscheinungsjahr": 1978,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/santana25hits.jpg",
+    "CoverBild": "./data/img//santana25hits.jpg",
     "Country": "Dutch",
     "Genre": "Rock, Latin",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Samba Pa Ti",
-        "Love, Devotion & Surrender",
-        "Se A Cabo",
-        "Song Of The Wind",
-        "Para Los Rumberos",
-        "Evil Ways"
+        "• Samba Pa Ti",
+        "• Love, Devotion & Surrender",
+        "• Se A Cabo",
+        "• Song Of The Wind",
+        "• Para Los Rumberos",
+        "• Evil Ways"
       ],
       "Side 2": [
-        "Jingo",
-        "Europa (Earth's Cry Heaven's Smile)",
-        "No One To Depend On",
-        "One With The Sun",
-        "Waiting",
-        "Dance Sister Dance"
+        "• Jingo",
+        "• Europa (Earth's Cry Heaven's Smile)",
+        "• No One To Depend On",
+        "• One With The Sun",
+        "• Waiting",
+        "• Dance Sister Dance"
       ],
       "Side 3": [
-        "Oye Como Va",
-        "Let It Shine",
-        "Soul Sacrifice - Part 1",
-        "Soul Sacrifice - Par t2",
-        "Flor De Canela",
-        "Revelations"
+        "• Oye Como Va",
+        "• Let It Shine",
+        "• Soul Sacrifice - Part 1",
+        "• Soul Sacrifice - Par t2",
+        "• Flor De Canela",
+        "• Revelations"
       ],
       "Side 4": [
-        "Black Magic Woman",
-        "Gypsy Queen",
-        "Let The Children Play",
-        "Samba De Sausalito",
-        "Everybody's Everything",
-        "Persuasion",
-        "Carnaval"
+        "• Black Magic Woman",
+        "• Gypsy Queen",
+        "• Let The Children Play",
+        "• Samba De Sausalito",
+        "• Everybody's Everything",
+        "• Persuasion",
+        "• Carnaval"
       ]
     }
   },
@@ -925,24 +925,24 @@
     "Künstler": "Santana",
     "Erscheinungsjahr": 1974,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/santanasgreatesthits.jpg",
+    "CoverBild": "./data/img//santanasgreatesthits.jpg",
     "Country": "Dutch",
     "Genre": "Blues Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Evil Ways",
-        "Jin-go-lo-ba",
-        "Hope You're Feeling Better",
-        "Samba Pa Ti",
-        "Persuasion"
+        "• Evil Ways",
+        "• Jin-go-lo-ba",
+        "• Hope You're Feeling Better",
+        "• Samba Pa Ti",
+        "• Persuasion"
       ],
       "Side 2": [
-        "Black Magic Woman",
-        "Oye Como Va",
-        "Everything's Coming Our Way",
-        "Se a Cabó",
-        "Everybody's Everything" 
+        "• Black Magic Woman",
+        "• Oye Como Va",
+        "• Everything's Coming Our Way",
+        "• Se a Cabó",
+        "• Everybody's Everything" 
       ]
     }
   },
@@ -952,24 +952,24 @@
     "Künstler": "Olivia Newton-John and Electric Light Orchestra",
     "Erscheinungsjahr": 1980,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/xanadu.jpg",
+    "CoverBild": "./data/img//xanadu.jpg",
     "Country": "UK",
     "Genre": "Soundtrack",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Magic",
-        "Suddenly",
-        "Dancin'",
-        "Suspended in Time",
-        "Whenever You're Away from Me"
+        "• Magic",
+        "• Suddenly",
+        "• Dancin'",
+        "• Suspended in Time",
+        "• Whenever You're Away from Me"
       ],
       "Side 2": [
-        "I'm Alive",
-        "The Fall",
-        "Don't Walk Away",
-        "All Over the World",
-        "Xanadu"
+        "• I'm Alive",
+        "• The Fall",
+        "• Don't Walk Away",
+        "• All Over the World",
+        "• Xanadu"
       ]
     }
   },
@@ -979,23 +979,23 @@
     "Künstler": "Electric Light Orchestra",
     "Erscheinungsjahr": 1979,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/discovery.jpg",
+    "CoverBild": "./data/img//discovery.jpg",
     "Country": "UK",
     "Genre": "Pop Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Shine a Little Love",
-        "Confusion",
-        "Need Her Love",
-        "The Diary of Horace Wimp"
+        "• Shine a Little Love",
+        "• Confusion",
+        "• Need Her Love",
+        "• The Diary of Horace Wimp"
       ],
       "Side 2": [
-        "Last Train to London",
-        "Midnight Blue",
-        "On the Run",
-        "Wishing",
-        "Don't Bring Me Down"
+        "• Last Train to London",
+        "• Midnight Blue",
+        "• On the Run",
+        "• Wishing",
+        "• Don't Bring Me Down"
       ]
     }
   },
@@ -1005,26 +1005,26 @@
     "Künstler": "Snoopy",
     "Erscheinungsjahr": 1979,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/snoopy.jpg",
+    "CoverBild": "./data/img//snoopy.jpg",
     "Country": "Germany",
     "Genre": "Electronic, Reggae, Pop",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "It's All In The Bible",
-        "Down The Bayou",
-        "Snow And Ice",
-        "Honolulu",
-        "Dr. Jones",
-        "My Sister Does The Cha Cha"
+        "• It's All In The Bible",
+        "• Down The Bayou",
+        "• Snow And Ice",
+        "• Honolulu",
+        "• Dr. Jones",
+        "• My Sister Does The Cha Cha"
       ],
       "Side 2": [
-        "No Time For A Tango",
-        "I'm Sorry",
-        "Shame And Scandal In The Family",
-        "Stoned In Love",
-        "Mammy Said Yes, Daddy Said No",
-        "Snoopy Reggae"
+        "• No Time For A Tango",
+        "• I'm Sorry",
+        "• Shame And Scandal In The Family",
+        "• Stoned In Love",
+        "• Mammy Said Yes, Daddy Said No",
+        "• Snoopy Reggae"
       ]
     }
   },
@@ -1034,22 +1034,22 @@
     "Künstler": "Deep Purple",
     "Erscheinungsjahr": 1974,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/burn.jpeg",
+    "CoverBild": "./data/img//burn.jpeg",
     "Country": "UK",
     "Genre": "Hard Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Burn",
-        "Might Just Take Your Life",
-        "Lay Down, Stay Down",
-        "Sail Away"
+        "• Burn",
+        "• Might Just Take Your Life",
+        "• Lay Down, Stay Down",
+        "• Sail Away"
       ],
       "Side 2": [
-        	"You Fool No One",
-        	"What's Goin' On Here",
-        	"Mistreated",
-        	"'A' 200"
+        	"• You Fool No One",
+        	"• What's Goin' On Here",
+        	"• Mistreated",
+        	"• 'A' 200"
       ]
     }
   },
@@ -1059,22 +1059,22 @@
     "Künstler": "Earth And Fire",
     "Erscheinungsjahr": 1979,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/realityfillsfantasy.jpg",
+    "CoverBild": "./data/img//realityfillsfantasy.jpg",
     "Country": "Netherlands",
     "Genre": "Pop Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "People Come, People Go",
-        "First Of Love",
-        "Weekend"       
+        "• People Come, People Go",
+        "• First Of Love",
+        "• Weekend"       
       ],
       "Side 2": [
-        "Can't Live Without It Anymore",
-        "Where Were You",
-        "Season Of The Falling Leaves",
-        "Answer Me",
-        "Reprise"
+        "• Can't Live Without It Anymore",
+        "• Where Were You",
+        "• Season Of The Falling Leaves",
+        "• Answer Me",
+        "• Reprise"
       ]
     }
   },
@@ -1084,22 +1084,22 @@
     "Künstler": "La Bionda",
     "Erscheinungsjahr": 1979,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/bandido.jpg",
+    "CoverBild": "./data/img//bandido.jpg",
     "Country": "Spain",
     "Genre": "Synth Pop, Disco",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Desert On Mars",
-        "Welcome Home",
-        "Moonlight Palais",
-        "Baby Make Love"
+        "• Desert On Mars",
+        "• Welcome Home",
+        "• Moonlight Palais",
+        "• Baby Make Love"
       ],
       "Side 2": [
-        "Bandido",
-        "Black And White",
-        "Never Gonna Let You Go",
-        "Will She Or Won't She"
+        "• Bandido",
+        "• Black And White",
+        "• Never Gonna Let You Go",
+        "• Will She Or Won't She"
       ]
     }
   },
@@ -1109,30 +1109,30 @@
     "Künstler": "Radio 24",
     "Erscheinungsjahr": 1980,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/radio24.jpg",
+    "CoverBild": "./data/img//radio24.jpg",
     "Country": "Switzerland",
     "Genre": "Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Radio 24",
-        "Video Killed The Radio Star",
-        "When You're In Love With A Beautiful Woman",
-        "Kingston, Kingston",
-        "Soli",
-        "Jealousy",
-        "Save Me (Ballad)",
-        "Weekend"
+        "• Radio 24",
+        "• Video Killed The Radio Star",
+        "• When You're In Love With A Beautiful Woman",
+        "• Kingston, Kingston",
+        "• Soli",
+        "• Jealousy",
+        "• Save Me (Ballad)",
+        "• Weekend"
       ],
       "Side 2": [
-        "Tokyo Nights",
-        "You Can Get It If You Really Want",
-        "Indian Reservation",
-        "S.O.S",
-        "Gimme Rock N' Roll",
-        "Sweet September",
-        "Bad Reputation",
-        "Doctor, Doctor (Help Me Please)"
+        "• Tokyo Nights",
+        "• You Can Get It If You Really Want",
+        "• Indian Reservation",
+        "• S.O.S",
+        "• Gimme Rock N' Roll",
+        "• Sweet September",
+        "• Bad Reputation",
+        "• Doctor, Doctor (Help Me Please)"
       ]
     }
   },
@@ -1142,22 +1142,22 @@
     "Künstler": "Bachman-Turner",
     "Erscheinungsjahr": 1973,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/overdriveii.jpg",
+    "CoverBild": "./data/img//overdriveii.jpg",
     "Country": "USA",
     "Genre": "Hard Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Blown", 
-        "Welcome Home",
-        "Stonegate", 
-        "Let It Ride"
+        "• Blown", 
+        "• Welcome Home",
+        "• Stonegate", 
+        "• Let It Ride"
       ],
       "Side 2": [
-        "Give It Time",
-        "Tramp",
-        "I Don't Have to Hide",
-        "Takin' Care of Business"
+        "• Give It Time",
+        "• Tramp",
+        "• I Don't Have to Hide",
+        "• Takin' Care of Business"
       ]
     }
   },
@@ -1167,26 +1167,26 @@
     "Künstler": "The Platters",
     "Erscheinungsjahr": 1980,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/theplatters.jpg",
+    "CoverBild": "./data/img//theplatters.jpg",
     "Country": "Germany",
     "Genre": "Funk / Soul, Pop",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "I Love You 1000 Times",
-        "(You've Got) The Magic Touch",
-        "Washed Ashore (On A Lonely Island In The Sea)",
-        "I'm Sorry",
-        "My Prayer",
-        "Smoke Gets In Your Eyes"
+        "• I Love You 1000 Times",
+        "• (You've Got) The Magic Touch",
+        "• Washed Ashore (On A Lonely Island In The Sea)",
+        "• I'm Sorry",
+        "• My Prayer",
+        "• Smoke Gets In Your Eyes"
       ],
       "Side 2": [
-        "The Great Pretender",
-        "With This Ring",
-        "Only You (And You Alone)",
-        "Harbour Lights",
-        "Twilight Time",
-        "Heaven On Earth"
+        "• The Great Pretender",
+        "• With This Ring",
+        "• Only You (And You Alone)",
+        "• Harbour Lights",
+        "• Twilight Time",
+        "• Heaven On Earth"
       ]
     }
   },
@@ -1196,34 +1196,34 @@
     "Künstler": "-",
     "Erscheinungsjahr": 1980,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/highspeedpopnight.jpg",
+    "CoverBild": "./data/img//highspeedpopnight.jpg",
     "Country": "Germany",
     "Genre": "Rock, Funk / Soul, Pop",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Funkytown",
-        "Mariana", 
-        "You're All I Need", 
-        "You And Me", 
-        "Misunferstanding", 
-        "Little Jeannie", 
-        "An Englishman In New York", 
-        "Gunfire", 
-        "David's Song", 
-        "You're O.K"
+        "• Funkytown",
+        "• Mariana", 
+        "• You're All I Need", 
+        "• You And Me", 
+        "• Misunferstanding", 
+        "• Little Jeannie", 
+        "• An Englishman In New York", 
+        "• Gunfire", 
+        "• David's Song", 
+        "• You're O.K"
       ],
       "Side 2": [
-        "Sexy Eyes",
-        "One More Little Kissy",
-        "Over You",
-        "I Have A Dream",
-        "We Are The Popkings",
-        "Buona Domenica",
-        "Mam Chita",
-        "Games Without Frontiers",
-        "Shandi",
-        "Do That to Me One More Time"
+        "• Sexy Eyes",
+        "• One More Little Kissy",
+        "• Over You",
+        "• I Have A Dream",
+        "• We Are The Popkings",
+        "• Buona Domenica",
+        "• Mam Chita",
+        "• Games Without Frontiers",
+        "• Shandi",
+        "• Do That to Me One More Time"
       ]
     }
   },
@@ -1233,34 +1233,34 @@
     "Künstler": "Pop Non Stop",
     "Erscheinungsjahr": 1980,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/super20international.jpg",
+    "CoverBild": "./data/img//super20international.jpg",
     "Country": "USA",
     "Genre": "Pop",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Toccata",
-        "Fire On The Water",
-        "Over You",
-        "Pilot Of The Airwaves",
-        "Ginger Red",
-        "Do Wah Diddy Diddy",
-        "Go Johnnie Go (Keep On Walking, John B.)",
-        "My Guy / My Girl",
-        "You And I",
-        "I See A Boat (On The River)"
+        "• Toccata",
+        "• Fire On The Water",
+        "• Over You",
+        "• Pilot Of The Airwaves",
+        "• Ginger Red",
+        "• Do Wah Diddy Diddy",
+        "• Go Johnnie Go (Keep On Walking, John B.)",
+        "• My Guy / My Girl",
+        "• You And I",
+        "• I See A Boat (On The River)"
       ],
       "Side 2": [
-        "More Than I Can Say",
-        "Broken English",
-        "Him",
-        "Why Don't You Spend The Night",
-        "Midnite Dynamo's",
-        "Looks Like A Heartache",
-        "England",
-        "Give Me More",
-        "La clairière de I'enfance",
-        "Feeling So High"
+        "• More Than I Can Say",
+        "• Broken English",
+        "• Him",
+        "• Why Don't You Spend The Night",
+        "• Midnite Dynamo's",
+        "• Looks Like A Heartache",
+        "• England",
+        "• Give Me More",
+        "• La clairière de I'enfance",
+        "• Feeling So High"
       ]
     }
   },
@@ -1270,24 +1270,24 @@
     "Künstler": "Grace Kennedy",
     "Erscheinungsjahr": 1979,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/desire.jpg",
+    "CoverBild": "./data/img//desire.jpg",
     "Country": "UK",
     "Genre": "Funk / Soul",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "By Way Of Love's Express",
-        "Fandango Dancin",
-        "Cupid's Defence",
-        "Woman Is Free",
-        "My Heart Keeps Breaking Over You"
+        "• By Way Of Love's Express",
+        "• Fandango Dancin",
+        "• Cupid's Defence",
+        "• Woman Is Free",
+        "• My Heart Keeps Breaking Over You"
       ],
       "Side 2": [
-        "Desire",	
-        "Reachin' Out For Your Love",
-        "Don't You Ever Get Lonely",
-        "We Did It",
-        "With One More Look At You"
+        "• Desire",	
+        "• Reachin' Out For Your Love",
+        "• Don't You Ever Get Lonely",
+        "• We Did It",
+        "• With One More Look At You"
       ]
     }
   },
@@ -1297,35 +1297,35 @@
     "Künstler": "-",
     "Erscheinungsjahr": 1979,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/discoexplosion.jpg",
+    "CoverBild": "./data/img//discoexplosion.jpg",
     "Country": "Switzerland",
     "Genre": "Disco",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Racey - Boy Oh Boy",
-        "Written-By  - G. Macari",
-        "Dr. Hook - When You're In Love With A Beautiful Woman",
-        "Blondie - Sunday Girl",
-        "Cheap Trick - I Want You To Want Me",
-        "The Alan Parsons Project - Lucifer",
-        "The Teens - We'll Have A Party Tonite",
-        "Supermax - It Ain't Easy",
-        "Dr. Feelgood - Milk And Alcohol",
-        "Kandidate - Girl, Girls, Girls",
-        "Anita Ward - Ring My Bell"
+        "• Racey - Boy Oh Boy",
+        "• Written-By  - G. Macari",
+        "• Dr. Hook - When You're In Love With A Beautiful Woman",
+        "• Blondie - Sunday Girl",
+        "• Cheap Trick - I Want You To Want Me",
+        "• The Alan Parsons Project - Lucifer",
+        "• The Teens - We'll Have A Party Tonite",
+        "• Supermax - It Ain't Easy",
+        "• Dr. Feelgood - Milk And Alcohol",
+        "• Kandidate - Girl, Girls, Girls",
+        "• Anita Ward - Ring My Bell"
       ],
       "Side 2": [
-        "Chic - Good Times",
-        "Sister Sledge - We Are Family",
-        "Smokie - Do To Me",
-        "Dion (3) - The Wanderer",
-        "Promises - Let's Get Back Together",
-        "Marc Seaberg - California Gold (Part1)",
-        "Dee D. Jackson - Fireball",
-        "Spitfire (8) - Code Braker",
-        "Tubeway Army - Are Friends Electric",
-        "Jack Goldbird - Can I Reach You"
+        "• Chic - Good Times",
+        "• Sister Sledge - We Are Family",
+        "• Smokie - Do To Me",
+        "• Dion (3) - The Wanderer",
+        "• Promises - Let's Get Back Together",
+        "• Marc Seaberg - California Gold (Part1)",
+        "• Dee D. Jackson - Fireball",
+        "• Spitfire (8) - Code Braker",
+        "• Tubeway Army - Are Friends Electric",
+        "• Jack Goldbird - Can I Reach You"
       ]
     }
   },
@@ -1335,24 +1335,24 @@
     "Künstler": "Bon Jovi",
     "Erscheinungsjahr": 1986,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/slipperywhenwet.jpg",
+    "CoverBild": "./data/img//slipperywhenwet.jpg",
     "Country": "USA",
     "Genre": "Glam Metal, Hard Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Let It Rock",
-        "You Give Love a Bad Name",
-        "Livin' on a Prayer",
-        "Social Disease",
-        "Wanted Dead or Alive"
+        "• Let It Rock",
+        "• You Give Love a Bad Name",
+        "• Livin' on a Prayer",
+        "• Social Disease",
+        "• Wanted Dead or Alive"
       ],
       "Side 2": [
-       	"Raise Your Hands",
-        "Without Love",
-        "I'd Die for You",
-        "Never Say Goodbye",
-        "Wild in the Streets"
+       	"• Raise Your Hands",
+        "• Without Love",
+        "• I'd Die for You",
+        "• Never Say Goodbye",
+        "• Wild in the Streets"
       ]
     }
   },
@@ -1362,26 +1362,26 @@
     "Künstler": "Bon Jovi",
     "Erscheinungsjahr": 1988,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/newjersey.jpg",
+    "CoverBild": "./data/img//newjersey.jpg",
     "Country": "USA",
     "Genre": "Glam Metal, Hard Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Lay Your Hands on Me",
-        "Bad Medicine",
-        "Born to Be My Baby",
-        "Living in Sin",
-        "Blood on Blood"
+        "• Lay Your Hands on Me",
+        "• Bad Medicine",
+        "• Born to Be My Baby",
+        "• Living in Sin",
+        "• Blood on Blood"
       ],
       "Side 2": [
-       	"Homebound Train",
-        "Wild Is the Wind",
-        "Ride Cowboy Ride",
-        "Stick to Your Guns",
-        "I'll Be There for You",
-        "99 in the Shade"	,
-        "Love for Sale"
+       	"• Homebound Train",
+        "• Wild Is the Wind",
+        "• Ride Cowboy Ride",
+        "• Stick to Your Guns",
+        "• I'll Be There for You",
+        "• 99 in the Shade"	,
+        "• Love for Sale"
       ]
     }
   },
@@ -1391,23 +1391,23 @@
     "Künstler": "Bon Jovi",
     "Erscheinungsjahr": 1984,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/bonjovi.jpg",
+    "CoverBild": "./data/img//bonjovi.jpg",
     "Country": "USA",
     "Genre": "Glam Metal, Hard Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Runaway",
-        "Roulette",
-        "She Don't Know Me",
-        "Shot Through the Heart",
-        "Love Lies"
+        "• unaway",
+        "• Roulette",
+        "• She Don't Know Me",
+        "• Shot Through the Heart",
+        "• Love Lies"
       ],
       "Side 2": [
-       	"Breakout",
-        "Burning for Love",
-        "Come Back",
-        "Get Ready"
+       	"• Breakout",
+        "• Burning for Love",
+        "• Come Back",
+        "• Get Ready"
       ]
     }
   },
@@ -1417,33 +1417,33 @@
     "Künstler": "Guns N' Roses",
     "Erscheinungsjahr": 2004,
     "Groesse": "12\"",
-    "CoverBild": "/data/img/gunsnrosesgreatesthits.jpg",
+    "CoverBild": "./data/img//gunsnrosesgreatesthits.jpg",
     "Country": "USA",
     "Genre": "Hard Rock",
     "Speed": "33 RPM",
     "Sides": {
       "Side 1": [
-        "Welcome to the Jungle",
-        "Sweet Child o' Mine",
-        "Shadow of Your Love",
-        "Patience"
+        "• Welcome to the Jungle",
+        "• Sweet Child o' Mine",
+        "• Shadow of Your Love",
+        "• Patience"
       ],
       "Side 2": [
-       	"Paradise City",
-        "Knockin' On Heaven's Door",
-        "Civil War"
+       	"• Paradise City",
+        "• Knockin' On Heaven's Door",
+        "• Civil War"
       ],
       "Side 3": [
-        "You Cloud Be Mine",
-        "Don't Cry",
-        "November Rain",
-        "Live And Let Die"
+        "• You Cloud Be Mine",
+        "• Don't Cry",
+        "• November Rain",
+        "• Live And Let Die"
       ],
       "Side 4": [
-        "Yesterdays",
-        "Ain't It Fun",
-        "Since I Don't Have You",
-        "Sympathy for the Devil"
+        "• Yesterdays",
+        "• Ain't It Fun",
+        "• Since I Don't Have You",
+        "• Sympathy for the Devil"
       ]
     }
   }
