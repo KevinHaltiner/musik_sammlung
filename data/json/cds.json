@@ -2187,6 +2187,32 @@
   },
   {
     "Typ": "CD",
+    "Plattenname": "Keep the Faith",
+    "Künstler": "Bon Jovi",
+    "Erscheinungsjahr": 1992,
+    "Groesse": "CD",
+    "CoverBild": "./data/img/keepthefaith.jpg",
+    "Country": "USA",
+    "Genre": "Hard Rock",
+    "Speed": "n/a",
+    "Trackliste": [
+      "• I Believe",
+      "• Keep the Faith",
+      "• I'll Sleep When I'm Dead",
+      "• In These Arms",
+      "• Bed of Roses",
+      "• If I Was Your Mother",
+      "• Dry County",
+      "• Woman in Love",
+      "• Fear",
+      "• I Want You",
+      "• Blame It on the Love of Rock & Roll",
+      "• Little Bit of Soul",
+      "• Save a Prayer"
+    ]
+  },
+  {
+    "Typ": "CD",
     "Plattenname": "Hysteria",
     "Künstler": "Def Leppard",
     "Erscheinungsjahr": 1987,
