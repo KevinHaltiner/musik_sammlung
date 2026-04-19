@@ -126,7 +126,7 @@
   {
     "Typ": "Platte",
     "Plattenname": "Strung Up",
-    "Künstler": "Sweet",
+    "Künstler": "The Sweet",
     "Erscheinungsjahr": 1975,
     "Groesse": "12\"",
     "CoverBild": "./data/img//strungup.jpg",
@@ -746,7 +746,7 @@
   {
     "Typ": "Platte",
     "Plattenname": "Not Fragile",
-    "Künstler": "Bachman-Turner",
+    "Künstler": "Bachmann-Turner Overdrive",
     "Erscheinungsjahr": 1974,
     "Groesse": "12\"",
     "CoverBild": "./data/img//notfragile.jpg",
@@ -1139,7 +1139,7 @@
   {
     "Typ": "Platte",
     "Plattenname": "Overdrive II",
-    "Künstler": "Bachman-Turner",
+    "Künstler": "Bachmann-Turner Overdrive",
     "Erscheinungsjahr": 1973,
     "Groesse": "12\"",
     "CoverBild": "./data/img//overdriveii.jpg",

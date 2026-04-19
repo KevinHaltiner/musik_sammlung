@@ -40,7 +40,7 @@
   {
     "Typ": "Platte",
     "Plattenname": "The Six Teens",
-    "Künstler": "Sweet",
+    "Künstler": "The Sweet",
     "Erscheinungsjahr": 1974,
     "Groesse": "7\"",
     "CoverBild": "./data/img//thesixteens.jpg",
@@ -59,7 +59,7 @@
   {
     "Typ": "Platte",
     "Plattenname": "Block Buster",
-    "Künstler": "Sweet",
+    "Künstler": "The Sweet",
     "Erscheinungsjahr": 1973,
     "Groesse": "7\"",
     "CoverBild": "./data/img//blockbuster.jpg",
@@ -78,7 +78,7 @@
   {
     "Typ": "Platte",
     "Plattenname": "Action",
-    "Künstler": "Sweet",
+    "Künstler": "The Sweet",
     "Erscheinungsjahr": 1975,
     "Groesse": "7\"",
     "CoverBild": "./data/img//action.jpg",
@@ -97,7 +97,7 @@
   {
     "Typ": "Platte",
     "Plattenname": "Fox On The Run",
-    "Künstler": "Sweet",
+    "Künstler": "The Sweet",
     "Erscheinungsjahr": 1975,
     "Groesse": "7\"",
     "CoverBild": "./data/img//foxontherun.jpg",
@@ -116,7 +116,7 @@
   {
     "Typ": "Platte",
     "Plattenname": "Teenage Rampage",
-    "Künstler": "Sweet",
+    "Künstler": "The Sweet",
     "Erscheinungsjahr": 1974,
     "Groesse": "7\"",
     "CoverBild": "./data/img//teenagerampage.jpg",
@@ -135,7 +135,7 @@
   {
     "Typ": "Platte",
     "Plattenname": "Turn It Down",
-    "Künstler": "Sweet",
+    "Künstler": "The Sweet",
     "Erscheinungsjahr": 1974,
     "Groesse": "7\"",
     "CoverBild": "./data/img//turnitdown.jpg",
@@ -154,7 +154,7 @@
   {
     "Typ": "Platte",
     "Plattenname": "Wig-Wam Bam",
-    "Künstler": "Sweet",
+    "Künstler": "The Sweet",
     "Erscheinungsjahr": 1972,
     "Groesse": "7\"",
     "CoverBild": "./data/img//wigwambam.jpg",
@@ -173,7 +173,7 @@
   {
     "Typ": "Platte",
     "Plattenname": "The Ballroom Blitz",
-    "Künstler": "Sweet",
+    "Künstler": "The Sweet",
     "Erscheinungsjahr": 1975,
     "Groesse": "7\"",
     "CoverBild": "./data/img//theballroomblitz.jpg",
@@ -192,7 +192,7 @@
   {
     "Typ": "Platte",
     "Plattenname": "Little Willy",
-    "Künstler": "Sweet",
+    "Künstler": "The Sweet",
     "Erscheinungsjahr": 1973,
     "Groesse": "7\"",
     "CoverBild": "./data/img//littlewilly.jpg",
@@ -300,6 +300,1868 @@
       ],
       "Side 2": [
        	"Down On My Knees"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Sacramento",
+    "Künstler": "Middle Of The Road",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/lovesweetlove.jpg",
+    "Country": "Yugoslavia",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Sacramento"
+      ],
+      "Side 2": [
+       	"Love Sweet Love"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Yellow Boomerrang",
+    "Künstler": "Middle Of The Road",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/yellowboomerang.jpg",
+    "Country": "Yugoslavia",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Yellow Boomerang"
+      ],
+      "Side 2": [
+       	"EVE"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Mama Loo",
+    "Künstler": "The Les Humphries Singers",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/mamaloo.jpg",
+    "Country": "Switzerland",
+    "Genre": "R&B/Soul, Schlager/Volksmusik, Rockmusik",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Mama Loo"
+      ],
+      "Side 2": [
+       	"I'm From The South, I'm From Ge-o-orgia"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Der Junge mit der Mundharmonika",
+    "Künstler": "bernd Clüver",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/derjungemitdermundharmonika.jpg",
+    "Country": "Switzerland",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Der Junge mit der Mundharmonika"
+      ],
+      "Side 2": [
+       	"Holiday Girl"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Bottoms Up",
+    "Künstler": "Middle Of The Road",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/bottomsup.jpg",
+    "Country": "Yugoslavia",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Bottoms Up"
+      ],
+      "Side 2": [
+       	"See The Sky"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Ich hab' Heimweh nach dir",
+    "Künstler": "Cindy & Bert",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/ichhabheimwehnachdir.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Ich hab' Heimweh nach dir"
+      ],
+      "Side 2": [
+       	"Sunny Sunshine"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Immer wieder Sonntags",
+    "Künstler": "Cindy & Bert",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/immerwiedersonntags.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Immer wieder Sonntags"
+      ],
+      "Side 2": [
+       	"Souvenirs einer Liebe"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Children Of The Revolution",
+    "Künstler": "T. Rex",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/childrenoftherevolution.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Children Of The Revolution"
+      ],
+      "Side 2": [
+       	"Jitterbug Love"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Kailakee Kailako",
+    "Künstler": "Middle Of The Road",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/kailakeekailako.jpg",
+    "Country": "Yugoslavia",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Kailakee Kailako"
+      ],
+      "Side 2": [
+       	"Blind Detonation"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Roma, Roma, Roma",
+    "Künstler": "Mireile Mathieu",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/romaromaroma.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Roma, Roma, Roma"
+      ],
+      "Side 2": [
+       	"Mon père (für meinen Vater)"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "My Honeybee",
+    "Künstler": "Pepe Lienhard",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/myhoneybee.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "My Honeybee"
+      ],
+      "Side 2": [
+       	"Thanks Heaven That You Came My Way"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Die Bouzouki klang durch die Sommernacht",
+    "Künstler": "Vicky Leandros",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/klangdurchdiesommernacht.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Die Bouzouki klang durch die Sommernacht"
+      ],
+      "Side 2": [
+       	"Meine Augen, seine Augen"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Marie, der letzte Tanz ist nur für dich",
+    "Künstler": "Rex Gildo",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/mariederletztetanzistnurfürdich.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Marie, der letzte Tanz ist nur fürdich"
+      ],
+      "Side 2": [
+       	"Wir seh'n uns nicht zum letzten Mal"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Samba d'amour",
+    "Künstler": "Middle Of The Road",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/sambadamour.jpg",
+    "Country": "Yugoslavia",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Samba d'amour"
+      ],
+      "Side 2": [
+       	"Winter's Sun"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Hello-A",
+    "Künstler": "Mouth & MacNeal",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/helloa.jpg",
+    "Country": "Swedish",
+    "Genre": "Pock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Hello-A"
+      ],
+      "Side 2": [
+       	"Talk A Little Louder"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Es war einmal ein Jäger",
+    "Künstler": "Katja Ebstein",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/eswareinmaleinjager.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Es war einmal ein Jäger"
+      ],
+      "Side 2": [
+       	"Wilde Rosen werden Blühen"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Regen ist schön",
+    "Künstler": "Mireile Mathieu",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/regenistschon.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Regen ist schön"
+      ],
+      "Side 2": [
+       	"Drei Matrosen aus Marseille"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Hell Raiser",
+    "Künstler": "The Sweet",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/hellraiser.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Hell Raiser"
+      ],
+      "Side 2": [
+       	"Burning"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Wunder gibt es immer wieder",
+    "Künstler": "Katja Ebstein",
+    "Erscheinungsjahr": 1970,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/wundergibtesimmerwieder.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Wunder gibt es immer wieder"
+      ],
+      "Side 2": [
+       	"Ich will ihn"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "The Wizard",
+    "Künstler": "Uriah heep",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/thewizard.jpg",
+    "Country": "UK",
+    "Genre": "Progressive rock, folk rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "The Wizard"
+      ],
+      "Side 2": [
+       	"Why"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Bianca",
+    "Künstler": "Freddy Breck",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/bianca.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Bianca"
+      ],
+      "Side 2": [
+       	"Nie war das leben schöner"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Skweeze Me, Pleeze Me",
+    "Künstler": "Slade",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/skweezemepleaseme.jpg",
+    "Country": "UK",
+    "Genre": "Hard Rock, Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Skweeze Me, Pleeze Me"
+      ],
+      "Side 2": [
+       	"Kill 'Em at the Hot Club Tonite"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Crazy Horses",
+    "Künstler": "The Osmonds",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/crazyhorses.jpg",
+    "Country": "USA",
+    "Genre": "Hard Rock, Heavy Metal, Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Crazy Horses"
+      ],
+      "Side 2": [
+       	"That's My Girl"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Mexico",
+    "Künstler": "The Les Humphries Singers",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/mexico.jpg",
+    "Country": "Germany",
+    "Genre": "R&B/Soul, Schlager, Rockmusik",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Mexico"
+      ],
+      "Side 2": [
+       	"Jennifer Adam"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Don't Answer Me",
+    "Künstler": "The Alan Parsons Project",
+    "Erscheinungsjahr": 1984,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/dontanswerme.jpg",
+    "Country": "UK",
+    "Genre": "Pop Rock, Jangle Pop, New Wave",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Don't Answer Me"
+      ],
+      "Side 2": [
+       	"You Don't Believe"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Io così non ci sto",
+    "Künstler": "Mariella Farré",
+    "Erscheinungsjahr": 1983,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/iocosinoncisto.jpg",
+    "Country": "Italian",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Io così non ci sto"
+      ],
+      "Side 2": [
+       	"Soli"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "You Ain't Seen Nothing Yet",
+    "Künstler": "Bachmann-Turner Overdrive",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/youaintseennothingyet.jpg",
+    "Country": "UK",
+    "Genre": "Hard Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "You Ain't Seen Nothing Yet"
+      ],
+      "Side 2": [
+       	"Free Wheelin'"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "I'm Leaving It (All) Up To You",
+    "Künstler": "Donny & Marie Osmond",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/imleavingitalluptoyou.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "I'm Leaving It (All) Up To You"
+      ],
+      "Side 2": [
+       	"The Umbrella Song"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "I Can Do It",
+    "Künstler": "The Rubettes",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/icandoit.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "I Can Do It"
+      ],
+      "Side 2": [
+       	"If You've Got the Time"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "C'est Ma Prière",
+    "Künstler": "Mike Brant",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/cestmapriere.jpg",
+    "Country": "France",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "C'est Ma Prière"
+      ],
+      "Side 2": [
+       	"L'Amour C'est ça, L'Amour C'est toi"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "River Lady (A Little Goodbye)",
+    "Künstler": "Roger Whittaker",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/riverlady.jpg",
+    "Country": "UK",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "River Lady (A Little Goodbye)"
+      ],
+      "Side 2": [
+       	"The First Hello, The Last Goodbye"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Love Hurts",
+    "Künstler": "Nazareth",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/lovehurts.jpg",
+    "Country": "Scottland",
+    "Genre": "Hard Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Love Hurts"
+      ],
+      "Side 2": [
+       	"Down"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Gotta Go Home",
+    "Künstler": "Boney M.",
+    "Erscheinungsjahr": 1979,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/gottagohome.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Gotta Go Home"
+      ],
+      "Side 2": [
+       	"El Lute"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Kunf Fu Fighting",
+    "Künstler": "Carl Dounglas",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/bianca.jpg",
+    "Country": "UK",
+    "Genre": "Classic Soul",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Kung Fu Fighting"
+      ],
+      "Side 2": [
+       	"Gamblin' Man"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Delila's Power",
+    "Künstler": "Ike & Tina Turner",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/delilaspower.webp",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Delila's Power"
+      ],
+      "Side 2": [
+       	"That's My Purpose"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Mississippi",
+    "Künstler": "Pussycat",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/mississippi.jpg",
+    "Country": "Dutch",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Mississippi"
+      ],
+      "Side 2": [
+       	"Do It"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "25 Lovers",
+    "Künstler": "Jennifer Rush",
+    "Erscheinungsjahr": 1984,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/25lovers.jpeg",
+    "Country": "USA",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "25 Lovers"
+      ],
+      "Side 2": [
+       	"Surrender"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Don't Be Cruel",
+    "Künstler": "Billy Swan",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/dontbecruel.jpg",
+    "Country": "USA",
+    "Genre": "Country",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Don't Be Cruel"
+      ],
+      "Side 2": [
+       	"P.M.S (Post Mortem Sickness)"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "I Can Help",
+    "Künstler": "Billy Swan",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/icanhelp.jpg",
+    "Country": "USA",
+    "Genre": "Country",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "I Can Help"
+      ],
+      "Side 2": [
+       	"Ways of a Woman in Love"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Flashdance... What a Feeling",
+    "Künstler": "Irene Cara",
+    "Erscheinungsjahr": 1983,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/flashdance.jpg",
+    "Country": "USA",
+    "Genre": "Pop, Dance Pop, Post Disco",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Flashdance... What a Feeling"
+      ],
+      "Side 2": [
+       	"Love Theme From Flashdance"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Kiss of Fire",
+    "Künstler": "Baranovas",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/kissoffire.jpg",
+    "Country": "Switzerland",
+    "Genre": "Jazz, Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Kiss of Fire"
+      ],
+      "Side 2": [
+       	"Harmonika-Polka"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Lonely This Christmas",
+    "Künstler": "Mud",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/lonelythischristmas.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Lonely This Christmas"
+      ],
+      "Side 2": [
+       	"I Can't Stand It"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "How Do You Do",
+    "Künstler": "Mouth & MacNeal",
+    "Erscheinungsjahr": 1971,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/howdoyoudo.jpg",
+    "Country": "Dutch",
+    "Genre": "Pop Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "How Do You Do"
+      ],
+      "Side 2": [
+       	"Land of Milk and Honey"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Wouldn't It Be Good",
+    "Künstler": "Nik Kershaw",
+    "Erscheinungsjahr": 1984,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/wouldntitbegood.jpg",
+    "Country": "UK",
+    "Genre": "Pop Rock, New Wave",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Wouldn't It Be Good"
+      ],
+      "Side 2": [
+       	"Monkey Business"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Il Silenzio",
+    "Künstler": "Nini Rosso",
+    "Erscheinungsjahr": 1964,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/ilsilenzio.jpg",
+    "Country": "Italian",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Il Silenzio"
+      ],
+      "Side 2": [
+       	"Via Caracciolo"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "A Glass Of Champagne",
+    "Künstler": "Sailor",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/aglassofchampagne.jpg",
+    "Country": "UK",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "A Glass Of Champagne"
+      ],
+      "Side 2": [
+       	"Panama"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Hot Lips",
+    "Künstler": "Kenny",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/hotlips.jpg",
+    "Country": "UK",
+    "Genre": "Pop Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Hot Lips"
+      ],
+      "Side 2": [
+       	"Bangin' My Head Against A Brick Wall"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Let Your Love Flow",
+    "Künstler": "The Bellamy Brothers",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/letyourloveflow.jpg",
+    "Country": "USA",
+    "Genre": "Country",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Let Your Love Flow"
+      ],
+      "Side 2": [
+       	"Inside of My Guitar"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "L' Italiano",
+    "Künstler": "Toto Cutugno",
+    "Erscheinungsjahr": 1983,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/litaliano.jpg",
+    "Country": "Italian",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "L' Italiano"
+      ],
+      "Side 2": [
+       	"Sara'"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Hey Boss - Ich brauch mehr Geld",
+    "Künstler": "Gunter Gabriel",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/heyboss.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Hey Boss - Ich brauch mehr Geld"
+      ],
+      "Side 2": [
+       	"Der alte Mann und sein grosses Haus"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Daddy Cool",
+    "Künstler": "Boney M.",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/daddycool.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Daddy Cool"
+      ],
+      "Side 2": [
+       	"No Women No Cry"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "This Town Ain't Big Enough For Both Of Us",
+    "Künstler": "Sparks",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/thistown.jpg",
+    "Country": "USA",
+    "Genre": "Rock, Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "This Town Ain't Big Enough For Both Of Us"
+      ],
+      "Side 2": [
+       	"Barbecutie"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Forever And Ever",
+    "Künstler": "Slik",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/foreverandever.jpg",
+    "Country": "USA",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Forever And Ever"
+      ],
+      "Side 2": [
+       	"Again My Love"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Smile",
+    "Künstler": "Pussycat",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/smile.jpg",
+    "Country": "Dutch",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Smile"
+      ],
+      "Side 2": [
+       	"What did they do to the people"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Balla Balla",
+    "Künstler": "The Rainbows",
+    "Erscheinungsjahr": 2001,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/ballaballa.jpg",
+    "Country": "Germany",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Balla Balla"
+      ],
+      "Side 2": [
+       	"Ju Ju Hand"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Imagine Me, Imagine You",
+    "Künstler": "Fox",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/imaginemeimagineyou.jpg",
+    "Country": "UK",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Imagine Me, Imagine You"
+      ],
+      "Side 2": [
+       	"If I Point at the Moon"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Girls, Girls, Girls",
+    "Künstler": "Sailor",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/girlsgirlsgirls.jpg",
+    "Country": "UK",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Girls, Girls, Girls"
+      ],
+      "Side 2": [
+       	"Jacaranda"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Long Live Love",
+    "Künstler": "Olivia Newton John",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/longlivelove.jpg",
+    "Country": "UK",
+    "Genre": "Country, Country Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Long Live Love"
+      ],
+      "Side 2": [
+       	"Angel Eyes"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Far From Over",
+    "Künstler": "Frank Stallone",
+    "Erscheinungsjahr": 1983,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/farfromover.jpg",
+    "Country": "USA",
+    "Genre": "Dance Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Far  From Over"
+      ],
+      "Side 2": [
+       	"Waking Up"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Guitar King",
+    "Künstler": "Hank The Knife & The Jets",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/guitarking.jpg",
+    "Country": "France",
+    "Genre": "Pock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Guitar King"
+      ],
+      "Side 2": [
+       	"Ghost Town"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "The Wild One",
+    "Künstler": "Suzi Quatro",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/thewildone.webp",
+    "Country": "USA",
+    "Genre": "Pock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "The Wild One"
+      ],
+      "Side 2": [
+       	"Shake My Sugar"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Heavenly",
+    "Künstler": "Showaddywaddy",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/showaddywaddy.webp",
+    "Country": "Germany",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Heavenly"
+      ],
+      "Side 2": [
+       	"Smiling Eyes"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Zu nah am Feuer",
+    "Künstler": "Stefan Waggershausen & Alice",
+    "Erscheinungsjahr": 1984,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/zunahamfeuer.jpg",
+    "Country": "Germany",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Zu nah am Feuer"
+      ],
+      "Side 2": [
+       	"Leider nur Liebe"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Georgie",
+    "Künstler": "Pussycat",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/georgie.jpg",
+    "Country": "Dutch",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Georgie"
+      ],
+      "Side 2": [
+       	"Take Me"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Please Mr. Postman",
+    "Künstler": "The Marvelettes",
+    "Erscheinungsjahr": 1961,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/pleasemrpostman.jpg",
+    "Country": "USA",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Please Mr. Postman"
+      ],
+      "Side 2": [
+       	"This Masquerade"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Please Mr. Postman",
+    "Künstler": "The Marvelettes",
+    "Erscheinungsjahr": 1961,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/pleasemrpostman.jpg",
+    "Country": "USA",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Please Mr. Postman"
+      ],
+      "Side 2": [
+       	"This Masquerade"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "You-Kou-La-Le-Lou-Pie",
+    "Künstler": "Mouth & MacNeal",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/youkoulaleloupie.jpg",
+    "Country": "USA",
+    "Genre": "Pop Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "You-Kou-La-Le-Lou-Pie"
+      ],
+      "Side 2": [
+       	"Let Your Life Lead By Love"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Hello",
+    "Künstler": "Lionel Richie",
+    "Erscheinungsjahr": 1984,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/hello.jpg",
+    "Country": "USA",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Hello"
+      ],
+      "Side 2": [
+       	"You Mean More to Me"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Foe Dee Oh Dee",
+    "Künstler": "The Rubettes",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/foedeeohdee.jpg",
+    "Country": "UK",
+    "Genre": "Glam Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Foe Dee Oh Dee"
+      ],
+      "Side 2": [
+       	"With You"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Only You Can",
+    "Künstler": "Fox",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/onlyyoucan.jpg",
+    "Country": "USA",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Only You Can"
+      ],
+      "Side 2": [
+       	"Out Of My Body"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Rock And Roll",
+    "Künstler": "Gary Glitter",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/part2.jpg",
+    "Country": "USA",
+    "Genre": "Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Part 2"
+      ],
+      "Side 2": [
+       	"Part One"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Let's Dance",
+    "Künstler": "Cats",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/letsdance.jpg",
+    "Country": "Germany",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Let's Dance"
+      ],
+      "Side 2": [
+       	"I've Been In Love Before"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Softly Whispering I Love You",
+    "Künstler": "The Congregation",
+    "Erscheinungsjahr": 1971,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/softlywhisperingiloveyou.jpg",
+    "Country": "UK",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Softly Whispering I Love You"
+      ],
+      "Side 2": [
+       	"When Susie takes The Plane"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Ich fange nie mehr was an einem Sonntag an",
+    "Künstler": "Monica Morell",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/ichfangeniemehrwasaneinemsonntagan.jpg",
+    "Country": "Switzerland",
+    "Genre": "Schlager",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Ich fange nie mehr was an einem Sonntag an"
+      ],
+      "Side 2": [
+       	"Ich weine nicht"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "I'd Like to Teach the World to Sing",
+    "Künstler": "The Hillside Singers",
+    "Erscheinungsjahr": 1971,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/idliketoteachtheworldtosing.jpg",
+    "Country": "UK",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "I'd Like ro Teach the World to Sing"
+      ],
+      "Side 2": [
+       	"Boom Town"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Samson and Delilah",
+    "Künstler": "Middle Of The Road",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/samsonanddelilah.jpg",
+    "Country": "Scottland",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Samson and Delilah"
+      ],
+      "Side 2": [
+       	"Try a Little Understanding"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Sylvia's Mother",
+    "Künstler": "Dr. Hook & The Medicine Show",
+    "Erscheinungsjahr": 1972,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/sylviasmother.jpg",
+    "Country": "USA",
+    "Genre": "Country Rock, Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Sylvia's Mother"
+      ],
+      "Side 2": [
+       	"Makin' It Natural"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Rauf & Runter",
+    "Künstler": "Knallfrosch",
+    "Erscheinungsjahr": 1984,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/knallfrosch.jpg",
+    "Country": "Germany",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Rauf & Runter"
+      ],
+      "Side 2": [
+       	"Platt wie mein Fahrrad"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Ras, dwa, Casatschok",
+    "Künstler": "Boris Rubaschkin",
+    "Erscheinungsjahr": 1969,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/rasdwacasatschok.jpg",
+    "Country": "Germany",
+    "Genre": "Country",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Ras, dwa, Casatschok"
+      ],
+      "Side 2": [
+       	"Odessa Casatschok"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Dancing Queen",
+    "Künstler": "ABBA",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/dancingqueen.jpg",
+    "Country": "Swedish",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Dancing Queen"
+      ],
+      "Side 2": [
+       	"That's Me"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Fernando",
+    "Künstler": "ABBA",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/fernando.jpg",
+    "Country": "Swedish",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Fernando"
+      ],
+      "Side 2": [
+       	"Tropical Loveland"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Mamma Mia",
+    "Künstler": "ABBA",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/Mammamia.jpg",
+    "Country": "Swedish",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Mamma Mia"
+      ],
+      "Side 2": [
+       	"Intermezzo No.1"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "S.O.S",
+    "Künstler": "ABBA",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/sos.jpg",
+    "Country": "Swedish",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "S.O.S"
+      ],
+      "Side 2": [
+       	"Man In The Middle"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "So Long",
+    "Künstler": "ABBA",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/solong.jpg",
+    "Country": "Swedish",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "So Long"
+      ],
+      "Side 2": [
+       	"I've Been Waiting For You"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "I Do, I Do, I Do, I Do, I Do",
+    "Künstler": "ABBA",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/idoidoidoidoido.jpg",
+    "Country": "Swedish",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "I Do, I Do, I Do, I Do, I Do"
+      ],
+      "Side 2": [
+       	"Rock Me"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Ring Ring",
+    "Künstler": "ABBA",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/ringring.jpg",
+    "Country": "Swedish",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Ring Ring"
+      ],
+      "Side 2": [
+       	"Honey Honey"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Knowing Me, Knowing You",
+    "Künstler": "ABBA",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/knowingmeknowingyou.jpg",
+    "Country": "Swedish",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Knowing Me, Knowing You"
+      ],
+      "Side 2": [
+       	"Happy Hawaii (Early Version Of \"Why Did It Have To Be Me\")"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Money Money Money",
+    "Künstler": "ABBA",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/moneymoneymoney.jpg",
+    "Country": "Swedish",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Money Money Money"
+      ],
+      "Side 2": [
+       	"Crazy World"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "This Flight Tonight",
+    "Künstler": "Nazareth",
+    "Erscheinungsjahr": 1973,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/thisflighttonight2.jpg",
+    "Country": "Scottland",
+    "Genre": "Hard Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "This Fligth Tonight"
+      ],
+      "Side 2": [
+       	"Called Her Name"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Shanghai'd In Shanghai",
+    "Künstler": "Nazareth",
+    "Erscheinungsjahr": 1974,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/shanghaidinshanghai.jpg",
+    "Country": "Scottland",
+    "Genre": "Hard Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Shanghai'd In Shanghai"
+      ],
+      "Side 2": [
+       	"Cat's Eye Apple Pie"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Living Next Door To Alice",
+    "Künstler": "Smokie",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/livingnextdoortoalice.jpg",
+    "Country": "UK",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Living Next Door To Alice"
+      ],
+      "Side 2": [
+       	"Run To You"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Something's Been Making Me Blue",
+    "Künstler": "Smokie",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/somethingsbeenmakingmeblue.jpg",
+    "Country": "UK",
+    "Genre": "Pop",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Smoething's Been Making Me Blue"
+      ],
+      "Side 2": [
+       	"Train Song"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Down, Down",
+    "Künstler": "Status Quo",
+    "Erscheinungsjahr": 1971,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/downdown.jpg",
+    "Country": "UK",
+    "Genre": "Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Down, Down"
+      ],
+      "Side 2": [
+       	"Night Ride"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Rain",
+    "Künstler": "Status Quo",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/rain.jpg",
+    "Country": "UK",
+    "Genre": "Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Rain"
+      ],
+      "Side 2": [
+       	"You Lost The Love"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "New York Groove",
+    "Künstler": "Hello",
+    "Erscheinungsjahr": 1975,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/newyorkgroove.jpg",
+    "Country": "UK",
+    "Genre": "Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "New York Groove"
+      ],
+      "Side 2": [
+       	"Little Miss Mystery"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Star Studded Sham",
+    "Künstler": "Hello",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/starstuddedsham.jpg",
+    "Country": "UK",
+    "Genre": "Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Star Studded Sham"
+      ],
+      "Side 2": [
+       	"Jenny Dream"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Love Stealer",
+    "Künstler": "Hello",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/lovestealer.jpg",
+    "Country": "UK",
+    "Genre": "Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Love Stealer"
+      ],
+      "Side 2": [
+       	"Out Of Our Heads"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Mystery Song",
+    "Künstler": "Status Quo",
+    "Erscheinungsjahr": 1976,
+    "Groesse": "7\"",
+    "CoverBild": "./data/img/mysterysong.jpg",
+    "Country": "UK",
+    "Genre": "Rock",
+    "Speed": "45 RPM",
+    "Sides": {
+      "Side 1": [
+        "Mystery Song"
+      ],
+      "Side 2": [
+       	"Drifting Away"
       ]
     }
   }
