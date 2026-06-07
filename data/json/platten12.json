@@ -1434,7 +1434,7 @@
         "• Civil War"
       ],
       "Side 3": [
-        "• You Cloud Be Mine",
+        "• You Could Be Mine",
         "• Don't Cry",
         "• November Rain",
         "• Live And Let Die"
@@ -1444,6 +1444,116 @@
         "• Ain't It Fun",
         "• Since I Don't Have You",
         "• Sympathy for the Devil"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Reckless",
+    "Künstler": "Bryan Adams",
+    "Erscheinungsjahr": 1984,
+    "Groesse": "12\"",
+    "CoverBild": "./data/img/reckless.jpg",
+    "Country": "USA",
+    "Genre": "Rock, Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "• One Night Love Affair",
+        "• She's Only Happy When She's Dancin'",
+        "• Run To You",
+        "• Heaven",
+        "• Somebody"
+      ],
+      "Side 2": [
+       	"• Summer of '69",
+        "• Kids Wanna Rock",
+        "• It's Only Love",
+        "• Long Gone",
+        "• Ain't Gonna Cry"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Skid Row",
+    "Künstler": "Skid Row",
+    "Erscheinungsjahr": 1989,
+    "Groesse": "12\"",
+    "CoverBild": "./data/img/skidrow.jpg",
+    "Country": "USA",
+    "Genre": "Glam Metal, Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "• Big Guns",
+        "• Sweet Little Sister",
+        "• Can't Stand The Heartache",
+        "• Piece Of Me",
+        "• 18 And Life",
+        "• Rattlesnake Shake"
+      ],
+      "Side 2": [
+       	"• Youth Gone Wild",
+        "• Here I Am",
+        "• Makin' A Mess",
+        "• I Remember You",
+        "• Midnight / Tornado"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "7800° Fahrenheit",
+    "Künstler": "Bon Jovi",
+    "Erscheinungsjahr": 1985,
+    "Groesse": "12\"",
+    "CoverBild": "./data/img/7800fahrenheit.jpg",
+    "Country": "USA",
+    "Genre": "Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "• In and Out of Love",
+        "• The Price of Love",
+        "• Only Lonely",
+        "• King of the Mountain",
+        "• Silent Night"
+      ],
+      "Side 2": [
+       	"• Tokyo Road",
+        "• The Hardest Part Is the Night",
+        "• Always Run to You",
+        "• To the Fire",
+        "• Secret Dreams"
+      ]
+    }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Long Cold Winter",
+    "Künstler": "Cinderella",
+    "Erscheinungsjahr": 1988,
+    "Groesse": "12\"",
+    "CoverBild": "./data/img/longcoldwinter.jpg",
+    "Country": "USA",
+    "Genre": "Glam Metal, Hard Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "• Bad Seamstress Blues",
+        "• Fallin' Apart at the Seams",
+        "• Gypsy Road",
+        "• Don't Know What You Got (Till It's Gone)",
+        "• The Last Mile",
+        "• Second Wind"
+      ],
+      "Side 2": [
+       	"• Long Cold Winter",
+        "• If You Don't Like It",
+        "• Coming Home",
+        "• Fire and Ice",
+        "• Take Me Back"
       ]
     }
   }
