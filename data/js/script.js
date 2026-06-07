@@ -14,14 +14,27 @@ const sortSelect = document.getElementById("sortSelect");
 // ===============================
 async function ladeDaten() {
   try {
-    const [plattenRes, single12Res, single7Res, cdsRes] = await Promise.all([
+    const [
+      plattenRes,
+      single12Res,
+      single7Res,
+      cdsRes,
+      kassettenRes
+    ] = await Promise.all([
       fetch("./data/json/platten12.json"),
       fetch("./data/json/single12.json"),
       fetch("./data/json/single7.json"),
-      fetch("./data/json/cds.json")
+      fetch("./data/json/cds.json"),
+      fetch("./data/json/kassetten.json")
     ]);
 
-    if (!plattenRes.ok || !single12Res.ok || !single7Res.ok || !cdsRes.ok) {
+    if (
+      !plattenRes.ok ||
+      !single12Res.ok ||
+      !single7Res.ok ||
+      !cdsRes.ok ||
+      !kassettenRes.ok
+    ) {
       throw new Error("JSON konnte nicht geladen werden");
     }
 
@@ -45,10 +58,29 @@ async function ladeDaten() {
       Kategorie: "CD"
     }));
 
-    albums = [...platten, ...single12, ...single7, ...cds];
+    const kassetten = (await kassettenRes.json()).map(a => ({
+      ...a,
+      Kategorie: "Kassette"
+    }));
+
+    albums = [
+      ...platten,
+      ...single12,
+      ...single7,
+      ...cds,
+      ...kassetten
+    ];
+
     applyFilter();
+
   } catch (err) {
     console.error("Fehler beim Laden:", err);
+
+    collectionDiv.innerHTML = `
+      <p class="error">
+        Fehler beim Laden der Musikdaten.
+      </p>
+    `;
   }
 }
 
@@ -58,6 +90,7 @@ ladeDaten();
 // COUNTER
 // ===============================
 function updateCounter(list) {
+
   document.getElementById("count-alle").textContent = list.length;
 
   document.getElementById("count-platten").textContent =
@@ -68,24 +101,44 @@ function updateCounter(list) {
 
   document.getElementById("count-singles").textContent =
     list.filter(a => a.Kategorie === "Single").length;
+
+  // NEU
+  const kassCount = document.getElementById("count-kassetten");
+
+  if (kassCount) {
+    kassCount.textContent =
+      list.filter(a => a.Kategorie === "Kassette").length;
+  }
 }
 
 // ===============================
 // TRACKLISTE
 // ===============================
 function renderTracklist(album) {
+
   const trackDiv = document.createElement("div");
   trackDiv.className = "tracklist";
 
-  // Platte mit Sides
-  if (album.Typ === "Platte" && album.Sides) {
+  // Vinyl / Kassette mit Sides
+  if (
+    (album.Kategorie === "Platte" ||
+     album.Kategorie === "Kassette") &&
+    album.Sides
+  ) {
+
     const container = document.createElement("div");
     container.style.display = "flex";
     container.style.gap = "20px";
 
     for (const [side, tracks] of Object.entries(album.Sides)) {
+
       const col = document.createElement("div");
-      col.innerHTML = `<strong>${side}</strong><br>${tracks.join("<br>")}`;
+
+      col.innerHTML = `
+        <strong>${side}</strong><br>
+        ${tracks.join("<br>")}
+      `;
+
       container.appendChild(col);
     }
 
@@ -95,21 +148,33 @@ function renderTracklist(album) {
 
   // CD – eine Disc
   if (Array.isArray(album.Trackliste)) {
+
     trackDiv.innerHTML =
       `<strong>Trackliste:</strong><br>` +
       album.Trackliste.join("<br>");
+
     return trackDiv;
   }
 
   // CD – mehrere Discs
-  if (album.Trackliste && typeof album.Trackliste === "object") {
+  if (
+    album.Trackliste &&
+    typeof album.Trackliste === "object"
+  ) {
+
     const container = document.createElement("div");
     container.style.display = "flex";
     container.style.gap = "20px";
 
     for (const [disk, tracks] of Object.entries(album.Trackliste)) {
+
       const col = document.createElement("div");
-      col.innerHTML = `<strong>${disk}</strong><br>${tracks.join("<br>")}`;
+
+      col.innerHTML = `
+        <strong>${disk}</strong><br>
+        ${tracks.join("<br>")}
+      `;
+
       container.appendChild(col);
     }
 
@@ -123,49 +188,84 @@ function renderTracklist(album) {
 // ALBEN ANZEIGEN
 // ===============================
 function displayAlbums(list) {
+
   collectionDiv.innerHTML = "";
 
   const sortField = sortSelect.value;
+  const sortedList = [...list];
+
   let grouped = {};
 
+  // SORTIERUNG
   if (sortField === "Plattenname") {
-    list.sort((a, b) => a.Plattenname.localeCompare(b.Plattenname));
-    list.forEach(a => {
+
+    sortedList.sort((a, b) =>
+      a.Plattenname.localeCompare(
+        b.Plattenname,
+        "de"
+      )
+    );
+
+    sortedList.forEach(a => {
+
       const key = a.Plattenname[0].toUpperCase();
+
       grouped[key] = grouped[key] || [];
       grouped[key].push(a);
+
     });
   }
 
   if (sortField === "Künstler") {
-    list.sort((a, b) =>
-      a.Künstler.localeCompare(b.Künstler) ||
+
+    sortedList.sort((a, b) =>
+      a.Künstler.localeCompare(
+        b.Künstler,
+        "de"
+      ) ||
       a.Erscheinungsjahr - b.Erscheinungsjahr
     );
-    list.forEach(a => {
-      grouped[a.Künstler] = grouped[a.Künstler] || [];
+
+    sortedList.forEach(a => {
+
+      grouped[a.Künstler] =
+        grouped[a.Künstler] || [];
+
       grouped[a.Künstler].push(a);
+
     });
   }
 
   if (sortField === "Erscheinungsjahr") {
-    list.sort((a, b) => a.Erscheinungsjahr - b.Erscheinungsjahr);
-    list.forEach(a => {
-      grouped[a.Erscheinungsjahr] = grouped[a.Erscheinungsjahr] || [];
+
+    sortedList.sort((a, b) =>
+      a.Erscheinungsjahr - b.Erscheinungsjahr
+    );
+
+    sortedList.forEach(a => {
+
+      grouped[a.Erscheinungsjahr] =
+        grouped[a.Erscheinungsjahr] || [];
+
       grouped[a.Erscheinungsjahr].push(a);
+
     });
   }
 
+  // RENDERN
   for (const block in grouped) {
+
     const blockDiv = document.createElement("div");
     blockDiv.className = "album-block";
 
     const blockTitle = document.createElement("div");
     blockTitle.className = "block-title";
     blockTitle.textContent = block;
+
     blockDiv.appendChild(blockTitle);
 
     grouped[block].forEach(album => {
+
       const card = document.createElement("div");
       card.className = "album-card";
 
@@ -173,19 +273,28 @@ function displayAlbums(list) {
       header.className = "album-header";
 
       const cover = document.createElement("img");
+
       cover.src = album.CoverBild;
       cover.alt = album.Plattenname;
+      cover.loading = "lazy";
 
       const info = document.createElement("div");
       info.className = "album-info";
+
       info.innerHTML = `
         <p class="title">${album.Plattenname}</p>
-        <p class="size-year">${album.Groesse}, ${album.Erscheinungsjahr}</p>
-        <p class="artist">${album.Künstler}</p>
+        <p class="size-year">
+          ${album.Groesse},
+          ${album.Erscheinungsjahr}
+        </p>
+        <p class="artist">
+          ${album.Künstler}
+        </p>
       `;
 
       header.appendChild(cover);
       header.appendChild(info);
+
       card.appendChild(header);
 
       const details = document.createElement("div");
@@ -193,6 +302,7 @@ function displayAlbums(list) {
 
       const left = document.createElement("div");
       left.className = "detail-left";
+
       left.innerHTML = `
         <p><strong>Country:</strong> ${album.Country}</p>
         <p><strong>Genre:</strong> ${album.Genre}</p>
@@ -201,14 +311,24 @@ function displayAlbums(list) {
 
       details.appendChild(left);
       details.appendChild(renderTracklist(album));
+
       card.appendChild(details);
 
       header.addEventListener("click", () => {
-        if (currentlyOpen && currentlyOpen !== details) {
+
+        if (
+          currentlyOpen &&
+          currentlyOpen !== details
+        ) {
           currentlyOpen.classList.remove("open");
         }
+
         details.classList.toggle("open");
-        currentlyOpen = details.classList.contains("open") ? details : null;
+
+        currentlyOpen =
+          details.classList.contains("open")
+            ? details
+            : null;
       });
 
       blockDiv.appendChild(card);
@@ -222,16 +342,23 @@ function displayAlbums(list) {
 // FILTER + SUCHE
 // ===============================
 function applyFilter() {
-  const query = searchInput.value.toLowerCase();
+
+  const query =
+    searchInput.value.toLowerCase();
 
   let filtered = albums.filter(a =>
-    a.Plattenname.toLowerCase().includes(query) ||
-    a.Künstler.toLowerCase().includes(query) ||
-    (a.Genre && a.Genre.toLowerCase().includes(query))
+
+    a.Plattenname?.toLowerCase().includes(query) ||
+    a.Künstler?.toLowerCase().includes(query) ||
+    a.Genre?.toLowerCase().includes(query)
+
   );
 
   if (currentType !== "alle") {
-    filtered = filtered.filter(a => a.Kategorie === currentType);
+
+    filtered = filtered.filter(a =>
+      a.Kategorie === currentType
+    );
   }
 
   displayAlbums(filtered);
@@ -242,10 +369,17 @@ function applyFilter() {
 // TABS
 // ===============================
 document.querySelectorAll(".tab").forEach(tab => {
+
   tab.addEventListener("click", () => {
-    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+
+    document
+      .querySelectorAll(".tab")
+      .forEach(t => t.classList.remove("active"));
+
     tab.classList.add("active");
+
     currentType = tab.dataset.type;
+
     applyFilter();
   });
 });
@@ -254,83 +388,129 @@ document.querySelectorAll(".tab").forEach(tab => {
 // AUTOCOMPLETE
 // ===============================
 searchInput.addEventListener("input", () => {
+
   applyFilter();
+
   autocompleteDiv.innerHTML = "";
 
-  const query = searchInput.value.toLowerCase();
+  const query =
+    searchInput.value.toLowerCase();
+
   if (!query) return;
 
   albums
     .filter(a =>
-      a.Plattenname.toLowerCase().includes(query) ||
-      a.Künstler.toLowerCase().includes(query)
+
+      a.Plattenname
+        ?.toLowerCase()
+        .includes(query) ||
+
+      a.Künstler
+        ?.toLowerCase()
+        .includes(query)
     )
+
     .slice(0, 5)
+
     .forEach(a => {
-      const item = document.createElement("div");
-      item.className = "autocomplete-item";
-      item.textContent = `${a.Plattenname} – ${a.Künstler}`;
+
+      const item =
+        document.createElement("div");
+
+      item.className =
+        "autocomplete-item";
+
+      item.textContent =
+        `${a.Plattenname} – ${a.Künstler}`;
+
       item.onclick = () => {
-        searchInput.value = a.Plattenname;
+
+        searchInput.value =
+          a.Plattenname;
+
         autocompleteDiv.innerHTML = "";
+
         applyFilter();
       };
+
       autocompleteDiv.appendChild(item);
     });
 });
 
 // CLEAR
 clearSearch.addEventListener("click", () => {
+
   searchInput.value = "";
   autocompleteDiv.innerHTML = "";
+
   applyFilter();
 });
 
 // SORT
-sortSelect.addEventListener("change", applyFilter);
+sortSelect.addEventListener(
+  "change",
+  applyFilter
+);
 
 // ===============================
-// URL-PARAMETER (Künstler / Genre)
+// URL PARAMETER
 // ===============================
-const params = new URLSearchParams(window.location.search);
+const params =
+  new URLSearchParams(
+    window.location.search
+  );
 
 if (params.has("artist")) {
-  searchInput.value = params.get("artist");
+
+  searchInput.value =
+    params.get("artist");
+
   applyFilter();
 }
 
 if (params.has("genre")) {
-  searchInput.value = params.get("genre");
+
+  searchInput.value =
+    params.get("genre");
+
   applyFilter();
 }
 
 // ===============================
 // MOBILE NAV DROPDOWN
 // ===============================
-const mobileNav = document.getElementById("mobile-nav");
+const mobileNav =
+  document.getElementById("mobile-nav");
 
 if (mobileNav) {
 
-  // Initialzustand
   mobileNav.value = "alle";
 
-  mobileNav.addEventListener("change", e => {
-    const value = e.target.value;
+  mobileNav.addEventListener(
+    "change",
+    e => {
 
-    // Seitenwechsel
-    if (value.endsWith(".html")) {
-      window.location.href = value;
-      return;
+      const value = e.target.value;
+
+      if (value.endsWith(".html")) {
+
+        window.location.href = value;
+        return;
+      }
+
+      currentType = value;
+
+      document
+        .querySelectorAll(".tab")
+        .forEach(tab => {
+
+          tab.classList.toggle(
+            "active",
+            tab.dataset.type === value
+          );
+        });
+
+      applyFilter();
     }
-
-    // Filter setzen
-    currentType = value;
-
-    // Tabs synchronisieren
-    document.querySelectorAll(".tab").forEach(tab => {
-      tab.classList.toggle("active", tab.dataset.type === value);
-    });
-
-    applyFilter();
-  });
+  );
 }

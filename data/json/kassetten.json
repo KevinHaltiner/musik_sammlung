@@ -1,0 +1,73 @@
+[
+  {
+    "Typ": "Kassette",
+    "Plattenname": "New Jersey",
+    "Künstler": "Bon Jovi",
+    "Erscheinungsjahr": 1988,
+    "Groesse": "Cassette",
+    "CoverBild": "./data/img/kassette/newjersey.jpg",
+    "Country": "USA",
+    "Genre": "Glam Metal, Hard Rock",
+    "Speed": "Tape",
+    "Sides": {
+      "Side A": [
+        "• Lay Your Hands on Me",
+        "• Bad Medicine",
+        "• Born to Be My Baby",
+        "• Living in Sin",
+        "• Blood on Blood"
+      ],
+      "Side B": [
+       	"• Homebound Train",
+        "• Wild Is the Wind",
+        "• Ride Cowboy Ride",
+        "• Stick to Your Guns",
+        "• I'll Be There for You",
+        "• 99 in the Shade"	,
+        "• Love for Sale"
+      ]
+    }
+  },
+  {
+    "Typ": "Kassette",
+    "Plattenname": "Greatest Hits",
+    "Künstler": "Queen",
+    "Erscheinungsjahr": 1981,
+    "Groesse": "Cassette",
+    "CoverBild": "./data/img/newjersey.jpg",
+    "Country": "UK",
+    "Genre": "Rock",
+    "Speed": "Tape",
+    "Sides": {
+      "Side A": [
+        "Bohemian Rhapsody",
+        "Another One Bites The Dust"
+      ],
+      "Side B": [
+        "We Will Rock You",
+        "We Are The Champions"
+      ]
+    }
+  },
+  {
+    "Typ": "Kassette",
+    "Plattenname": "Greatest Hits",
+    "Künstler": "Queen",
+    "Erscheinungsjahr": 1981,
+    "Groesse": "Cassette",
+    "CoverBild": "./data/img/newjersey.jpg",
+    "Country": "UK",
+    "Genre": "Rock",
+    "Speed": "Tape",
+    "Sides": {
+      "Side A": [
+        "Bohemian Rhapsody",
+        "Another One Bites The Dust"
+      ],
+      "Side B": [
+        "We Will Rock You",
+        "We Are The Champions"
+      ]
+    }
+  }
+]
