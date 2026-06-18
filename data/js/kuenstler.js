@@ -5,7 +5,8 @@ async function ladeKuenstler() {
     "../data/json/platten12.json",
     "../data/json/single12.json",
     "../data/json/single7.json",
-    "../data/json/cds.json"
+    "../data/json/cds.json",
+    "../data/json/kassetten.json"
   ];
 
   const responses = await Promise.all(files.map(f => fetch(f)));

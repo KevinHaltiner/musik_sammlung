@@ -1556,5 +1556,42 @@
         "• Take Me Back"
       ]
     }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "By the Way",
+    "Künstler": "Red Hot Chili Peppers",
+    "Erscheinungsjahr": 2002,
+    "Groesse": "12\"",
+    "CoverBild": "./data/img/bytheway.jpg",
+    "Country": "USA",
+    "Genre": "Alternative Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "• By the Way",
+        "• Universally Speaking",
+        "• This Is the Place",
+        "• Dosed"
+      ],
+      "Side 2": [
+       	"• Don't Forget Me",
+        "• The Zephyr Song",
+        "• Can't Stop",
+        "• I Could Die for You"
+      ],
+      "Side 3": [
+        "• Midnight",
+        "• Throw Away Your Television",
+        "• Cabron",
+        "• Tear"
+      ],
+      "Side 4": [
+        "• On Mercury",
+        "• Minor Thing",
+        "• Warm Tape",
+        "• Venice Queen"
+      ]
+    }
   }
 ]

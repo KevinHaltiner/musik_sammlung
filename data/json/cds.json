@@ -2283,6 +2283,60 @@
       "• Bringin' On the Heartbreak",
       "• Me & My Wine" 
     ]
+  },
+  {
+    "Typ": "CD",
+    "Plattenname": "Illuminate",
+    "Künstler": "Shawn Mendes",
+    "Erscheinungsjahr": 2016,
+    "Groesse": "CD",
+    "CoverBild": "./data/img/illuminate.jpg",
+    "Country": "CA",
+    "Genre": "Pop",
+    "Speed": "n/a",
+    "Trackliste": [
+      "• There's Nothing Holdin' Me Back",
+      "• Ruin",
+      "• Mercy",
+      "• Treat You Better",
+      "• Three Empty Words",
+      "• Don't Be a Fool",
+      "• Like This",
+      "• No Promises",
+      "• Light On",
+      "• Honest",
+      "• Patience",
+      "• Bad Reputation",
+      "• Understand",
+      "• Hold On",
+      "• Roses",
+      "• Mercy (Acoustic)"
+    ]
+  },
+  {
+    "Typ": "CD",
+    "Plattenname": "Handwritten",
+    "Künstler": "Shawn Mendes",
+    "Erscheinungsjahr": 2015,
+    "Groesse": "CD",
+    "CoverBild": "./data/img/handwritten.jpg",
+    "Country": "CA",
+    "Genre": "Pop",
+    "Speed": "n/a",
+    "Trackliste": [
+      "• Life of the Party",
+      "• Stitches",
+      "• Never Be Alone",
+      "• Kid In Love",
+      "• I Don't Even Know Your Name",
+      "• Something Big",
+      "• Strings",
+      "• Aftertaste",
+      "• Air",
+      "• Crazy",
+      "• A Little Too Much",
+      "• This Is What It Takes"
+    ]
   }
 ]
 
