@@ -2337,6 +2337,36 @@
       "• A Little Too Much",
       "• This Is What It Takes"
     ]
+  },
+  {
+    "Typ": "CD",
+    "Plattenname": "Shawn Mendes",
+    "Künstler": "Shawn Mendes",
+    "Erscheinungsjahr": 2018,
+    "Groesse": "CD",
+    "CoverBild": "./data/img/shawnmendes.png",
+    "Country": "CA",
+    "Genre": "Pop",
+    "Speed": "n/a",
+    "Trackliste": [
+      "• Senorita",
+      "• Lost in Japan",
+      "• If I Can't Have You",
+      "• In My Blood",
+      "• Fallin' All In You",
+      "• Where Were You in the Morning?",
+      "• Nervous",
+      "• Like to Be You",
+      "• Particular Taste",
+      "• Because I Had You",
+      "• Why",
+      "• Youth",
+      "• Perfectly Wrong",
+      "• Mutual",
+      "• Queen",
+      "• When You're Ready",
+      "• Lost in Japan (Remix)"
+    ]
   }
 ]
 
