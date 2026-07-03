@@ -3,70 +3,42 @@
     <head>
         <meta charset="UTF-8">
         <title>Music Collection</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
         <link rel="icon" type="image/png" sizes="32x32" href="./data/img/icon/favicon-32.png?v=2">
         <link rel="icon" type="image/png" sizes="16x16" href="./data/img/icon/favicon-16.png?v=2">
         <link rel="icon" href="./data/img/icon/favicon.ico?v=2" type="image/x-icon">
-        <meta name="theme-color" content="#111111">
+        <meta name="theme-color" content="#0e0e10">
         <link rel="stylesheet" href="./data/css/style.css">
     </head>
     <body>
 
         <header class="header">
             <h1>🎵 Kevin's Music Collection 🎵</h1>
-            <p class="subtitle">Vinyl • CDs • Singles</p>
+            <p class="subtitle">Vinyl • CDs • Singles • Kassetten</p>
         </header>
 
-        <select id="mobile-nav">
-            <option value="alle">All</option>
-            <option value="Platte">Vinyl</option>
-            <option value="CD">CDs</option>
-            <option value="Single">Singles</option>
-            <option value="./sites/kuenstler.html">Artist</option>
-            <option value="./sites/genre.html">Genre</option>
-        </select>
+        <div id="control-bar">
+            <div id="search-container">
+                <input type="text" id="searchInput" placeholder="Suche nach Name, Künstler oder Genre...">
+                <span id="clearSearch">✕</span>
+                <div id="autocomplete" class="autocomplete-list"></div>
+            </div>
 
-
-        <p id="anzahl">
-            Total: <strong><span id="count-alle">0</span></strong> |
-            Vinyle: <strong><span id="count-platten">0</span></strong> |
-            CDs: <strong><span id="count-cds">0</span></strong> |
-            Singles: <strong><span id="count-singles">0</span></strong> |
-            Kassetten: <strong><span id="count-kassetten">0</span></strong>
-        </p>
-
-        <div id="search-container">
-            <input type="text" id="searchInput" placeholder="Suche nach Name, Künstler oder Genre...">
-            <span id="clearSearch">✖</span>
-            <div id="autocomplete" class="autocomplete-list"></div>
-        </div>
-
-        <div id="tabs-container">
             <div id="tabs-row">
                 <div id="tabs">
-                    <div class="tab active" data-type="alle">All</div>
-                    <div class="tab" data-type="Platte">Vinyl</div>
-                    <div class="tab" data-type="CD">CDs</div>
-                    <div class="tab" data-type="Single">Singles</div>
-                    <div class="tab" data-type="Kassette">Kassetten</div>
+                    <div class="tab active" data-type="alle">Alle <span class="tab-count">0</span></div>
+                    <div class="tab" data-type="Platte">Vinyl <span class="tab-count">0</span></div>
+                    <div class="tab" data-type="CD">CDs <span class="tab-count">0</span></div>
+                    <div class="tab" data-type="Single">Singles <span class="tab-count">0</span></div>
+                    <div class="tab" data-type="Kassette">Kassetten <span class="tab-count">0</span></div>
                 </div>
 
                 <div id="nav-buttons">
-                    <a href="./sites/kuenstler.html">Artist</a>
-                    <a href="./sites/genre.html">Genre</a>
+                    <div id="sort-toggle" title="Sortieren">⇅</div>
+                    <a href="./sites/kuenstler.html" title="Künstler">A-Z</a>
+                    <a href="./sites/genre.html" title="Genre">#</a>
                 </div>
             </div>
-            <hr class="tab-line">
-        </div>
-
-
-        <div class="sort-container">
-            <label for="sortSelect">Sort by:</label>
-            <select id="sortSelect">
-                <option value="Plattenname">Name</option>
-                <option value="Künstler">Artist</option>
-                <option value="Erscheinungsjahr">Year</option>
-            </select>
         </div>
 
         <div id="collection"></div>
@@ -74,6 +46,55 @@
         <footer class="footer">
             <p>🎧 Music Collection • 2026</p>
         </footer>
+
+        <!-- BOTTOM SHEET BACKDROP -->
+        <div id="sheet-backdrop"></div>
+
+        <!-- ALBUM DETAIL SHEET -->
+        <div id="album-sheet" class="sheet">
+            <div class="sheet-handle"></div>
+            <button id="sheet-close" class="sheet-close">✕</button>
+            <div class="sheet-scroll">
+                <div class="sheet-header">
+                    <img id="sheet-cover" src="" alt="">
+                    <div class="sheet-header-info">
+                        <p id="sheet-title" class="sheet-title"></p>
+                        <p id="sheet-artist" class="sheet-artist"></p>
+                        <p id="sheet-meta" class="sheet-meta"></p>
+                    </div>
+                </div>
+
+                <div id="sheet-tags" class="sheet-tags"></div>
+
+                <div id="format-tabs-wrap">
+                    <p class="sheet-section-title">Format</p>
+                    <div id="format-tabs" class="side-tabs"></div>
+                </div>
+
+                <div id="side-tabs-wrap">
+                    <p class="sheet-section-title">Seiten / Discs</p>
+                    <div id="side-tabs" class="side-tabs"></div>
+                </div>
+
+                <p class="sheet-section-title">Trackliste</p>
+                <ul id="track-list" class="track-list"></ul>
+            </div>
+        </div>
+
+        <!-- SORT SHEET -->
+        <div id="sort-sheet" class="sheet">
+            <div class="sheet-handle"></div>
+            <button id="sort-sheet-close" class="sheet-close">✕</button>
+            <div class="sheet-scroll">
+                <p class="action-sheet-title">Sortieren nach</p>
+                <div id="sort-sheet-options">
+                    <div class="sort-option active" data-sort="Plattenname">Name</div>
+                    <div class="sort-option" data-sort="Künstler">Künstler</div>
+                    <div class="sort-option" data-sort="Erscheinungsjahr">Jahr</div>
+                </div>
+            </div>
+        </div>
+
         <script src="./data/js/script.js"></script>
 
     </body>
