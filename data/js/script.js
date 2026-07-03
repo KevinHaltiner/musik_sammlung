@@ -1,27 +1,22 @@
-let albums = [];          // alle Einträge (roh)
-let merged = [];          // zusammengeführte Karten (für "Alle"-Tab)
+document.addEventListener("DOMContentLoaded", () => {
+
+let albums = [];
+let merged = [];
 let currentType = "alle";
 let currentSort = "Plattenname";
 
 // DOM
-const collectionDiv = document.getElementById("collection");
-const searchInput   = document.getElementById("searchInput");
+const collectionDiv   = document.getElementById("collection");
+const searchInput     = document.getElementById("searchInput");
 const autocompleteDiv = document.getElementById("autocomplete");
-const clearSearch   = document.getElementById("clearSearch");
-const sheetBackdrop = document.getElementById("sheet-backdrop");
-const albumSheet    = document.getElementById("album-sheet");
-const sortSheet     = document.getElementById("sort-sheet");
-const sortToggle    = document.getElementById("sort-toggle");
+const clearSearch     = document.getElementById("clearSearch");
+const sheetBackdrop   = document.getElementById("sheet-backdrop");
+const albumSheet      = document.getElementById("album-sheet");
+const sortSheet       = document.getElementById("sort-sheet");
+const sortToggle      = document.getElementById("sort-toggle");
 
-const TYPE_LABELS = {
-  Platte:   "Vinyl",
-  CD:       "CD",
-  Single:   "Single",
-  Kassette: "Kassette"
-};
-
-// Reihenfolge der Badges
-const TYPE_ORDER = ["Platte", "CD", "Single", "Kassette"];
+const TYPE_LABELS = { Platte: "Vinyl", CD: "CD", Single: "Single", Kassette: "Kassette" };
+const TYPE_ORDER  = ["Platte", "CD", "Single", "Kassette"];
 
 // ===============================
 // DATEN LADEN + MERGEN
@@ -48,7 +43,6 @@ async function ladeDaten() {
 
     albums = [...platten, ...single12, ...single7, ...cds, ...kassetten];
     merged = mergeAlbums(albums);
-
     applyFilter();
 
   } catch (err) {
@@ -57,10 +51,8 @@ async function ladeDaten() {
   }
 }
 
-ladeDaten();
-
 // ===============================
-// MERGE: gleicher Name + Künstler → eine Karte mit mehreren Formaten
+// MERGE
 // ===============================
 function mergeKey(a) {
   return (a.Plattenname + "|||" + (a.Künstler || "")).toLowerCase().trim();
@@ -68,25 +60,16 @@ function mergeKey(a) {
 
 function mergeAlbums(list) {
   const map = new Map();
-
   list.forEach(a => {
     const key = mergeKey(a);
     if (!map.has(key)) {
-      // Erste Version wird Basis
-      map.set(key, {
-        ...a,
-        Kategorien: [a.Kategorie],   // alle vorhandenen Formate
-        Versionen:  [a]               // vollständige Daten pro Format
-      });
+      map.set(key, { ...a, Kategorien: [a.Kategorie], Versionen: [a] });
     } else {
-      const existing = map.get(key);
-      if (!existing.Kategorien.includes(a.Kategorie)) {
-        existing.Kategorien.push(a.Kategorie);
-      }
-      existing.Versionen.push(a);
+      const ex = map.get(key);
+      if (!ex.Kategorien.includes(a.Kategorie)) ex.Kategorien.push(a.Kategorie);
+      ex.Versionen.push(a);
     }
   });
-
   return Array.from(map.values());
 }
 
@@ -94,9 +77,7 @@ function mergeAlbums(list) {
 // TABS MIT ZÄHLUNG
 // ===============================
 function updateTabCounts(rawFiltered) {
-  // "Alle"-Count = zusammengeführte Karten die matchen
   const mergedFiltered = mergeAlbums(rawFiltered);
-
   const counts = {
     alle:     mergedFiltered.length,
     Platte:   rawFiltered.filter(a => a.Kategorie === "Platte"  ).length,
@@ -104,17 +85,15 @@ function updateTabCounts(rawFiltered) {
     Single:   rawFiltered.filter(a => a.Kategorie === "Single"  ).length,
     Kassette: rawFiltered.filter(a => a.Kategorie === "Kassette").length
   };
-
   document.querySelectorAll(".tab").forEach(tab => {
     const countEl = tab.querySelector(".tab-count");
-    if (countEl && counts[tab.dataset.type] !== undefined) {
+    if (countEl && counts[tab.dataset.type] !== undefined)
       countEl.textContent = counts[tab.dataset.type];
-    }
   });
 }
 
 // ===============================
-// MULTI-PAGE TRACKLISTE NORMALISIEREN
+// TRACKLISTE NORMALISIEREN
 // ===============================
 function getPages(album) {
   if (album.Sides && typeof album.Sides === "object")
@@ -131,20 +110,18 @@ function cleanTrack(t) { return t.replace(/^•\s*/, ""); }
 // ===============================
 // ALBUM DETAIL SHEET
 // ===============================
-let activeAlbum   = null;   // das zusammengeführte Album-Objekt
-let activeVersion = 0;      // Index in album.Versionen (Formatwechsel)
-let activePageIndex = 0;    // Index in den Seiten/Discs der aktiven Version
+let activeAlbum     = null;
+let activeVersion   = 0;
+let activePageIndex = 0;
 
 function openAlbumSheet(album) {
-  activeAlbum   = album;
-  activeVersion = 0;
+  activeAlbum     = album;
+  activeVersion   = 0;
   activePageIndex = 0;
-
   renderSheetHeader();
   renderFormatTabs();
   renderSidePicker();
   renderTrackPage();
-
   sheetBackdrop.classList.add("open");
   albumSheet.classList.add("open");
   document.body.style.overflow = "hidden";
@@ -152,92 +129,74 @@ function openAlbumSheet(album) {
 
 function renderSheetHeader() {
   const v = activeAlbum.Versionen[activeVersion];
-  document.getElementById("sheet-cover").src = v.CoverBild;
-  document.getElementById("sheet-cover").alt = v.Plattenname;
-  document.getElementById("sheet-title").textContent   = v.Plattenname;
-  document.getElementById("sheet-artist").textContent  = v.Künstler || "–";
-  document.getElementById("sheet-meta").textContent    = `${v.Groesse} · ${v.Erscheinungsjahr}`;
-
+  document.getElementById("sheet-cover").src            = v.CoverBild;
+  document.getElementById("sheet-cover").alt            = v.Plattenname;
+  document.getElementById("sheet-title").textContent    = v.Plattenname;
+  document.getElementById("sheet-artist").textContent   = v.Künstler || "–";
+  document.getElementById("sheet-meta").textContent     = `${v.Groesse} · ${v.Erscheinungsjahr}`;
   const tagsDiv = document.getElementById("sheet-tags");
   tagsDiv.innerHTML = "";
   [v.Country, v.Genre, v.Speed && v.Speed !== "n/a" ? v.Speed : null]
     .filter(Boolean)
     .forEach(val => {
       const tag = document.createElement("span");
-      tag.className = "sheet-tag";
+      tag.className   = "sheet-tag";
       tag.textContent = val;
       tagsDiv.appendChild(tag);
     });
 }
 
-// Format-Tabs (Vinyl / CD / Kassette …) im Sheet — nur wenn >1 Format
 function renderFormatTabs() {
   const wrap = document.getElementById("format-tabs-wrap");
   const tabs = document.getElementById("format-tabs");
   tabs.innerHTML = "";
-
-  const versionen = activeAlbum.Versionen;
-  if (versionen.length <= 1) { wrap.style.display = "none"; return; }
-
+  if (activeAlbum.Versionen.length <= 1) { wrap.style.display = "none"; return; }
   wrap.style.display = "block";
-
-  versionen.forEach((v, i) => {
+  activeAlbum.Versionen.forEach((v, i) => {
     const btn = document.createElement("div");
-    btn.className = "side-tab" + (i === activeVersion ? " active" : "");
+    btn.className   = "side-tab" + (i === activeVersion ? " active" : "");
     btn.textContent = TYPE_LABELS[v.Kategorie] || v.Kategorie;
     btn.addEventListener("click", () => {
-      activeVersion   = i;
-      activePageIndex = 0;
-      renderSheetHeader();
-      renderFormatTabs();
-      renderSidePicker();
-      renderTrackPage();
+      activeVersion = i; activePageIndex = 0;
+      renderSheetHeader(); renderFormatTabs(); renderSidePicker(); renderTrackPage();
     });
     tabs.appendChild(btn);
   });
 }
 
-// Seiten / Discs im aktiven Format
 function renderSidePicker() {
-  const v     = activeAlbum.Versionen[activeVersion];
-  const pages = getPages(v);
-  const wrap  = document.getElementById("side-tabs-wrap");
+  const v      = activeAlbum.Versionen[activeVersion];
+  const pages  = getPages(v);
+  const wrap   = document.getElementById("side-tabs-wrap");
   const picker = document.getElementById("side-tabs");
   picker.innerHTML = "";
-
   if (pages.length <= 1) { wrap.style.display = "none"; return; }
-
   wrap.style.display = "block";
-
   pages.forEach((page, i) => {
     const btn = document.createElement("div");
-    btn.className = "side-tab" + (i === activePageIndex ? " active" : "");
+    btn.className   = "side-tab" + (i === activePageIndex ? " active" : "");
     btn.textContent = page.label || `Teil ${i + 1}`;
     btn.addEventListener("click", () => {
-      activePageIndex = i;
-      renderSidePicker();
-      renderTrackPage();
+      activePageIndex = i; renderSidePicker(); renderTrackPage();
     });
     picker.appendChild(btn);
   });
 }
 
 function renderTrackPage() {
-  const v     = activeAlbum.Versionen[activeVersion];
+  const v    = activeAlbum.Versionen[activeVersion];
   const pages = getPages(v);
   const page  = pages[activePageIndex];
   const list  = document.getElementById("track-list");
   list.innerHTML = "";
-
   if (!page || !page.tracks || page.tracks.length === 0) {
     list.innerHTML = `<li style="color:var(--text-faint);border-bottom:none;">Keine Trackliste vorhanden.</li>`;
     return;
   }
-
   page.tracks.forEach((track, i) => {
     const li  = document.createElement("li");
     const num = document.createElement("span");
-    num.className = "track-num";
+    num.className   = "track-num";
     num.textContent = (i + 1) + ".";
     const txt = document.createElement("span");
     txt.textContent = cleanTrack(track);
@@ -288,11 +247,9 @@ document.querySelectorAll(".sort-option").forEach(opt =>
 // KARTEN RENDERN
 // ===============================
 function formatBadgesHTML(album) {
-  // Bei Tab "alle": alle vorhandenen Formate; sonst nur das aktive
   const kategorien = album.Kategorien
-    ? [...album.Kategorien].sort((a,b) => TYPE_ORDER.indexOf(a) - TYPE_ORDER.indexOf(b))
+    ? [...album.Kategorien].sort((a, b) => TYPE_ORDER.indexOf(a) - TYPE_ORDER.indexOf(b))
     : [album.Kategorie];
-
   return kategorien
     .map(k => `<span class="badge badge-${k}">${TYPE_LABELS[k] || k}</span>`)
     .join("");
@@ -300,35 +257,23 @@ function formatBadgesHTML(album) {
 
 function displayAlbums(list) {
   collectionDiv.innerHTML = "";
-
   if (list.length === 0) {
     collectionDiv.innerHTML = `
-      <div class="empty-state">
-        <div class="icon">♪</div>
-        <p>Keine Treffer gefunden.</p>
-      </div>`;
+      <div class="empty-state"><div class="icon">♪</div><p>Keine Treffer gefunden.</p></div>`;
     return;
   }
 
   const sortedList = [...list];
+  if      (currentSort === "Plattenname")    sortedList.sort((a, b) => a.Plattenname.localeCompare(b.Plattenname, "de"));
+  else if (currentSort === "Künstler")       sortedList.sort((a, b) => (a.Künstler||"").localeCompare(b.Künstler||"", "de") || a.Erscheinungsjahr - b.Erscheinungsjahr);
+  else if (currentSort === "Erscheinungsjahr") sortedList.sort((a, b) => a.Erscheinungsjahr - b.Erscheinungsjahr);
 
-  if (currentSort === "Plattenname") {
-    sortedList.sort((a, b) => a.Plattenname.localeCompare(b.Plattenname, "de"));
-  } else if (currentSort === "Künstler") {
-    sortedList.sort((a, b) =>
-      (a.Künstler || "").localeCompare(b.Künstler || "", "de") ||
-      a.Erscheinungsjahr - b.Erscheinungsjahr);
-  } else if (currentSort === "Erscheinungsjahr") {
-    sortedList.sort((a, b) => a.Erscheinungsjahr - b.Erscheinungsjahr);
-  }
-
-  // Gruppen bilden
   const grouped = {};
   sortedList.forEach(a => {
     let key;
-    if (currentSort === "Plattenname")      key = (a.Plattenname[0] || "#").toUpperCase();
-    else if (currentSort === "Künstler")    key = a.Künstler || "–";
-    else                                    key = a.Erscheinungsjahr;
+    if      (currentSort === "Plattenname")     key = (a.Plattenname[0] || "#").toUpperCase();
+    else if (currentSort === "Künstler")        key = a.Künstler || "–";
+    else                                        key = a.Erscheinungsjahr;
     grouped[key] = grouped[key] || [];
     grouped[key].push(a);
   });
@@ -338,23 +283,22 @@ function displayAlbums(list) {
 
   for (const block in grouped) {
     const blockTitle = document.createElement("div");
-    blockTitle.className = "block-title";
+    blockTitle.className   = "block-title";
     blockTitle.textContent = block;
     gridDiv.appendChild(blockTitle);
 
     grouped[block].forEach(album => {
-      const card = document.createElement("div");
-      card.className = "album-card";
+      const card      = document.createElement("div");
+      card.className  = "album-card";
 
       const coverWrap = document.createElement("div");
       coverWrap.className = "album-cover-wrap";
 
-      const cover = document.createElement("img");
-      cover.src = album.CoverBild;
-      cover.alt = album.Plattenname;
-      cover.loading = "lazy";
+      const cover     = document.createElement("img");
+      cover.src       = album.CoverBild;
+      cover.alt       = album.Plattenname;
+      cover.loading   = "lazy";
 
-      // Badge-Leiste (mehrere möglich)
       const badgeWrap = document.createElement("div");
       badgeWrap.className = "album-badges";
       badgeWrap.innerHTML = formatBadgesHTML(album);
@@ -362,13 +306,12 @@ function displayAlbums(list) {
       coverWrap.appendChild(cover);
       coverWrap.appendChild(badgeWrap);
 
-      const info = document.createElement("div");
-      info.className = "album-info";
-      info.innerHTML = `
+      const info      = document.createElement("div");
+      info.className  = "album-info";
+      info.innerHTML  = `
         <p class="title">${album.Plattenname}</p>
         <p class="artist">${album.Künstler || "–"}</p>
-        <p class="size-year">${album.Groesse} · ${album.Erscheinungsjahr}</p>
-      `;
+        <p class="size-year">${album.Groesse} · ${album.Erscheinungsjahr}</p>`;
 
       card.appendChild(coverWrap);
       card.appendChild(info);
@@ -386,7 +329,6 @@ function displayAlbums(list) {
 function applyFilter() {
   const query = searchInput.value.toLowerCase().trim();
 
-  // Basis-Suche auf rohen Daten
   const rawFiltered = albums.filter(a =>
     (a.Plattenname?.toLowerCase().includes(query)) ||
     (a.Künstler   ?.toLowerCase().includes(query)) ||
@@ -396,12 +338,9 @@ function applyFilter() {
   updateTabCounts(rawFiltered);
 
   let display;
-
   if (currentType === "alle") {
-    // Zusammengeführt anzeigen
     display = mergeAlbums(rawFiltered);
   } else {
-    // Nur das gewählte Format, ungemerged (jedes Exemplar separat)
     display = rawFiltered
       .filter(a => a.Kategorie === currentType)
       .map(a => ({ ...a, Kategorien: [a.Kategorie], Versionen: [a] }));
@@ -413,14 +352,13 @@ function applyFilter() {
 // ===============================
 // TABS
 // ===============================
-document.querySelectorAll(".tab").forEach(tab => {
+document.querySelectorAll(".tab").forEach(tab =>
   tab.addEventListener("click", () => {
     document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
     tab.classList.add("active");
     currentType = tab.dataset.type;
     applyFilter();
-  });
-});
+  }));
 
 // ===============================
 // AUTOCOMPLETE
@@ -433,7 +371,6 @@ searchInput.addEventListener("input", () => {
   const query = searchInput.value.toLowerCase();
   if (!query) return;
 
-  // Dedupliziert auf Titelname
   const seen = new Set();
   albums
     .filter(a =>
@@ -442,8 +379,8 @@ searchInput.addEventListener("input", () => {
     .filter(a => { const k = mergeKey(a); if (seen.has(k)) return false; seen.add(k); return true; })
     .slice(0, 5)
     .forEach(a => {
-      const item = document.createElement("div");
-      item.className = "autocomplete-item";
+      const item      = document.createElement("div");
+      item.className  = "autocomplete-item";
       item.textContent = `${a.Plattenname} – ${a.Künstler || "–"}`;
       item.onclick = () => {
         searchInput.value = a.Plattenname;
@@ -462,7 +399,7 @@ clearSearch.addEventListener("click", () => {
   applyFilter();
 });
 
-document.addEventListener("click", (e) => {
+document.addEventListener("click", e => {
   if (!e.target.closest("#search-container")) autocompleteDiv.innerHTML = "";
 });
 
@@ -472,3 +409,8 @@ document.addEventListener("click", (e) => {
 const params = new URLSearchParams(window.location.search);
 if (params.has("artist")) { searchInput.value = params.get("artist"); clearSearch.classList.add("visible"); }
 if (params.has("genre"))  { searchInput.value = params.get("genre");  clearSearch.classList.add("visible"); }
+
+// Daten laden (nach allem Setup)
+ladeDaten();
+
+}); // Ende DOMContentLoaded
