@@ -1593,5 +1593,33 @@
         "• Venice Queen"
       ]
     }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Rumours",
+    "Künstler": "Fleetwood Mac",
+    "Erscheinungsjahr": 1977,
+    "Groesse": "12\"",
+    "CoverBild": "./data/img/rumours.jpg",
+    "Country": "UK",
+    "Genre": "Soft Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "• Second Hand News",
+        "• Dreams",
+        "• Never Going Back Again",
+        "• Don't Stop",
+        "• Go Your Own Way",
+        "• Songbird"
+      ],
+      "Side 2": [
+       	"• The Chain",
+        "• You Make Loving Fun",
+        "• I Don't Want to Know",
+        "• Oh Daddy",
+        "• Gold Dust Woman"   
+      ]
+    }
   }
 ]

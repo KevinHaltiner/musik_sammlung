@@ -106,5 +106,111 @@
         "Secret Dreams"
       ]
     }
+  },
+  {
+    "Typ": "Kassette",
+    "Plattenname": "Slippery When Wet",
+    "Künstler": "Bon Jovi",
+    "Erscheinungsjahr": 1985,
+    "Groesse": "Cassette",
+    "CoverBild": "./data/img/slipperywhenwet.jpg",
+    "Country": "USA",
+    "Genre": "Hard Rock, Glam Metal",
+    "Speed": "Tape",
+    "Sides": {
+      "Side A": [
+        "Let it Rock",
+        "You Give Love a Bad Name",
+        "Livin' on a Prayer",
+        "Social Disease",
+        "Wanted Dead or Alive"
+      ],
+      "Side B": [
+        "Raise Your Hands",
+        "Without Love",
+        "I'd Die for You",
+        "Never Say Goodbye",
+        "Wild in the Streets"
+      ]
+    }
+  },
+  {
+    "Typ": "Kassette",
+    "Plattenname": "Brothers in Arms",
+    "Künstler": "Dire Straits",
+    "Erscheinungsjahr": 1985,
+    "Groesse": "Cassette",
+    "CoverBild": "./data/img/kassette/brothersinarms.jpg",
+    "Country": "USA",
+    "Genre": "Rock",
+    "Speed": "Tape",
+    "Sides": {
+      "Side A": [
+        "So Far Away",
+        "Money for Nothing",
+        "Walk of Life",
+        "Your Latest Trick",
+        "Why Worry"
+      ],
+      "Side B": [
+        "Ride Across the River",
+        "The Man's Too Strong",
+        "One World",
+        "Brothers in Arms"
+      ]
+    }
+  },
+  {
+    "Typ": "Kassette",
+    "Plattenname": "Under Lock and Key",
+    "Künstler": "Dokken",
+    "Erscheinungsjahr": 1985,
+    "Groesse": "Cassette",
+    "CoverBild": "./data/img/kassette/underlockandkey.jpg",
+    "Country": "USA",
+    "Genre": "Hard Rock, Glam Metal",
+    "Speed": "Tape",
+    "Sides": {
+      "Side A": [
+        "Unchain the Night",
+        "The Hunter",
+        "In My Dreams",
+        "Slippin' Away",
+        "Lightnin' Strikes Again"
+      ],
+      "Side B": [
+        "It's Not Love",
+        "Jaded Heart",
+        "Don't Lie to Me",
+        "Will the Sun Rise",
+        "Till The Living End"
+      ]
+    }
+  },
+  {
+    "Typ": "Kassette",
+    "Plattenname": "Midnight Madness",
+    "Künstler": "Night Ranger",
+    "Erscheinungsjahr": 1983,
+    "Groesse": "Cassette",
+    "CoverBild": "./data/img/kassette/midnightmadness.jpg",
+    "Country": "USA",
+    "Genre": "Hard Rock",
+    "Speed": "Tape",
+    "Sides": {
+      "Side A": [
+        "(You Can Still) Rock in America",
+        "Rumours in the Air",
+        "Why does Love Have to Change",
+        "Sister Christian"
+      ],
+      "Side B": [
+        "Touch of Madness",
+        "Passion Play",
+        "When You Close Your Eyes",
+        "Chippin' Away",
+        "Let Him Run"
+      ]
+    }
   }
 ]
