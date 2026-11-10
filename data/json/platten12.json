@@ -1621,5 +1621,48 @@
         "• Gold Dust Woman"   
       ]
     }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "Rush! (are U Comming?)",
+    "Künstler": "Maneskin",
+    "Erscheinungsjahr": 2023,
+    "Groesse": "12\"",
+    "CoverBild": "./data/img/rush.jpg",
+    "Country": "Italien",
+    "Genre": "Pop, Rock",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "• Honey (are U Comming?)",
+        "• Valentine",
+        "• Off My Face",
+        "• The Driver",
+        "• Trastevere"
+      ],
+      "Side 2": [
+       	"• Own my mind",
+        "• Gossip",
+        "• Timezone",
+        "• Bla bla bla",
+        "• Baby Said",
+        "• Gasoline"
+      ],
+      "Side 3": [
+        "• Feel",
+        "• Don't wanna sleep",
+        "• Kool Kids",
+        "• If not for you",
+        "• Read your Diary"
+      ],
+      "Side 4": [
+        "• Mark Chapman",
+        "• La fine",
+        "• Il dono della vita",
+        "• Mammamia",
+        "• Supermodel",
+        "• The Loneliest"
+      ]
+    }
   }
 ]
