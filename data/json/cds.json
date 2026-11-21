@@ -2670,6 +2670,41 @@
       "Weather In Me"	,
       "Borrowed Tune"
     ]
+  },
+  {
+    "Typ": "CD",
+    "Plattenname": "Rush! (are U Comming?)",
+    "Künstler": "Maneskin",
+    "Erscheinungsjahr": 2023,
+    "Groesse": "CD",
+    "CoverBild": "./data/img/rush.jpg",
+    "Country": "Italien",
+    "Genre": "Pop, Rock",
+    "Speed": "n/a",
+    "Trackliste": [
+     "• Honey (are U Comming?)",
+        "• Valentine",
+        "• Off My Face",
+        "• The Driver",
+        "• Trastevere",
+       	"• Own my mind",
+        "• Gossip",
+        "• Timezone",
+        "• Bla bla bla",
+        "• Baby Said",
+        "• Gasoline",
+        "• Feel",
+        "• Don't wanna sleep",
+        "• Kool Kids",
+        "• If not for you",
+        "• Read your Diary",
+        "• Mark Chapman",
+        "• La fine",
+        "• Il dono della vita",
+        "• Mammamia",
+        "• Supermodel",
+        "• The Loneliest"
+    ]
   }
 ]
 

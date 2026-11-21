@@ -1664,5 +1664,34 @@
         "• The Loneliest"
       ]
     }
+  },
+  {
+    "Typ": "Platte",
+    "Plattenname": "AM",
+    "Künstler": "Arctic Monkeys",
+    "Erscheinungsjahr": 2013,
+    "Groesse": "12\"",
+    "CoverBild": "./data/img/am.png",
+    "Country": "UK",
+    "Genre": "Indie-Rock, Post-Punk",
+    "Speed": "33 RPM",
+    "Sides": {
+      "Side 1": [
+        "Do I Wanna Know?",
+        "R U Mine?",
+        "One for the Road",
+        "Arabella",
+        "I Want It All",
+        "No.1 Party Anthem"
+      ],
+      "Side 2": [
+       	"Mad Sounds",
+        "Fireside",
+        "Why'd You Only Call Me When You're High?",
+        "Snap Out of It ",
+       " Knee Socks",
+        "I Wanna Be Yours" 
+     ]
+    }
   }
 ]
